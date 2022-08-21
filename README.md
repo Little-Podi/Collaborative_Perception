@@ -16,6 +16,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### CVPR 2022:tada::tada::tada:
 
+- **AutoCastSim** (AutoCastSim: An End-to-End Cooperative Perception and Collaborative Driving Simulation Framework) [[paper](https://arxiv.org/abs/2205.02222)] [[code](https://github.com/hangqiu/AutoCastSim)] [[project](https://utexas.app.box.com/v/coopernaut-dataset)]
 - **DAIR-V2X** (DAIR-V2X: A Large-Scale Dataset for Vehicle-Infrastructure Cooperative 3D Object Detection) [[paper](https://arxiv.org/abs/2204.05575)] [[code](https://github.com/AIR-THU/DAIR-V2X)] [[project](https://thudair.baai.ac.cn/index)]
 
 ### ECCV 2022:tada::tada::tada:
@@ -29,6 +30,14 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 ### RAL 2022
 
 - **V2X-Sim** (V2X-Sim: Multi-Agent Collaborative Perception Dataset and Benchmark for Autonomous Driving) [[paper](https://arxiv.org/abs/2202.08449)] [[code](https://github.com/ai4ce/V2X-Sim/)] [[project](https://ai4ce.github.io/V2X-Sim/)]
+
+### Preprint 2022
+
+- **DOLPHINS** (DOLPHINS: Dataset for Collaborative Perception enabled Harmonious and Interconnected Self-driving) [[paper](https://arxiv.org/abs/2207.07609)] [~~code~~] [[project](https://dolphins-dataset.net/)]
+
+### ISPRS 2021
+
+- **Comap** (Comap: a Synthetic Dataset for Collective Multi-Agent Perception of Autonomous Driving) [[paper](https://ui.adsabs.harvard.edu/abs/2021ISPAr43B2..255Y/abstract)] [[code](https://github.com/YuanYunshuang/cosense-simulation)] [[project](https://seafile.cloud.uni-hannover.de/d/1c52826e98d34c0399a4/)]
 
 
 
@@ -55,15 +64,12 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 - **AdaFusion** (Adaptive Feature Fusion for Cooperative Perception Using LiDAR Point Clouds) [[paper](https://arxiv.org/abs/2208.00116)] [~~code~~]
 - **CoBEVT** (CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers) [[paper](https://arxiv.org/abs/2207.02202)] [~~code~~]
+- **CO^3** (CO^3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving) [[paper](https://arxiv.org/abs/2206.04028)] [[code](https://github.com/Runjian-Chen/CO3)]
 - **PSA** (Model-Agnostic Multi-Agent Perception Framework) [[paper](https://arxiv.org/abs/2203.13168)] [~~code~~]
 
 ### NeurIPS 2021:tada::tada::tada:
 
 - **DiscoNet** (Learning Distilled Collaboration Graph for Multi-Agent Perception) [[paper](https://arxiv.org/abs/2111.00643)] [[code](https://github.com/ai4ce/DiscoNet)]
-
-### ICCV 2021:tada::tada::tada:
-
-- **AOMAC** (Adversarial Attacks On Multi-Agent Communication) [[paper](https://arxiv.org/abs/2101.06560)] [~~code~~]
 
 ### CVPR 2020:tada::tada::tada:
 
@@ -76,10 +82,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 ### ICRA 2020
 
 - **Who2com** (Who2com: Collaborative Perception via Learnable Handshake Communication) [[paper](https://arxiv.org/abs/2003.09575)] [[code](https://github.com/GT-RIPL/MultiAgentPerception)]
-
-### VTC 2020
-
-- **FS-COD** (Cooperative LiDAR Object Detection via Feature Sharing in Deep Networks) [[paper](https://arxiv.org/abs/2002.08440)] [~~code~~]
 
 ### ICDCS 2019
 
