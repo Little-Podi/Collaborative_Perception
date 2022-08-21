@@ -8,6 +8,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### Helpful Learning Resource for Collaborative Perception:thumbsup::thumbsup::thumbsup:
 
+- **Talk** (Collaborative and Adversarial 3D Perception for Autonomous Driving) [[video](https://www.youtube.com/watch?v=W-AONQMfGi0)]
 - **Library** (CoPerception: SDK for Collaborative Perception) [[code](https://github.com/coperception/coperception)] [[doc](https://coperception.readthedocs.io/en/latest/)]
 - **People** [Siheng Chen@SJTU](https://scholar.google.com/citations?hl=en&user=W_Q33RMAAAAJ&view_op=list_works&sortby=pubdate), [Jiaqi Ma@UCLA](https://scholar.google.com/citations?hl=en&user=S3cQz1AAAAAJ&view_op=list_works&sortby=pubdate)
 
