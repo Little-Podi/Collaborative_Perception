@@ -8,9 +8,9 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### Helpful Learning Resource for Collaborative Perception:thumbsup::thumbsup::thumbsup:
 
-- **Talk** (Collaborative and Adversarial 3D Perception for Autonomous Driving) [[video](https://www.youtube.com/watch?v=W-AONQMfGi0)]
-- **Library** (CoPerception: SDK for Collaborative Perception) [[code](https://github.com/coperception/coperception)] [[doc](https://coperception.readthedocs.io/en/latest/)]
-- **People** [Siheng Chen@SJTU](https://scholar.google.com/citations?hl=en&user=W_Q33RMAAAAJ&view_op=list_works&sortby=pubdate), [Jiaqi Ma@UCLA](https://scholar.google.com/citations?hl=en&user=S3cQz1AAAAAJ&view_op=list_works&sortby=pubdate)
+- **(Talk)** Collaborative and Adversarial 3D Perception for Autonomous Driving [[video](https://www.youtube.com/watch?v=W-AONQMfGi0)], Adversarial Robustness for Self-Driving [[video](https://www.youtube.com/watch?v=8uBFXzyII5Y)], Vehicle-to-Vehicle Communication for Self-Driving [[video](https://www.youtube.com/watch?v=oikdOpmIoc4)]
+- **(Library)** CoPerception: SDK for Collaborative Perception [[code](https://github.com/coperception/coperception)] [[doc](https://coperception.readthedocs.io/en/latest/)]
+- **(People)** Siheng Chen@SJTU [[web](https://scholar.google.com/citations?hl=en&user=W_Q33RMAAAAJ&view_op=list_works&sortby=pubdate)], Jiaqi Ma@UCLA [[web](https://scholar.google.com/citations?hl=en&user=S3cQz1AAAAAJ&view_op=list_works&sortby=pubdate)]
 
 
 
@@ -72,6 +72,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 ### NeurIPS 2021:tada::tada::tada:
 
 - **DiscoNet** (Learning Distilled Collaboration Graph for Multi-Agent Perception) [[paper](https://arxiv.org/abs/2111.00643)] [[code](https://github.com/ai4ce/DiscoNet)]
+
+### ICCV 2021:tada::tada::tada:
+
+- **AOMAC** (Adversarial Attacks On Multi-Agent Communication) [[paper](https://arxiv.org/abs/2101.06560)] [~~code~~]
 
 ### CVPR 2020:tada::tada::tada:
 
