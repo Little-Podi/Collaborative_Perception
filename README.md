@@ -61,7 +61,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### ICRA 2022
 
-- **AttFusion** (OPV2V: An Open Benchmark Dataset and Fusion Pipeline for Perception with Vehicle-to-Vehicle Communication) [[paper](https://arxiv.org/abs/2109.07644)] [[code](https://github.com/DerrickXuNu/OpenCOOD)]
+- **AttFusion** (Attentive Intermediate Fusion Pipeline) [[paper](https://arxiv.org/abs/2109.07644)] [[code](https://github.com/DerrickXuNu/OpenCOOD)]
 
 ### RAL 2022
 
