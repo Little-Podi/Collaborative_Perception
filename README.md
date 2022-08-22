@@ -11,7 +11,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 - **(Talk)** Collaborative and Adversarial 3D Perception for Autonomous Driving [[video](https://www.youtube.com/watch?v=W-AONQMfGi0)], Adversarial Robustness for Self-Driving [[video](https://www.youtube.com/watch?v=8uBFXzyII5Y)], Vehicle-to-Vehicle Communication for Self-Driving [[video](https://www.youtube.com/watch?v=oikdOpmIoc4)]
 - **(Survey)** Collaborative Perception for Autonomous Driving: Current Status and Future Trend [[paper](https://link.springer.com/chapter/10.1007/978-981-19-3998-3_65)] (reach me if you don't have access)
 - **(Library)** CoPerception: SDK for Collaborative Perception [[code](https://github.com/coperception/coperception)] [[doc](https://coperception.readthedocs.io/en/latest/)]
-- **(People)** Siheng Chen@SJTU [[web](https://scholar.google.com/citations?hl=en&user=W_Q33RMAAAAJ&view_op=list_works&sortby=pubdate)], Jiaqi Ma@UCLA [[web](https://scholar.google.com/citations?hl=en&user=S3cQz1AAAAAJ&view_op=list_works&sortby=pubdate)]
+- **(People)** Siheng Chen@SJTU [[web](https://scholar.google.com/citations?hl=en&user=W_Q33RMAAAAJ&view_op=list_works&sortby=pubdate)], Raquel Urtasun@UToronto [[web](https://scholar.google.com/citations?hl=en&user=jyxO2akAAAAJ&view_op=list_works&sortby=pubdate)], Runsheng Xu@UCLA [[web](https://derrickxunu.github.io/)], Yiming Li@NYU [[web](https://roboticsyimingli.github.io/)]
 
 
 
@@ -40,7 +40,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### ISPRS 2021
 
-- **Comap** (Comap: a Synthetic Dataset for Collective Multi-Agent Perception of Autonomous Driving) [[paper](https://ui.adsabs.harvard.edu/abs/2021ISPAr43B2..255Y/abstract)] [[code](https://github.com/YuanYunshuang/cosense-simulation)] [[project](https://seafile.cloud.uni-hannover.de/d/1c52826e98d34c0399a4/)]
+- **Comap** (Comap: A Synthetic Dataset for Collective Multi-Agent Perception of Autonomous Driving) [[paper](https://ui.adsabs.harvard.edu/abs/2021ISPAr43B2..255Y/abstract)] [[code](https://github.com/YuanYunshuang/cosense-simulation)] [[project](https://seafile.cloud.uni-hannover.de/d/1c52826e98d34c0399a4/)]
+
+### CVPR 2020:tada::tada::tada:
+
+- **AirSim-MAP** (Multi-Agent Perception) [[paper](https://arxiv.org/abs/2006.00176)] [[code](https://github.com/GT-RIPL/MultiAgentPerception)] [[project](https://gtvault-my.sharepoint.com/:f:/g/personal/yliu3133_gatech_edu/Ett0G1_5YYdBpgojk0uWESgBi95dO79LkbYaKRhlBIkVJQ?e=vdjklb)]
 
 
 
@@ -62,6 +66,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 ### RAL 2022
 
 - **FPV-RCNN** (Keypoints-Based Deep Feature Fusion for Cooperative Vehicle Detection of Autonomous Driving) [[paper](https://arxiv.org/abs/2109.11615)] [[code](https://github.com/YuanYunshuang/FPV_RCNN)]
+- **MP-Pose** (Multi-Robot Collaborative Perception with Graph Neural Networks) [[paper](https://arxiv.org/abs/2201.01760)] [~~code~~]
 
 ### Preprint 2022
 
