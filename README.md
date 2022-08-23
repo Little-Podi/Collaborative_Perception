@@ -130,7 +130,7 @@ TODO
 ### NeurIPS 2021:tada::tada::tada:
 
 - **DiscoNet** (Learning Distilled Collaboration Graph for Multi-Agent Perception) [[paper](https://arxiv.org/abs/2111.00643)] [[code](https://github.com/ai4ce/DiscoNet)]
-  - Mode: Early Collaboration (teacher Model), Intermediate Collaboration (student model)
+  - Mode: Early Collaboration (teacher model), Intermediate Collaboration (student model)
   - Dataset: V2X-Sim
   - Task: 3D Detection
 
