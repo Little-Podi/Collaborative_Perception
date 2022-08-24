@@ -59,6 +59,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 - **V2V-Sim** (V2VNet: Vehicle-to-Vehicle Communication for Joint Perception and Prediction) [[paper](https://arxiv.org/abs/2008.07519)] [~~code~~] [~~project~~]
 
+### ICRA 2020
+
+- **AirSim-CP** (Who2com: Collaborative Perception via Learnable Handshake Communication) [[paper](https://arxiv.org/abs/2003.09575)] [~~code~~] [~~project~~]
+
 ### ICDCS 2019
 
 - **Tom & Jerry** (Cooper: Cooperative Perception for Connected Autonomous Vehicles based on 3D Point Clouds) [[paper](https://arxiv.org/abs/1905.05265)] [[code](https://github.com/Aug583/F-COOPER)] [[project](https://drive.google.com/file/d/1xmQppUjvaGHbNOTkB_pwVy2HN85I-YHF/view)]
