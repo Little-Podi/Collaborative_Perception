@@ -15,11 +15,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### Collaboration Perception Development:clap::clap::clap:
 
-![](development.png)
+![](map.png)
 
 ### Representative Collaboration Mode:handshake::handshake::handshake:
 
-![](collaboration.png)
+![](mode.png)
 
 
 
