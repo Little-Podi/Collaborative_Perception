@@ -23,6 +23,18 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 
 
+## :bookmark:Simulation Framework
+
+### CVPR 2022:tada::tada::tada:
+
+- **AutoCastSim** (AutoCastSim: An End-to-End Cooperative Perception and Collaborative Driving Simulation Framework) [[paper](https://arxiv.org/abs/2205.02222)] [[code](https://github.com/hangqiu/AutoCastSim)] [[project](https://utexas.app.box.com/v/coopernaut-dataset)]
+
+### ITSC 2021
+
+- **OpenCDA** (OpenCDA: An Open Cooperative Driving Automation Framework Integrated with Co-Simulation) [[paper](https://arxiv.org/abs/2107.06260)] [[code](https://github.com/ucla-mobility/OpenCDA)] [[project](https://opencda-documentation.readthedocs.io/en/latest/)]
+
+
+
 ## :bookmark:Dataset
 
 ### CVPR 2022:tada::tada::tada:
