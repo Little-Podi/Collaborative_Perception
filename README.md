@@ -129,9 +129,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 - **AdaFusion** (Adaptive Feature Fusion for Cooperative Perception Using LiDAR Point Clouds) [[paper](https://arxiv.org/abs/2208.00116)] [~~code~~]
   - Mode: Intermediate Collaboration
-  
   - Dataset: OPV2V
-
   - Task: 3D Detection
   
 - **CoBEVT** (CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers) [[paper](https://arxiv.org/abs/2207.02202)] [~~code~~]
@@ -169,6 +167,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: V2V-Sim (not publicly available)
   - Task: Adversarial Attack
+
 
 
 ### IROS 2021
