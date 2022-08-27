@@ -11,11 +11,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 - **(Talk)** 协同自动驾驶：仿真与感知 [[video](https://course.zhidx.com/c/MmQ1YWUyMzM1M2I3YzVlZjE1NzM=)], Collaborative and Adversarial 3D Perception for Autonomous Driving [[video](https://www.youtube.com/watch?v=W-AONQMfGi0)], Adversarial Robustness for Self-Driving [[video](https://www.youtube.com/watch?v=8uBFXzyII5Y)], Vehicle-to-Vehicle Communication for Self-Driving [[video](https://www.youtube.com/watch?v=oikdOpmIoc4)]
 - **(Survey)** Survey on Cooperative Perception in an Automotive Context [[paper](https://www.researchgate.net/publication/359131502_Survey_on_Cooperative_Perception_in_an_Automotive_Context)]
 - **(Library)** CoPerception: SDK for Collaborative Perception [[code](https://github.com/coperception/coperception)] [[doc](https://coperception.readthedocs.io/en/latest/)]
-- **(People)** Siheng Chen@SJTU [[web](https://scholar.google.com/citations?hl=en&user=W_Q33RMAAAAJ&view_op=list_works&sortby=pubdate)], Raquel Urtasun@UToronto [[web](https://scholar.google.com/citations?hl=en&user=jyxO2akAAAAJ&view_op=list_works&sortby=pubdate)], Runsheng Xu@UCLA [[web](https://derrickxunu.github.io/)], Yiming Li@NYU [[web](https://roboticsyimingli.github.io/)]
+- **(People)** Siheng Chen@SJTU [[web](https://scholar.google.com/citations?hl=en&user=W_Q33RMAAAAJ&view_op=list_works&sortby=pubdate)], Raquel Urtasun@UToronto [[web](https://scholar.google.com/citations?hl=en&user=jyxO2akAAAAJ&view_op=list_works&sortby=pubdate)], Runsheng Xu@UCLA [[web](https://derrickxunu.github.io/)], Hang Qiu@Waymo [[web](https://hangqiu.github.io/)], Yiming Li@NYU [[web](https://roboticsyimingli.github.io/)]
 
 ### Collaboration Perception Development:clap::clap::clap:
 
-![](roadmap.png)
+![](map.png)
 
 ### Representative Collaboration Mode:handshake::handshake::handshake:
 
@@ -127,6 +127,13 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### Preprint 2022
 
+- **AdaFusion** (Adaptive Feature Fusion for Cooperative Perception Using LiDAR Point Clouds) [[paper](https://arxiv.org/abs/2208.00116)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  
+  - Dataset: OPV2V
+
+  - Task: 3D Detection
+  
 - **CoBEVT** (CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers) [[paper](https://arxiv.org/abs/2207.02202)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
@@ -141,6 +148,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: CARLA-3D
   - Task: 3D Detection
+- **PSA** (Model-Agnostic Multi-Agent Perception Framework) [[paper](https://arxiv.org/abs/2203.13168)] [~~code~~]
+  - Mode: Late Collaboration
+  - Dataset: OPV2V
+  - Task: 3D Detection
+
 
 
 ### NeurIPS 2021:tada::tada::tada:
