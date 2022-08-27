@@ -8,7 +8,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### Helpful Learning Resource:thumbsup::thumbsup::thumbsup:
 
-- **(Talk)** Collaborative and Adversarial 3D Perception for Autonomous Driving [[video](https://www.youtube.com/watch?v=W-AONQMfGi0)], Adversarial Robustness for Self-Driving [[video](https://www.youtube.com/watch?v=8uBFXzyII5Y)], Vehicle-to-Vehicle Communication for Self-Driving [[video](https://www.youtube.com/watch?v=oikdOpmIoc4)]
+- **(Talk)** 协同自动驾驶：仿真与感知 [[video](https://course.zhidx.com/c/MmQ1YWUyMzM1M2I3YzVlZjE1NzM=)], Collaborative and Adversarial 3D Perception for Autonomous Driving [[video](https://www.youtube.com/watch?v=W-AONQMfGi0)], Adversarial Robustness for Self-Driving [[video](https://www.youtube.com/watch?v=8uBFXzyII5Y)], Vehicle-to-Vehicle Communication for Self-Driving [[video](https://www.youtube.com/watch?v=oikdOpmIoc4)]
 - **(Survey)** Survey on Cooperative Perception in an Automotive Context [[paper](https://www.researchgate.net/publication/359131502_Survey_on_Cooperative_Perception_in_an_Automotive_Context)]
 - **(Library)** CoPerception: SDK for Collaborative Perception [[code](https://github.com/coperception/coperception)] [[doc](https://coperception.readthedocs.io/en/latest/)]
 - **(People)** Siheng Chen@SJTU [[web](https://scholar.google.com/citations?hl=en&user=W_Q33RMAAAAJ&view_op=list_works&sortby=pubdate)], Raquel Urtasun@UToronto [[web](https://scholar.google.com/citations?hl=en&user=jyxO2akAAAAJ&view_op=list_works&sortby=pubdate)], Runsheng Xu@UCLA [[web](https://derrickxunu.github.io/)], Yiming Li@NYU [[web](https://roboticsyimingli.github.io/)]
