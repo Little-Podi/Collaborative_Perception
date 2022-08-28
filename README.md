@@ -15,7 +15,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### Collaboration Perception Development:clap::clap::clap:
 
-![](map.png)
+![](roadmap.png)
 
 ### Representative Collaboration Mode:handshake::handshake::handshake:
 
@@ -106,7 +106,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### ICRA 2022
 
-- **AttFusion** (OPV2V: An Open Benchmark Dataset and Fusion Pipeline for Perception with Vehicle-to-Vehicle Communication) [[paper](https://arxiv.org/abs/2109.07644)] [[code](https://github.com/DerrickXuNu/OpenCOOD)]
+- **AttFuse** (OPV2V: An Open Benchmark Dataset and Fusion Pipeline for Perception with Vehicle-to-Vehicle Communication) [[paper](https://arxiv.org/abs/2109.07644)] [[code](https://github.com/DerrickXuNu/OpenCOOD)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
   - Task: 3D Detection
