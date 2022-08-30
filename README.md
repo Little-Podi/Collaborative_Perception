@@ -43,7 +43,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### ECCV 2022:tada::tada::tada:
 
-- **V2XSet** (V2X-ViT: Vehicle-to-Everything Cooperative Perception with Vision Transformer) [[paper](https://arxiv.org/abs/2203.10638)] [[code](https://github.com/DerrickXuNu/OpenCOOD)] [~~project~~]
+- **V2XSet** (V2X-ViT: Vehicle-to-Everything Cooperative Perception with Vision Transformer) [[paper](https://arxiv.org/abs/2203.10638)] [[code](https://github.com/DerrickXuNu/OpenCOOD)] [[project](https://drive.google.com/drive/folders/1r5sPiBEvo8Xby-nMaWUTnJIPK6WhY1B6)]
 
 ### ICRA 2022
 
