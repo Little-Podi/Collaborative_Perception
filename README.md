@@ -17,9 +17,26 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ![](roadmap.png)
 
-### Representative Collaboration Mode:handshake::handshake::handshake:
+### Collaboration Mode:handshake::handshake::handshake:
 
 ![](mode.png)
+
+### Benchmark Results:rocket::rocket::rocket:
+
+- **OPV2V**
+
+  | Method                  | Default AP@0.7 | Culver AP@0.7 |
+  | ----------------------- | -------------- | ------------- |
+  | AdaFusion               | **85.6**       | **79.0**      |
+  | FuseBEVT                | 85.2           | -             |
+  | DiscoNet                | 83.6           | -             |
+  | FPV-RCNN                | 82.0           | 76.3          |
+  | V2VNet                  | 82.2           | 73.4          |
+  | AttFuse                 | 81.5           | 73.5          |
+  | MAMP                    | 81.3           | -             |
+  | F-Cooper                | 79.0           | 72.8          |
+  | Cooper                  | 80.0           | 69.6          |
+  | No Fusion (Lower Bound) | 60.2           | 47.1          |
 
 
 
@@ -90,7 +107,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: AutoCastSim (a simulation framework)
   - Task: Policy Learning
 
-
 ### ECCV 2022:tada::tada::tada:
 
 - **SyncNet** (Latency-Aware Collaborative Perception) [[paper](https://arxiv.org/abs/2207.08560)] [~~code~~]
@@ -103,14 +119,12 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: V2XSet
   - Task: 3D Detection
 
-
 ### ICRA 2022
 
 - **AttFuse** (OPV2V: An Open Benchmark Dataset and Fusion Pipeline for Perception with Vehicle-to-Vehicle Communication) [[paper](https://arxiv.org/abs/2109.07644)] [[code](https://github.com/DerrickXuNu/OpenCOOD)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
   - Task: 3D Detection
-
 
 ### RAL 2022
 
@@ -123,7 +137,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: AirSim-MAP
   - Task: 2D Segmentation
-
 
 ### Preprint 2022
 
@@ -146,12 +159,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: CARLA-3D
   - Task: 3D Detection
-- **PSA** (Model-Agnostic Multi-Agent Perception Framework) [[paper](https://arxiv.org/abs/2203.13168)] [~~code~~]
+- **MAMP** (Model-Agnostic Multi-Agent Perception Framework) [[paper](https://arxiv.org/abs/2203.13168)] [~~code~~]
   - Mode: Late Collaboration
   - Dataset: OPV2V
   - Task: 3D Detection
-
-
 
 ### NeurIPS 2021:tada::tada::tada:
 
@@ -160,15 +171,12 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: V2X-Sim
   - Task: 3D Detection
 
-
 ### ICCV 2021:tada::tada::tada:
 
 - **Adversarial V2V** (Adversarial Attacks On Multi-Agent Communication) [[paper](https://arxiv.org/abs/2101.06560)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: V2V-Sim (not publicly available)
   - Task: Adversarial Attack
-
-
 
 ### IROS 2021
 
@@ -177,14 +185,12 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: Unkown
   - Task: 2D Segmentation
 
-
 ### CVPR 2020:tada::tada::tada:
 
 - **When2com** (When2com: Multi-Agent Perception via Communication Graph Grouping) [[paper](https://arxiv.org/abs/2006.00176)] [[code](https://github.com/GT-RIPL/MultiAgentPerception)]
   - Mode: Intermediate Collaboration
   - Dataset: AirSim-MAP
   - Task: 2D Segmentation, 3D Classification
-
 
 ### ECCV 2020:tada::tada::tada:
 
@@ -193,14 +199,12 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: V2V-Sim (not publicly available)
   - Task: 3D Detection, Motion Forecasting
 
-
 ### ICRA 2020
 
 - **Who2com** (Who2com: Collaborative Perception via Learnable Handshake Communication) [[paper](https://arxiv.org/abs/2003.09575)] [[code](https://github.com/GT-RIPL/MultiAgentPerception)]
   - Mode: Intermediate Collaboration
   - Dataset: AirSim-CP (has an asynchronous issue between views)
   - Task: 2D Segmentation
-
 
 ### CoRL 2020
 
@@ -209,14 +213,12 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: V2V-Sim (not publicly available)
   - Task: 3D Detection, Motion Forecasting
 
-
 ### ICDCS 2019
 
 - **Cooper** (Cooper: Cooperative Perception for Connected Autonomous Vehicles Based on 3D Point Clouds) [[paper](https://arxiv.org/abs/1905.05265)] [[code](https://github.com/Aug583/F-COOPER)]
   - Mode: Early Collaboration
   - Dataset: Tom & Jerry
   - Task: 3D Detection
-
 
 ### SEC 2019
 
