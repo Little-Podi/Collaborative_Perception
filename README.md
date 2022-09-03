@@ -25,29 +25,29 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 - **V2XSet** (consider vehicles and infrastructures, pose error and time delay)
 
-  | Method                  | Source       | Perfect AP@0.7 | Noisy AP@0.7 |
-  | ----------------------- | ------------ | -------------- | ------------ |
-  | V2X-ViT                 | ECCV 2022    | **71.2**       | **61.4**     |
-  | DiscoNet                | NeurIPS 2021 | 69.5           | 54.1         |
-  | V2VNet                  | ECCV 2020    | 67.7           | 49.3         |
-  | AttFuse                 | ICRA 2022    | 66.4           | 48.7         |
-  | F-Cooper                | SEC 2019     | 68.0           | 46.9         |
-  | No Fusion (Lower Bound) | -            | 40.2           | 40.2         |
+  | Method                  | Source     | Perfect AP@0.7 | Noisy AP@0.7 |
+  | ----------------------- | ---------- | -------------- | ------------ |
+  | V2X-ViT                 | ECCV'22    | **71.2**       | **61.4**     |
+  | DiscoNet                | NeurIPS'21 | 69.5           | 54.1         |
+  | V2VNet                  | ECCV'20    | 67.7           | 49.3         |
+  | AttFuse                 | ICRA'22    | 66.4           | 48.7         |
+  | F-Cooper                | SEC'19     | 68.0           | 46.9         |
+  | No Fusion (Lower Bound) | -          | 40.2           | 40.2         |
 
 - **OPV2V**
 
-  | Method                  | Source       | Default AP@0.7 | Culver AP@0.7 |
-  | ----------------------- | ------------ | -------------- | ------------- |
-  | AdaFusion               | ArXiv 2022   | **85.6**       | **79.0**      |
-  | FuseBEVT                | ArXiv 2022   | 85.2           | -             |
-  | DiscoNet                | NeurIPS 2021 | 83.6           | -             |
-  | FPV-RCNN                | RAL 2022     | 82.0           | 76.3          |
-  | V2VNet                  | ECCV 2020    | 82.2           | 73.4          |
-  | AttFuse                 | ICRA 2022    | 81.5           | 73.5          |
-  | MAMP                    | ArXiv 2022   | 81.3           | -             |
-  | F-Cooper                | SEC 2019     | 79.0           | 72.8          |
-  | Cooper                  | ICDCS 2019   | 80.0           | 69.6          |
-  | No Fusion (Lower Bound) | -            | 60.2           | 47.1          |
+  | Method                  | Source     | Default AP@0.7 | Culver AP@0.7 |
+  | ----------------------- | ---------- | -------------- | ------------- |
+  | AdaFusion               | ArXiv'22   | **85.6**       | **79.0**      |
+  | FuseBEVT                | ArXiv'22   | 85.2           | -             |
+  | DiscoNet                | NeurIPS'21 | 83.6           | -             |
+  | FPV-RCNN                | RAL'22     | 82.0           | 76.3          |
+  | V2VNet                  | ECCV'20    | 82.2           | 73.4          |
+  | AttFuse                 | ICRA'22    | 81.5           | 73.5          |
+  | MAMP                    | ArXiv'22   | 81.3           | -             |
+  | F-Cooper                | SEC'19     | 79.0           | 72.8          |
+  | Cooper                  | ICDCS'19   | 80.0           | 69.6          |
+  | No Fusion (Lower Bound) | -          | 60.2           | 47.1          |
 
 
 
