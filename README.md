@@ -39,7 +39,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   | Method                  | Source     | Default AP@0.7 | Culver AP@0.7 |
   | :-: | :-: | :-: | :-: |
   | AdaFusion               | ArXiv'22   | **85.6**       | **79.0**      |
-  | FuseBEVT                | ArXiv'22   | 85.2           | -             |
+  | FuseBEVT                | CoRL'22 | 85.2           | -             |
   | DiscoNet                | NeurIPS'21 | 83.6           | -             |
   | FPV-RCNN                | RAL'22     | 82.0           | 76.3          |
   | V2VNet                  | ECCV'20    | 82.2           | 73.4          |
@@ -149,6 +149,13 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: AirSim-MAP
   - Task: 2D Segmentation
 
+### CoRL 2022
+
+- **CoBEVT** (CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers) [[paper](https://arxiv.org/abs/2207.02202)] [[code](https://github.com/DerrickXuNu/CoBEVT)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V
+  - Task: 2D Segmentation, 3D Detection
+
 ### Preprint 2022
 
 - **AdaFusion** (Adaptive Feature Fusion for Cooperative Perception Using LiDAR Point Clouds) [[paper](https://arxiv.org/abs/2208.00116)] [~~code~~]
@@ -156,11 +163,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: OPV2V
   - Task: 3D Detection
   
-- **CoBEVT** (CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers) [[paper](https://arxiv.org/abs/2207.02202)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V
-  - Task: 2D Segmentation, 3D Detection
-
 - **CO^3** (CO^3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving) [[paper](https://arxiv.org/abs/2206.04028)] [[code](https://github.com/Runjian-Chen/CO3)]
   - Mode: Intermediate Collaboration (for contrastive learning)
   - Dataset: DAIR-V2X
