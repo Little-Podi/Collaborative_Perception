@@ -69,6 +69,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 - **DAIR-V2X** (DAIR-V2X: A Large-Scale Dataset for Vehicle-Infrastructure Cooperative 3D Object Detection) [[paper](https://arxiv.org/abs/2204.05575)] [[code](https://github.com/AIR-THU/DAIR-V2X)] [[project](https://thudair.baai.ac.cn/index)]
 
+### NeurIPS 2022:tada::tada::tada:
+
+- **CoPerception-UAVs** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=53226)] [~~code~~] [~~project~~]
+
 ### ECCV 2022:tada::tada::tada:
 
 - **V2XSet** (V2X-ViT: Vehicle-to-Everything Cooperative Perception with Vision Transformer) [[paper](https://arxiv.org/abs/2203.10638)] [[code](https://github.com/DerrickXuNu/v2x-vit)] [[project](https://drive.google.com/drive/folders/1r5sPiBEvo8Xby-nMaWUTnJIPK6WhY1B6)]
@@ -118,6 +122,13 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: AutoCastSim (a simulation framework)
   - Task: Policy Learning
 
+### NeurIPS 2022:tada::tada::tada:
+
+- **Where2comm** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=53226)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2X-Sim, CoPerception-UAVs
+  - Task: 3D Detection
+
 ### ECCV 2022:tada::tada::tada:
 
 - **SyncNet** (Latency-Aware Collaborative Perception) [[paper](https://arxiv.org/abs/2207.08560)] [~~code~~]
@@ -128,6 +139,13 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 - **V2X-ViT** (V2X-ViT: Vehicle-to-Everything Cooperative Perception with Vision Transformer) [[paper](https://arxiv.org/abs/2203.10638)] [[code](https://github.com/DerrickXuNu/v2x-vit)]
   - Mode: Intermediate Collaboration
   - Dataset: V2XSet
+  - Task: 3D Detection
+
+### IJCAI 2022
+
+- **IA-RCP** (Robust Collaborative Perception against Communication Interruption) [[paper](https://learn-to-race.org/workshop-ai4ad-ijcai2022/papers.html)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2X-Sim
   - Task: 3D Detection
 
 ### ICRA 2022
