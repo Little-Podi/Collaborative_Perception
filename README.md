@@ -12,6 +12,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 - **(Survey)** Collaborative Perception for Autonomous Driving: Current Status and Future Trend [[paper](https://arxiv.org/abs/2208.10371)]
 - **(Library)** CoPerception: SDK for Collaborative Perception [[code](https://github.com/coperception/coperception)] [[doc](https://coperception.readthedocs.io/en/latest/)]
 - **(People)** Siheng Chen@SJTU [[web](https://scholar.google.com/citations?hl=en&user=W_Q33RMAAAAJ&view_op=list_works&sortby=pubdate)], Jiaqi Ma@UCLA [[web](https://scholar.google.com/citations?hl=en&user=S3cQz1AAAAAJ&view_op=list_works&sortby=pubdate)], Raquel Urtasun@UToronto [[web](https://scholar.google.com/citations?hl=en&user=jyxO2akAAAAJ&view_op=list_works&sortby=pubdate)], Chen Feng@NYU [[web](https://scholar.google.com/citations?hl=en&user=YeG8ZM0AAAAJ&view_op=list_works&sortby=pubdate)], Jianping Wang@CityU [[web](https://scholar.google.com/citations?hl=en&user=bow_liAAAAAJ&view_op=list_works&sortby=pubdate)], Hang Qiu@Waymo [[web](https://hangqiu.github.io/)], Runsheng Xu@UCLA [[web](https://derrickxunu.github.io/)], Hao Xiang@UCLA [[web](https://xhwind.github.io/)], Yiming Li@NYU [[web](https://roboticsyimingli.github.io/)], Zixing Lei@SJTU [[web](https://chezacar.github.io/)]
+- **(Workshop)** MFI 2022 [[web](https://coopermfi.github.io/)], ICRA 2023 [[web](https://coperception.github.io/)]
 
 ### Collaboration Perception Development:clap::clap::clap:
 
@@ -186,6 +187,13 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: DAIR-V2X
   - Task: Representation Learning
 
+- **Double-M Quantification** (Uncertainty Quantification of Collaborative Detection for Self-Driving) [[paper](https://arxiv.org/abs/2209.08162)] [[code](https://github.com/coperception/double-m-quantification)]
+  - Mode: Early Collaboration, Intermediate Collaboration
+  
+  - Dataset: V2X-Sim
+
+  - Task: 3D Detection
+  
 - **Learn2com** (Collaborative 3D Object Detection for Automatic Vehicle Systems via Learnable Communications) [[paper](https://arxiv.org/abs/2205.11849)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: CARLA-3D
