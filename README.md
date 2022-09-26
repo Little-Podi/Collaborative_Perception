@@ -189,9 +189,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 - **Double-M Quantification** (Uncertainty Quantification of Collaborative Detection for Self-Driving) [[paper](https://arxiv.org/abs/2209.08162)] [[code](https://github.com/coperception/double-m-quantification)]
   - Mode: Early Collaboration, Intermediate Collaboration
-  
   - Dataset: V2X-Sim
-
   - Task: 3D Detection
   
 - **Learn2com** (Collaborative 3D Object Detection for Automatic Vehicle Systems via Learnable Communications) [[paper](https://arxiv.org/abs/2205.11849)] [~~code~~]
