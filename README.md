@@ -72,7 +72,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### NeurIPS 2022:tada::tada::tada:
 
-- **CoPerception-UAVs** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=53226)] [~~code~~] [~~project~~]
+- **CoPerception-UAVs** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper](https://arxiv.org/abs/2209.12836)] [[code](https://github.com/MediaBrain-SJTU/where2comm)] [~~project~~]
 
 ### ECCV 2022:tada::tada::tada:
 
@@ -125,9 +125,9 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### NeurIPS 2022:tada::tada::tada:
 
-- **Where2comm** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=53226)] [~~code~~]
+- **Where2comm** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper](https://arxiv.org/abs/2209.12836)] [[code](https://github.com/MediaBrain-SJTU/where2comm)]
   - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2X-Sim, CoPerception-UAVs
+  - Dataset: OPV2V, V2X-Sim, DAIR-V2X, CoPerception-UAVs
   - Task: 3D Detection
 
 ### ECCV 2022:tada::tada::tada:
