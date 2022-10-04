@@ -58,6 +58,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 - **AutoCastSim** (AutoCastSim: An End-to-End Cooperative Perception and Collaborative Driving Simulation Framework) [[paper](https://arxiv.org/abs/2205.02222)] [[code](https://github.com/hangqiu/AutoCastSim)] [[project](https://utexas.app.box.com/v/coopernaut-dataset)]
 
+### Preprint 2022
+
+- **V2XP-ASG** (V2XP-ASG: Generating Adversarial Scenes for Vehicle-to-Everything Perception) [[paper](https://arxiv.org/abs/2209.13679)] [~~code~~] [~~project~~]
+
 ### ITSC 2021
 
 - **OpenCDA** (OpenCDA: An Open Cooperative Driving Automation Framework Integrated with Co-Simulation) [[paper](https://arxiv.org/abs/2107.06260)] [[code](https://github.com/ucla-mobility/OpenCDA)] [[project](https://opencda-documentation.readthedocs.io/en/latest/)]
