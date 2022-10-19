@@ -14,10 +14,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 - **(People)** Siheng Chen@SJTU [[web](https://scholar.google.com/citations?hl=en&user=W_Q33RMAAAAJ&view_op=list_works&sortby=pubdate)], Jiaqi Ma@UCLA [[web](https://scholar.google.com/citations?hl=en&user=S3cQz1AAAAAJ&view_op=list_works&sortby=pubdate)], Raquel Urtasun@UToronto [[web](https://scholar.google.com/citations?hl=en&user=jyxO2akAAAAJ&view_op=list_works&sortby=pubdate)], Chen Feng@NYU [[web](https://scholar.google.com/citations?hl=en&user=YeG8ZM0AAAAJ&view_op=list_works&sortby=pubdate)], Jianping Wang@CityU [[web](https://scholar.google.com/citations?hl=en&user=bow_liAAAAAJ&view_op=list_works&sortby=pubdate)], Hang Qiu@Waymo [[web](https://hangqiu.github.io/)], Runsheng Xu@UCLA [[web](https://derrickxunu.github.io/)], Hao Xiang@UCLA [[web](https://xhwind.github.io/)], Yiming Li@NYU [[web](https://roboticsyimingli.github.io/)], Zixing Lei@SJTU [[web](https://chezacar.github.io/)]
 - **(Workshop)** MFI 2022 [[web](https://coopermfi.github.io/)], ICRA 2023 [[web](https://coperception.github.io/)]
 
-### Collaboration Perception Development:clap::clap::clap:
-
-![](roadmap.png)
-
 ### Typical Collaboration Modes:handshake::handshake::handshake:
 
 ![](mode.png)
@@ -28,7 +24,8 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
   |         Method          | Source     | Perfect AP@0.7 | Noisy AP@0.7 |
   | :-: | :-: | :-: | :-: |
-  |         V2X-ViT         | ECCV'22    | **71.2**       | **61.4**     |
+  | MPDA | ArXiv'22 | **73.4** | - |
+  |         V2X-ViT         | ECCV'22    | 71.2       | **61.4**     |
   |        DiscoNet         | NeurIPS'21 | 69.5           | 54.1         |
   |         V2VNet          | ECCV'20    | 67.7           | 49.3         |
   |         AttFuse         | ICRA'22    | 66.4           | 48.7         |
@@ -204,6 +201,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Late Collaboration
   - Dataset: OPV2V
   - Task: 3D Detection
+- **MPDA** (Bridging the Domain Gap for Multi-Agent Perception) [[paper](https://arxiv.org/abs/2210.08451)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2XSet
+  - Task: 3D Detection
+
 
 ### NeurIPS 2021:tada::tada::tada:
 
