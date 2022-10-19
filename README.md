@@ -24,8 +24,8 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
   |         Method          | Source     | Perfect AP@0.7 | Noisy AP@0.7 |
   | :-: | :-: | :-: | :-: |
-  | MPDA | ArXiv'22 | **73.4** | - |
-  |         V2X-ViT         | ECCV'22    | 71.2       | **61.4**     |
+  | MPDA                    | ArXiv'22   | **73.4**       | -            |
+  |         V2X-ViT         | ECCV'22    | 71.2           | **61.4**     |
   |        DiscoNet         | NeurIPS'21 | 69.5           | 54.1         |
   |         V2VNet          | ECCV'20    | 67.7           | 49.3         |
   |         AttFuse         | ICRA'22    | 66.4           | 48.7         |
@@ -37,7 +37,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   | Method                  | Source     | Default AP@0.7 | Culver AP@0.7 |
   | :-: | :-: | :-: | :-: |
   | AdaFusion               | ArXiv'22   | **85.6**       | **79.0**      |
-  | FuseBEVT                | CoRL'22 | 85.2           | -             |
+  | FuseBEVT                | CoRL'22    | 85.2           | -             |
   | DiscoNet                | NeurIPS'21 | 83.6           | -             |
   | FPV-RCNN                | RAL'22     | 82.0           | 76.3          |
   | V2VNet                  | ECCV'20    | 82.2           | 73.4          |
@@ -137,7 +137,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: V2X-Sim
   - Task: 3D Detection
-
 - **V2X-ViT** (V2X-ViT: Vehicle-to-Everything Cooperative Perception with Vision Transformer) [[paper](https://arxiv.org/abs/2203.10638)] [[code](https://github.com/DerrickXuNu/v2x-vit)]
   - Mode: Intermediate Collaboration
   - Dataset: V2XSet
@@ -163,7 +162,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: COMAP
   - Task: 3D Detection
-
 - **MP-Pose** (Multi-Robot Collaborative Perception with Graph Neural Networks) [[paper](https://arxiv.org/abs/2201.01760)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: AirSim-MAP
@@ -182,17 +180,14 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
   - Task: 3D Detection
-  
 - **CO^3** (CO^3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving) [[paper](https://arxiv.org/abs/2206.04028)] [[code](https://github.com/Runjian-Chen/CO3)]
   - Mode: Intermediate Collaboration (for contrastive learning)
   - Dataset: DAIR-V2X
   - Task: Representation Learning
-
 - **Double-M Quantification** (Uncertainty Quantification of Collaborative Detection for Self-Driving) [[paper](https://arxiv.org/abs/2209.08162)] [[code](https://github.com/coperception/double-m-quantification)]
   - Mode: Early Collaboration, Intermediate Collaboration
   - Dataset: V2X-Sim
   - Task: 3D Detection
-  
 - **Learn2com** (Collaborative 3D Object Detection for Automatic Vehicle Systems via Learnable Communications) [[paper](https://arxiv.org/abs/2205.11849)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: CARLA-3D
@@ -205,7 +200,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: V2XSet
   - Task: 3D Detection
-
 
 ### NeurIPS 2021:tada::tada::tada:
 
