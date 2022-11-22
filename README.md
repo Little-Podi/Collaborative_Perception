@@ -150,12 +150,15 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: V2X-Sim
   - Task: 2D Segmentation, 3D Detection
 
-### Preprint 2022
+### WACV 2022
 
 - **AdaFusion** (Adaptive Feature Fusion for Cooperative Perception Using LiDAR Point Clouds) [[paper](https://arxiv.org/abs/2208.00116)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
   - Task: 3D Detection
+
+### Preprint 2022
+
 - **CoAlign** (Robust Collaborative 3D Object Detection in Presence of Pose Errors) [[paper](https://arxiv.org/abs/2211.07214)] [[code](https://github.com/yifanlu0227/CoAlign)]
   - Mode: Intermediate Collaboration, Late Collaboration
   - Dataset: OPV2V, V2X-Sim, DAIR-V2X
