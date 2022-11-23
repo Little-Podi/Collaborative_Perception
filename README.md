@@ -44,7 +44,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### NeurIPS 2022:tada::tada::tada:
 
-- **CoPerception-UAVs** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper](https://arxiv.org/abs/2209.12836)] [[code](https://github.com/MediaBrain-SJTU/where2comm)] [~~project~~]
+- **CoPerception-UAVs** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper](https://arxiv.org/abs/2209.12836)] [[code](https://github.com/MediaBrain-SJTU/where2comm)] [[project](https://siheng-chen.github.io/dataset/coperception-uav/)]
 
 ### ECCV 2022:tada::tada::tada:
 
