@@ -145,7 +145,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
   - Task: 2D Segmentation, 3D Detection
-- **STAR** (Multi-Robot Scene Completion: Towards Task-Agnostic Collaborative Perception) [[paper](https://openreview.net/forum?id=hW0tcXOJas2)] [~~code~~]
+- **STAR** (Multi-Robot Scene Completion: Towards Task-Agnostic Collaborative Perception) [[paper](https://openreview.net/forum?id=hW0tcXOJas2)] [[code](https://github.com/coperception/star)]
   - Mode: Intermediate Collaboration
   - Dataset: V2X-Sim
   - Task: 2D Segmentation, 3D Detection
