@@ -171,6 +171,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Early Collaboration, Intermediate Collaboration
   - Dataset: V2X-Sim
   - Task: 3D Detection
+- **ICP&OT** (An Efficient and Robust Object-Level Cooperative Perception Framework for Connected and Automated Driving) [[paper](https://arxiv.org/abs/2210.06289)] [~~code~~]
+  - Mode: Late Collaboration
+  - Dataset: OPV2V
+  - Task: 3D Detection
 - **Learn2com** (Collaborative 3D Object Detection for Automatic Vehicle Systems via Learnable Communications) [[paper](https://arxiv.org/abs/2205.11849)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: CARLA-3D
