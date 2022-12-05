@@ -1,6 +1,6 @@
 # Collaborative Perception
 
-This repository is a paper digest of recent advances in **collaborative** / **cooperative** / **multi-agent** perception for **V2I** / **V2V** / **V2X** autonomous driving scenario. Papers are listed in alphabetical order of the first character. All links to the papers and codes are freely accessible.
+This repository is a paper digest of recent advances in **collaborative** / **cooperative** / **multi-agent** perception for **V2I** / **V2V** / **V2X** autonomous driving scenario. Papers are listed in alphabetical order of the first character.
 
 
 
@@ -9,8 +9,8 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 ### Helpful Learning Resource:thumbsup::thumbsup::thumbsup:
 
 - **(Talk)** Robust Collaborative Perception against Communication Interruption [[video](https://www.youtube.com/watch?v=3cIWpMrsyeE)], Collaborative and Adversarial 3D Perception for Autonomous Driving [[video](https://www.youtube.com/watch?v=W-AONQMfGi0)], Adversarial Robustness for Self-Driving [[video](https://www.youtube.com/watch?v=8uBFXzyII5Y)], Vehicle-to-Vehicle Communication for Self-Driving [[video](https://www.youtube.com/watch?v=oikdOpmIoc4)], 基于群体协作的超视距态势感知 [[video](https://www.koushare.com/video/videodetail/33015)], 协同自动驾驶：仿真与感知 [[video](https://course.zhidx.com/c/MmQ1YWUyMzM1M2I3YzVlZjE1NzM=)], 新一代协作感知Where2comm减少通信带宽十万倍 [[video](https://www.techbeat.net/talk-info?id=727)]
-- **(Survey)** Collaborative Perception for Autonomous Driving: Current Status and Future Trend [[paper](https://arxiv.org/abs/2208.10371)]
-- **(Library)** CoPerception: SDK for Collaborative Perception [[code](https://github.com/coperception/coperception)] [[doc](https://coperception.readthedocs.io/en/latest/)]
+- **(Survey)** Collaborative Perception for Autonomous Driving: Current Status and Future Trend [[paper](https://arxiv.org/abs/2208.10371)], A Survey and Framework of Cooperative Perception: From Heterogeneous Singleton to Hierarchical Cooperation [[paper](https://arxiv.org/abs/2208.10590)]
+- **(Library)** CoPerception: SDK for Collaborative Perception [[code](https://github.com/coperception/coperception)], OpenCOOD: Open Cooperative Detection Framework for Autonomous Driving [[code](https://github.com/DerrickXuNu/OpenCOOD)]
 - **(People)** Siheng Chen@SJTU [[web](https://scholar.google.com/citations?hl=en&user=W_Q33RMAAAAJ&view_op=list_works&sortby=pubdate)], Chen Feng@NYU [[web](https://scholar.google.com/citations?hl=en&user=YeG8ZM0AAAAJ&view_op=list_works&sortby=pubdate)], Jiaqi Ma@UCLA [[web](https://scholar.google.com/citations?hl=en&user=S3cQz1AAAAAJ&view_op=list_works&sortby=pubdate)], Hang Qiu@Waymo [[web](https://hangqiu.github.io/)], Runsheng Xu@UCLA [[web](https://derrickxunu.github.io/)], Yiming Li@NYU [[web](https://roboticsyimingli.github.io/)], Zixing Lei@SJTU [[web](https://chezacar.github.io/)]
 - **(Workshop)** ICRA 2023 [[web](https://coperception.github.io/)], MFI 2022 [[web](https://coopermfi.github.io/)]
 
@@ -29,10 +29,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 ### Preprint 2022
 
 - **V2XP-ASG** (V2XP-ASG: Generating Adversarial Scenes for Vehicle-to-Everything Perception) [[paper](https://arxiv.org/abs/2209.13679)] [~~code~~] [~~project~~]
-
-### ITSC 2021
-
-- **OpenCDA** (OpenCDA: An Open Cooperative Driving Automation Framework Integrated with Co-Simulation) [[paper](https://arxiv.org/abs/2107.06260)] [[code](https://github.com/ucla-mobility/OpenCDA)] [[project](https://opencda-documentation.readthedocs.io/en/latest/)]
 
 
 
@@ -54,20 +50,15 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 - **OPV2V** (OPV2V: An Open Benchmark Dataset and Fusion Pipeline for Perception with Vehicle-to-Vehicle Communication) [[paper](https://arxiv.org/abs/2109.07644)] [[code](https://github.com/DerrickXuNu/OpenCOOD)] [[project](https://mobility-lab.seas.ucla.edu/opv2v/)]
 
-### RAL 2022
-
-- **V2X-Sim** (V2X-Sim: Multi-Agent Collaborative Perception Dataset and Benchmark for Autonomous Driving) [[paper](https://arxiv.org/abs/2202.08449)] [[code](https://github.com/ai4ce/V2X-Sim/)] [[project](https://ai4ce.github.io/V2X-Sim/)]
-
 ### Preprint 2022
 
 - **CARLA-3D** (Collaborative 3D Object Detection for Automatic Vehicle Systems via Learnable Communications) [[paper](https://arxiv.org/abs/2205.11849)] [~~code~~] [~~project~~]
 - **DAIR-V2X-C** (Robust Collaborative 3D Object Detection in Presence of Pose Errors) [[paper](https://arxiv.org/abs/2211.07214)] [[code](https://github.com/yifanlu0227/CoAlign)] [[project](https://siheng-chen.github.io/dataset/dair-v2x-c-complemented/)]
-- **DeepAccident** (DeepAccident: A Large-Scale Accident Dataset for Multi-Vehicle Autonomous Driving) [[paper](https://openreview.net/forum?id=d48qsHzdhiu)] [~~code~~] [[project](https://hku-deepaccident.github.io/)]
 - **DOLPHINS** (DOLPHINS: Dataset for Collaborative Perception Enabled Harmonious and Interconnected Self-driving) [[paper](https://arxiv.org/abs/2207.07609)] [[code](https://github.com/explosion5/Dolphins)] [[project](https://dolphins-dataset.net/)]
 
-### ISPRS 2021
+### ICCV 2021:tada::tada::tada:
 
-- **COMAP** (Comap: A Synthetic Dataset for Collective Multi-Agent Perception of Autonomous Driving) [[paper](https://ui.adsabs.harvard.edu/abs/2021ISPAr43B2..255Y/abstract)] [[code](https://github.com/YuanYunshuang/cosense-simulation)] [[project](https://seafile.cloud.uni-hannover.de/d/1c52826e98d34c0399a4/)]
+- **V2X-Sim** (V2X-Sim: Multi-Agent Collaborative Perception Dataset and Benchmark for Autonomous Driving) [[paper](https://arxiv.org/abs/2202.08449)] [[code](https://github.com/ai4ce/V2X-Sim/)] [[project](https://ai4ce.github.io/V2X-Sim/)]
 
 ### CVPR 2020:tada::tada::tada:
 
@@ -80,10 +71,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 ### ICRA 2020
 
 - **AirSim-CP** (Who2com: Collaborative Perception via Learnable Handshake Communication) [[paper](https://arxiv.org/abs/2003.09575)] [~~code~~] [~~project~~]
-
-### ICDCS 2019
-
-- **Tom & Jerry** (Cooper: Cooperative Perception for Connected Autonomous Vehicles based on 3D Point Clouds) [[paper](https://arxiv.org/abs/1905.05265)] [[code](https://github.com/Aug583/F-COOPER)] [[project](https://drive.google.com/file/d/1xmQppUjvaGHbNOTkB_pwVy2HN85I-YHF/view)]
 
 
 
@@ -121,23 +108,19 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: V2X-Sim
   - Task: 3D Detection
 
+### MM 2022
+
+- **CRCNet** (Complementarity-Enhanced and Redundancy-Minimized Collaboration Network for Multi-agent Perception) [[paper](https://dl.acm.org/doi/abs/10.1145/3503161.3548197)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2X-Sim
+  - Task: 3D Detection
+
 ### ICRA 2022
 
 - **AttFuse** (OPV2V: An Open Benchmark Dataset and Fusion Pipeline for Perception with Vehicle-to-Vehicle Communication) [[paper](https://arxiv.org/abs/2109.07644)] [[code](https://github.com/DerrickXuNu/OpenCOOD)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
   - Task: 3D Detection
-
-### RAL 2022
-
-- **FPV-RCNN** (Keypoints-Based Deep Feature Fusion for Cooperative Vehicle Detection of Autonomous Driving) [[paper](https://arxiv.org/abs/2109.11615)] [[code](https://github.com/YuanYunshuang/FPV_RCNN)]
-  - Mode: Intermediate Collaboration
-  - Dataset: COMAP
-  - Task: 3D Detection
-- **MP-Pose** (Multi-Robot Collaborative Perception with Graph Neural Networks) [[paper](https://arxiv.org/abs/2201.01760)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: AirSim-MAP
-  - Task: 2D Segmentation
 
 ### CoRL 2022
 
@@ -236,17 +219,3 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: V2V-Sim (not publicly available)
   - Task: 3D Detection, Motion Forecasting
-
-### ICDCS 2019
-
-- **Cooper** (Cooper: Cooperative Perception for Connected Autonomous Vehicles Based on 3D Point Clouds) [[paper](https://arxiv.org/abs/1905.05265)] [[code](https://github.com/Aug583/F-COOPER)]
-  - Mode: Early Collaboration
-  - Dataset: Tom & Jerry
-  - Task: 3D Detection
-
-### SEC 2019
-
-- **F-Cooper** (F-Cooper: Feature Based Cooperative Perception for Autonomous Vehicle Edge Computing System Using 3D Point Clouds) [[paper](https://arxiv.org/abs/1909.06459)] [[code](https://github.com/Aug583/F-COOPER)]
-  - Mode: Intermediate Collaboration
-  - Dataset: Tom & Jerry
-  - Task: 3D Detection
