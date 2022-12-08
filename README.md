@@ -121,6 +121,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
   - Task: 3D Detection
+- **MP-Pose** (Multi-Robot Collaborative Perception with Graph Neural Networks) [[paper](https://arxiv.org/abs/2201.01760)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: AirSim-MAP
+  - Task: 2D Segmentation
 
 ### CoRL 2022
 
