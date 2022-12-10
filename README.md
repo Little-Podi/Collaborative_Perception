@@ -92,7 +92,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### ECCV 2022:tada::tada::tada:
 
-- **SyncNet** (Latency-Aware Collaborative Perception) [[paper](https://arxiv.org/abs/2207.08560)] [~~code~~]
+- **SyncNet** (Latency-Aware Collaborative Perception) [[paper](https://arxiv.org/abs/2207.08560)] [[code](https://github.com/MediaBrain-SJTU/SyncNet)]
   - Mode: Intermediate Collaboration
   - Dataset: V2X-Sim
   - Task: 3D Detection
