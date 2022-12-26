@@ -178,6 +178,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: V2XSet
   - Task: 3D Detection
+- **V2VAM+LCRN** (Learning for Vehicle-to-Vehicle Cooperative Perception under Lossy Communication) [[paper](https://arxiv.org/abs/2212.08273)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V
+  - Task: 3D Detection
 
 ### NeurIPS 2021:tada::tada::tada:
 
