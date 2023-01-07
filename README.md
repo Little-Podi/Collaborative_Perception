@@ -19,6 +19,123 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ![](mode.png)
 
+### Published Benchmark Results:rocket::rocket::rocket:
+
+- **V2XSet** (consider vehicles and infrastructures, pose error and time delay)
+
+| Method | Ideal AP@0.7 | Noisy AP@0.7 |
+| :-: | :-: | :-: |
+| MPDA [ArXiv'22] | **73.4** | - |
+| V2X-ViT [ECCV'22] | 71.2 | **61.4** |
+| DiscoNet [NeurIPS'21] | 69.5 | 54.1 |
+| F-Cooper [SEC'19] | 68.0 | 46.9 |
+| V2VNet [ECCV'20] | 67.7 | 49.3 |
+| AttFuse [ICRA'22] | 66.4 | 48.7 |
+| Early Fusion (Upper Bound) | 71.0 | 38.4 |
+| Late Fusion | 62.0 | 30.7 |
+| No Fusion (Lower Bound) | 40.2 | 40.2 |
+
+- **OPV2V**
+
+| Method | Default AP@0.7 | Culver AP@0.7 |
+| :-: | :-: | :-: |
+| AdaFusion [WACV'22] | **85.6** | **79.0** |
+| FuseBEVT [CoRL'22] | 85.2 | - |
+| V2VAM [Arxiv'22] | 84.9 | 73.1 |
+| CoBEVT [CoRL'22] | 83.6 | 74.8 |
+| DiscoNet [NeurIPS'21] | 83.6 | - |
+| V2X-ViT [ECCV'22] | 82.6 | 73.7 |
+| V2VNet [ECCV'20] | 82.2 | 73.4 |
+| FPV-RCNN [RAL'22] | 82.0 | 76.3 |
+| AttFuse [ICRA'22] | 81.5 | 73.5 |
+| MAMP [ArXiv'22] | 81.3 | - |
+| F-Cooper [SEC'19] | 79.0 | 72.8 |
+| V2VAM+LCRN [Arxiv'22] | 78.3 | 70.9 |
+| CoAlign [Arxiv'22] | 74.3 | - |
+| MASH [IROS'21] | 53.1 | - |
+| Where2comm [NeurIPS'22] | 19.1 | - |
+| Early Fusion (Upper Bound) | 80.0 | 69.6 |
+| Late Fusion | 78.1 | 66.8 |
+| No Fusion (Lower Bound) | 60.2 | 47.1 |
+
+- Some of the results here might be somewhat unreasonable since they focus on specific issues and employ different training settings.
+- The best effort is tried to ensure that all the collected benchmark results are under the same testing settings.
+
+### Reproduced Benchmark Results:sweat_drops::sweat_drops::sweat_drops:
+
+- **OPV2V Default**
+
+| Method | AP@0.7 | AP@0.5 | AP@0.3 |
+| :-: | :-: | :-: | :-: |
+| V2X-ViT [ECCV'22] |  |  |  |
+| DiscoNet [NeurIPS'21] |  |  |  |
+| V2VNet [ECCV'20] |  |  |  |
+| When2com [CVPR'20] |  |  |  |
+| AttFuse [ICRA'22] |  |  |  |
+| F-Cooper [SEC'19] |  |  |  |
+| Early Fusion (Upper Bound) |  |  |  |
+| Late Fusion |  |  |  |
+| No Fusion (Lower Bound) |  |  |  |
+
+- **OPV2V Culver**
+
+| Method | AP@0.7 | AP@0.5 | AP@0.3 |
+| :-: | :-: | :-: | :-: |
+| V2X-ViT [ECCV'22] |  |  |  |
+| DiscoNet [NeurIPS'21] |  |  |  |
+| V2VNet [ECCV'20] |  |  |  |
+| When2com [CVPR'20] |  |  |  |
+| AttFuse [ICRA'22] |  |  |  |
+| F-Cooper [SEC'19] |  |  |  |
+| Early Fusion (Upper Bound) |  |  |  |
+| Late Fusion |  |  |  |
+| No Fusion (Lower Bound) |  |  |  |
+
+- **V2XSet Ideal**
+
+| Method | AP@0.7 | AP@0.5 | AP@0.3 |
+| :-: | :-: | :-: | :-: |
+| V2X-ViT [ECCV'22] |  |  |  |
+| DiscoNet [NeurIPS'21] |  |  |  |
+| V2VNet [ECCV'20] |  |  |  |
+| When2com [CVPR'20] |  |  |  |
+| AttFuse [ICRA'22] |  |  |  |
+| F-Cooper [SEC'19] |  |  |  |
+| Early Fusion (Upper Bound) |  |  |  |
+| Late Fusion |  |  |  |
+| No Fusion (Lower Bound) |  |  |  |
+
+- **V2XSet Noisy**
+
+| Method | AP@0.7 | AP@0.5 | AP@0.3 |
+| :-: | :-: | :-: | :-: |
+| V2X-ViT [ECCV'22] |  |  |  |
+| DiscoNet [NeurIPS'21] |  |  |  |
+| V2VNet [ECCV'20] |  |  |  |
+| When2com [CVPR'20] |  |  |  |
+| AttFuse [ICRA'22] |  |  |  |
+| F-Cooper [SEC'19] |  |  |  |
+| Early Fusion (Upper Bound) |  |  |  |
+| Late Fusion |  |  |  |
+| No Fusion (Lower Bound) |  |  |  |
+
+- **Joint Set**
+
+| Method | AP@0.7 | AP@0.5 | AP@0.3 |
+| :-: | :-: | :-: | :-: |
+| V2X-ViT [ECCV'22] |  |  |  |
+| DiscoNet [NeurIPS'21] |  |  |  |
+| V2VNet [ECCV'20] |  |  |  |
+| When2com [CVPR'20] |  |  |  |
+| AttFuse [ICRA'22] |  |  |  |
+| F-Cooper [SEC'19] |  |  |  |
+| Early Fusion (Upper Bound) |  |  |  |
+| Late Fusion |  |  |  |
+| No Fusion (Lower Bound) |  |  |  |
+
+- In **Combine All**, the OPV2V test split (16 scenes), OPV2V test culver city split (4 scenes), OPV2V validation split (9 scenes), V2XSet test split (19 scenes) and V2XSet validation split (6 scenes) are combined together as a much larger testing dataset (totaling 54 different scenes) to ensure more stable ranking. The evaluated models are trained on a joint set of OPV2V train split and V2XSet train split.
+- Some of the reproduced results are not satisfactory, cautious tuning and elaborate strategies are needed.
+
 
 
 ## :bookmark:Simulation Framework
