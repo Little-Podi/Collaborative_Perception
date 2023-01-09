@@ -68,72 +68,74 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
 | V2X-ViT [ECCV'22] |  |  |  |
-| DiscoNet [NeurIPS'21] |  |  |  |
-| V2VNet [ECCV'20] |  |  |  |
-| When2com [CVPR'20] |  |  |  |
-| AttFuse [ICRA'22] |  |  |  |
-| F-Cooper [SEC'19] |  |  |  |
-| Early Fusion (Upper Bound) |  |  |  |
-| Late Fusion |  |  |  |
-| No Fusion (Lower Bound) |  |  |  |
+| DiscoNet [NeurIPS'21] | 78.6 | 88.0 | 89.1 |
+| V2VNet [ECCV'20] | 75.8 | 86.6 | 87.8 |
+| When2com [CVPR'20] | 75.6 | 87.1 | 87.9 |
+| AttFuse [ICRA'22] | 79.4 | 88.3 | 89.1 |
+| F-Cooper [SEC'19] | 79.9 | 89.2 | 90.2 |
+| Early Fusion (Upper Bound) | **81.5** | **91.3** | **92.3** |
+| Late Fusion | 71.9 | 82.5 | 83.7 |
+| No Fusion (Lower Bound) | 69.6 | 85.4 | 87.7 |
 
 - **OPV2V Culver**
 
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
 | V2X-ViT [ECCV'22] |  |  |  |
-| DiscoNet [NeurIPS'21] |  |  |  |
-| V2VNet [ECCV'20] |  |  |  |
-| When2com [CVPR'20] |  |  |  |
-| AttFuse [ICRA'22] |  |  |  |
-| F-Cooper [SEC'19] |  |  |  |
-| Early Fusion (Upper Bound) |  |  |  |
-| Late Fusion |  |  |  |
-| No Fusion (Lower Bound) |  |  |  |
+| DiscoNet [NeurIPS'21] | **74.3** | **89.0** | **91.2** |
+| V2VNet [ECCV'20] | 71.3 | 86.8 | 89.2 |
+| When2com [CVPR'20] | 65.0 | 81.5 | 83.4 |
+| AttFuse [ICRA'22] | 73.7 | 88.0 | 89.7 |
+| F-Cooper [SEC'19] | 74.2 | 88.5 | 90.8 |
+| Early Fusion (Upper Bound) | 69.7 | 87.2 | 89.9 |
+| Late Fusion | 68.2 | 86.1 | 89.6 |
+| No Fusion (Lower Bound) | 61.4 | 81.0 | 86.2 |
 
 - **V2XSet Ideal**
 
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
 | V2X-ViT [ECCV'22] |  |  |  |
-| DiscoNet [NeurIPS'21] |  |  |  |
-| V2VNet [ECCV'20] |  |  |  |
-| When2com [CVPR'20] |  |  |  |
-| AttFuse [ICRA'22] |  |  |  |
-| F-Cooper [SEC'19] |  |  |  |
-| Early Fusion (Upper Bound) |  |  |  |
-| Late Fusion |  |  |  |
-| No Fusion (Lower Bound) |  |  |  |
+| DiscoNet [NeurIPS'21] | 72.3 | 84.6 | 86.2 |
+| V2VNet [ECCV'20] | 68.0 | 81.4 | 83.3 |
+| When2com [CVPR'20] | 68.7 | 83.0 | 84.2 |
+| AttFuse [ICRA'22] | 72.5 | 84.5 | 85.8 |
+| F-Cooper [SEC'19] | 73.6 | 86.0 | 87.5 |
+| Early Fusion (Upper Bound) | **73.8** | **86.9** | **88.7** |
+| Late Fusion | 61.2 | 76.4 | 79.2 |
+| No Fusion (Lower Bound) | 58.4 | 79.5 | 83.7 |
 
 - **V2XSet Noisy**
 
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
 | V2X-ViT [ECCV'22] |  |  |  |
-| DiscoNet [NeurIPS'21] |  |  |  |
-| V2VNet [ECCV'20] |  |  |  |
-| When2com [CVPR'20] |  |  |  |
-| AttFuse [ICRA'22] |  |  |  |
-| F-Cooper [SEC'19] |  |  |  |
-| Early Fusion (Upper Bound) |  |  |  |
-| Late Fusion |  |  |  |
-| No Fusion (Lower Bound) |  |  |  |
+| DiscoNet [NeurIPS'21] | 43.3 | 78.4 | 85.5 |
+| V2VNet [ECCV'20] | **48.6** | 77.5 | 82.8 |
+| When2com [CVPR'20] | 44.1 | 78.2 | 82.5 |
+| AttFuse [ICRA'22] | 46.8 | 78.8 | 84.9 |
+| F-Cooper [SEC'19] | 45.1 | 80.0 | 86.7 |
+| Early Fusion (Upper Bound) | 43.8 | **82.3** | **88.3** |
+| Late Fusion | 34.3 | 65.6 | 76.0 |
+| No Fusion (Lower Bound) | 58.4 | 79.5 | 83.7 |
 
 - **Joint Set**
 
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
 | V2X-ViT [ECCV'22] |  |  |  |
-| DiscoNet [NeurIPS'21] |  |  |  |
-| V2VNet [ECCV'20] |  |  |  |
-| When2com [CVPR'20] |  |  |  |
-| AttFuse [ICRA'22] |  |  |  |
-| F-Cooper [SEC'19] |  |  |  |
-| Early Fusion (Upper Bound) |  |  |  |
-| Late Fusion |  |  |  |
-| No Fusion (Lower Bound) |  |  |  |
+| DiscoNet [NeurIPS'21] | 74.8 | 86.2 | 88.0 |
+| V2VNet [ECCV'20] | 71.5 | 83.7 | 85.6 |
+| When2com [CVPR'20] | 70.0 | 83.9 | 85.0 |
+| AttFuse [ICRA'22] | 75.1 | 86.1 | 87.6 |
+| F-Cooper [SEC'19] | **76.0** | **87.1** | 88.7 |
+| Early Fusion (Upper Bound) | 74.8 | 87.0 | **88.9** |
+| Late Fusion | 64.8 | 78.2 | 80.7 |
+| No Fusion (Lower Bound) | 62.3 | 80.0 | 83.8 |
 
-- In **Combine All**, the OPV2V test split (16 scenes), OPV2V test culver city split (4 scenes), OPV2V validation split (9 scenes), V2XSet test split (19 scenes) and V2XSet validation split (6 scenes) are combined together as a much larger testing dataset (totaling 54 different scenes) to ensure more stable ranking. The evaluated models are trained on a joint set of OPV2V train split and V2XSet train split.
+- In **Joint Set**, the OPV2V test split (16 scenes), OPV2V test culver city split (4 scenes), OPV2V validation split (9 scenes), V2XSet test split (19 scenes) and V2XSet validation split (6 scenes) are combined together as a much larger evaluation dataset (totaling 54 different scenes) to ensure more stable ranking. The evaluated models are trained on a joint set of OPV2V train split and V2XSet train split.
+- For fair comparison, all methods employ the same one-stage training strategy in ideal settings (i.e., no pose error or time delay), extra fusion modules (e.g., down-sampling convolution layers) of intermediate mode are simplified if not necessary to avoid the concern about the actual performance gain.
+- For efficiency consideration, the model size is scaled to the half of the original configurations except for the PiontPillar subnet.
 - Some of the reproduced results are not satisfactory, cautious tuning and elaborate strategies are needed.
 
 
