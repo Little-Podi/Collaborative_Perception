@@ -134,7 +134,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 - In Joint Set, the OPV2V test split (16 scenes), OPV2V test culver city split (4 scenes), OPV2V validation split (9 scenes), V2XSet test split (19 scenes) and V2XSet validation split (6 scenes) are combined together as a much larger evaluation dataset (totaling 54 different scenes) to allow more stable ranking. The evaluated models are trained on a joint set of OPV2V train split and V2XSet train split.
 - For fair comparison, all methods adopt the same one-stage training strategy in ideal settings (i.e., no pose error or time delay), extra fusion modules (e.g., down-sampling convolution layers) of intermediate collaboration mode are simplified if not necessary to mitigate the concern about the actual performance gain.
-- For efficiency consideration (I set the batch size to 8 for all experiments), the model size is reduced (I scale the channel dimension to half of each configuration) except for the PointPillar subnet.
+- For efficiency consideration (I set the batch size to 8 for all experiments), the model size is reduced (I scale the channel dimension to half of each original configuration) except for the PointPillar subnet.
 - Some of the reproduced results are not satisfactory, cautious tuning and elaborate strategies are needed.
 
 
