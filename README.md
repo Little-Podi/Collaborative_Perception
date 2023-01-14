@@ -31,11 +31,12 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | F-Cooper [SEC'19] | 68.0 | 46.9 |
 | V2VNet [ECCV'20] | 67.7 | 49.3 |
 | AttFuse [ICRA'22] | 66.4 | 48.7 |
-| Early Fusion (Upper Bound) | 71.0 | 38.4 |
+| === | === | === |
+| Early Fusion (Upper Bound) | **71.0** | 38.4 |
 | Late Fusion | 62.0 | 30.7 |
-| No Fusion (Lower Bound) | 40.2 | 40.2 |
+| No Fusion (Lower Bound) | 40.2 | **40.2** |
 
-- **OPV2V**
+- **OPV2V** (consider adaptation ability by a digital town with realistic configs)
 
 | Method | Default AP@0.7 | Culver AP@0.7 |
 | :-: | :-: | :-: |
@@ -54,7 +55,8 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | CoAlign [Arxiv'22] | 74.3 | - |
 | MASH [IROS'21] | 53.1 | - |
 | Where2comm [NeurIPS'22] | 19.1 | - |
-| Early Fusion (Upper Bound) | 80.0 | 69.6 |
+| === | === | === |
+| Early Fusion (Upper Bound) | **80.0** | **69.6** |
 | Late Fusion | 78.1 | 66.8 |
 | No Fusion (Lower Bound) | 60.2 | 47.1 |
 
@@ -66,75 +68,80 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
-| V2X-ViT [ECCV'22] |  |  |  |
-| DiscoNet [NeurIPS'21] |  |  |  |
-| V2VNet [ECCV'20] |  |  |  |
-| When2com [CVPR'20] |  |  |  |
-| AttFuse [ICRA'22] |  |  |  |
-| F-Cooper [SEC'19] |  |  |  |
-| Early Fusion (Upper Bound) |  |  |  |
-| Late Fusion |  |  |  |
-| No Fusion (Lower Bound) |  |  |  |
+| F-Cooper [SEC'19] | **81.7** | **89.7** | **90.6** |
+| AttFuse [ICRA'22] | 79.4 | 87.9 | 88.8 |
+| V2VNet [ECCV'20] | 79.1 | 89.4 | 90.1 |
+| When2com [CVPR'20] | 78.0 | 88.4 | 89.1 |
+| DiscoNet [NeurIPS'21] | 77.6 | 86.4 | 87.4 |
+| V2X-ViT [ECCV'22] | 69.1 | 84.0 | 86.0 |
+| === | === | === | === |
+| Early Fusion (Upper Bound) | **82.2** | **90.2** | **91.2** |
+| Late Fusion | 76.2 | 84.0 | 85.2 |
+| No Fusion (Lower Bound) | 71.2 | 85.9 | 88.2 |
 
 - **OPV2V Culver**
 
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
-| V2X-ViT [ECCV'22] |  |  |  |
-| DiscoNet [NeurIPS'21] |  |  |  |
-| V2VNet [ECCV'20] |  |  |  |
-| When2com [CVPR'20] |  |  |  |
-| AttFuse [ICRA'22] |  |  |  |
-| F-Cooper [SEC'19] |  |  |  |
-| Early Fusion (Upper Bound) |  |  |  |
-| Late Fusion |  |  |  |
-| No Fusion (Lower Bound) |  |  |  |
+| F-Cooper [SEC'19] | **75.9** | **89.1** | 91.0 |
+| AttFuse [ICRA'22] | 74.4 | 88.0 | 89.9 |
+| DiscoNet [NeurIPS'21] | 74.1 | 88.8 | **91.2** |
+| V2VNet [ECCV'20] | 71.7 | 87.6 | 89.5 |
+| When2com [CVPR'20] | 66.7 | 82.3 | 84.2 |
+| V2X-ViT [ECCV'22] | 58.6 | 76.1 | 79.7 |
+| === | === | === | === |
+| Early Fusion (Upper Bound) | **75.8** | **89.8** | **91.7** |
+| Late Fusion | 72.7 | 88.0 | 90.8 |
+| No Fusion (Lower Bound) | 65.6 | 84.3 | 88.5 |
 
 - **V2XSet Ideal**
 
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
-| V2X-ViT [ECCV'22] |  |  |  |
-| DiscoNet [NeurIPS'21] |  |  |  |
-| V2VNet [ECCV'20] |  |  |  |
-| When2com [CVPR'20] |  |  |  |
-| AttFuse [ICRA'22] |  |  |  |
-| F-Cooper [SEC'19] |  |  |  |
-| Early Fusion (Upper Bound) |  |  |  |
-| Late Fusion |  |  |  |
-| No Fusion (Lower Bound) |  |  |  |
+| F-Cooper [SEC'19] | **74.8** | **86.0** | **87.4** |
+| AttFuse [ICRA'22] | 73.2 | 84.4 | 85.6 |
+| V2VNet [ECCV'20] | 71.8 | 85.2 | 86.4 |
+| DiscoNet [NeurIPS'21] | 71.5 | 83.2 | 84.8 |
+| When2com [CVPR'20] | 70.1 | 83.8 | 85.0 |
+| V2X-ViT [ECCV'22] | 55.5 | 75.0 | 79.0 |
+| === | === | === | === |
+| Early Fusion (Upper Bound) | **76.0** | **86.9** | **88.3** |
+| Late Fusion | 65.2 | 78.3 | 80.3 |
+| No Fusion (Lower Bound) | 59.6 | 80.0 | 83.9 |
 
 - **V2XSet Noisy**
 
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
-| V2X-ViT [ECCV'22] |  |  |  |
-| DiscoNet [NeurIPS'21] |  |  |  |
-| V2VNet [ECCV'20] |  |  |  |
-| When2com [CVPR'20] |  |  |  |
-| AttFuse [ICRA'22] |  |  |  |
-| F-Cooper [SEC'19] |  |  |  |
-| Early Fusion (Upper Bound) |  |  |  |
-| Late Fusion |  |  |  |
-| No Fusion (Lower Bound) |  |  |  |
+| V2X-ViT [ECCV'22] | **54.5** | 74.4 | 78.7 |
+| V2VNet [ECCV'20] | 51.6 | **81.9** | 86.1 |
+| When2com [CVPR'20] | 47.2 | 79.6 | 83.2 |
+| F-Cooper [SEC'19] | 46.8 | 80.8 | **86.7** |
+| AttFuse [ICRA'22] | 46.2 | 79.0 | 85.1 |
+| DiscoNet [NeurIPS'21] | 41.8 | 76.8 | 84.0 |
+| === | === | === | === |
+| Early Fusion (Upper Bound) | 46.9 | **83.1** | **87.9** |
+| Late Fusion | 37.7 | 68.2 | 77.3 |
+| No Fusion (Lower Bound) | **59.6** | 80.0 | 83.9 |
 
 - **Joint Set**
 
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
-| V2X-ViT [ECCV'22] |  |  |  |
-| DiscoNet [NeurIPS'21] |  |  |  |
-| V2VNet [ECCV'20] |  |  |  |
-| When2com [CVPR'20] |  |  |  |
-| AttFuse [ICRA'22] |  |  |  |
-| F-Cooper [SEC'19] |  |  |  |
-| Early Fusion (Upper Bound) |  |  |  |
-| Late Fusion |  |  |  |
-| No Fusion (Lower Bound) |  |  |  |
+| F-Cooper [SEC'19] | **77.7** | **87.7** | **89.1** |
+| AttFuse [ICRA'22] | 75.6 | 86.0 | 87.5 |
+| V2VNet [ECCV'20] | 74.0 | 86.1 | 87.7 |
+| DiscoNet [NeurIPS'21] | 73.9 | 84.8 | 86.6 |
+| When2com [CVPR'20] | 71.5 | 84.7 | 85.8 |
+| V2X-ViT [ECCV'22] | 60.2 | 76.9 | 79.7 |
+| === | === | === | === |
+| Early Fusion (Upper Bound) | **77.7** | **87.7** | **89.3** |
+| Late Fusion | 71.3 | 81.7 | 83.6 |
+| No Fusion (Lower Bound) | 65.3 | 82.1 | 85.3 |
 
 - In Joint Set, the OPV2V test split (16 scenes), OPV2V test culver city split (4 scenes), OPV2V validation split (9 scenes), V2XSet test split (19 scenes) and V2XSet validation split (6 scenes) are combined together as a much larger evaluation dataset (totaling 54 different scenes) to allow more stable ranking. The evaluated models are trained on a joint set of OPV2V train split and V2XSet train split.
-- For fair comparison, all methods adopt the same one-stage training strategy in ideal settings (i.e., no pose error or time delay), extra fusion modules (e.g., down-sampling convolution layers) of intermediate collaboration mode are simplified if not necessary to mitigate the concern about the actual performance gain.
-- Some of the reproduced results are not satisfactory, cautious tuning and elaborate strategies are needed.
+- For fair comparison, all methods adopt the same one-stage training strategy in ideal settings (i.e., no pose error or time delay) without message compression, extra fusion modules (e.g., down-sampling convolution layers) of intermediate collaboration mode are simplified if not necessary to mitigate the concern about the actual performance gain.
+- Some of the reproduced results may be not satisfactory enough, cautious tuning and elaborate strategies are needed.
 
 
 
