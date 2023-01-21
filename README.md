@@ -9,9 +9,9 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 ### Helpful Learning Resource:thumbsup::thumbsup::thumbsup:
 
 - **(Talk)** Robust Collaborative Perception against Communication Interruption [[video](https://www.youtube.com/watch?v=3cIWpMrsyeE)], Collaborative and Adversarial 3D Perception for Autonomous Driving [[video](https://www.youtube.com/watch?v=W-AONQMfGi0)], Adversarial Robustness for Self-Driving [[video](https://www.youtube.com/watch?v=8uBFXzyII5Y)], Vehicle-to-Vehicle Communication for Self-Driving [[video](https://www.youtube.com/watch?v=oikdOpmIoc4)], 基于群体协作的超视距态势感知 [[video](https://www.koushare.com/video/videodetail/33015)], 协同自动驾驶：仿真与感知 [[video](https://course.zhidx.com/c/MmQ1YWUyMzM1M2I3YzVlZjE1NzM=)], 新一代协作感知Where2comm减少通信带宽十万倍 [[video](https://www.techbeat.net/talk-info?id=727)], 基于V2X的多源协同感知技术初探 [[video](https://www.bilibili.com/video/BV13v4y197Vc/)], 面向车路协同的群智机器网络 [[video](https://www.bilibili.com/video/BV1rV4y1w7kE/)]
-- **(Survey)** Collaborative Perception for Autonomous Driving: Current Status and Future Trend [[paper](https://arxiv.org/abs/2208.10371)], A Survey and Framework of Cooperative Perception: From Heterogeneous Singleton to Hierarchical Cooperation [[paper](https://arxiv.org/abs/2208.10590)]
-- **(Library)** CoPerception: SDK for Collaborative Perception [[code](https://github.com/coperception/coperception)] [[doc](https://coperception.readthedocs.io/en/latest/)], OpenCOOD: Open Cooperative Detection Framework for Autonomous Driving [[code](https://github.com/DerrickXuNu/OpenCOOD)] [[doc](https://opencood.readthedocs.io/en/latest/index.html)]
-- **(People)** Siheng Chen@SJTU [[web](https://scholar.google.com/citations?hl=en&user=W_Q33RMAAAAJ&view_op=list_works&sortby=pubdate)], Chen Feng@NYU [[web](https://scholar.google.com/citations?hl=en&user=YeG8ZM0AAAAJ&view_op=list_works&sortby=pubdate)], Jiaqi Ma@UCLA [[web](https://scholar.google.com/citations?hl=en&user=S3cQz1AAAAAJ&view_op=list_works&sortby=pubdate)], Hang Qiu@Waymo [[web](https://hangqiu.github.io/)], Runsheng Xu@UCLA [[web](https://derrickxunu.github.io/)], Hao Xiang@UCLA [[web](https://xhwind.github.io/)], Yiming Li@NYU [[web](https://roboticsyimingli.github.io/)], Zixing Lei@SJTU [[web](https://chezacar.github.io/)], Yifan Lu@SJTU [[web](https://yifanlu0227.github.io/)]
+- **(Survey)** Collaborative Perception in Autonomous Driving: Methods, Datasets and Challenges [[paper](https://arxiv.org/abs/2301.06262)], A Survey and Framework of Cooperative Perception: From Heterogeneous Singleton to Hierarchical Cooperation [[paper](https://arxiv.org/abs/2208.10590)]
+- **(Library)** OpenCOOD: Open Cooperative Detection Framework for Autonomous Driving [[code](https://github.com/DerrickXuNu/OpenCOOD)] [[doc](https://opencood.readthedocs.io/en/latest/index.html)], CoPerception: SDK for Collaborative Perception [[code](https://github.com/coperception/coperception)] [[doc](https://coperception.readthedocs.io/en/latest/)]
+- **(People)** Siheng Chen@SJTU [[web](https://scholar.google.com/citations?hl=en&user=W_Q33RMAAAAJ&view_op=list_works&sortby=pubdate)], Chen Feng@NYU [[web](https://scholar.google.com/citations?hl=en&user=YeG8ZM0AAAAJ&view_op=list_works&sortby=pubdate)], Jiaqi Ma@UCLA [[web](https://scholar.google.com/citations?hl=en&user=S3cQz1AAAAAJ&view_op=list_works&sortby=pubdate)], Jianping Wang@CityU [[web](https://scholar.google.com/citations?hl=en&user=bow_liAAAAAJ&view_op=list_works&sortby=pubdate)], Yen-Cheng Liu@GaTech [[web](https://ycliu93.github.io/)], Tsun-Hsuan Wang@MIT [[web](https://zswang666.github.io/)], Yiming Li@NYU [[web](https://roboticsyimingli.github.io/)], Runsheng Xu@UCLA [[web](https://derrickxunu.github.io/)], Hao Xiang@UCLA [[web](https://xhwind.github.io/)], Zixing Lei@SJTU [[web](https://chezacar.github.io/)], Yifan Lu@SJTU [[web](https://yifanlu0227.github.io/)], Hang Qiu@Waymo [[web](https://hangqiu.github.io/)], Zhengwei Bai@UCR [[web](https://zwbai.github.io/)], Eduardo Arnold@Niantic [[web](https://earnold.me/)]
 - **(Workshop)** ICRA 2023 [[web](https://coperception.github.io/)], MFI 2022 [[web](https://coopermfi.github.io/)]
 - **(Competition)** VIC3D Object Detection Challenge 清华AIR-百度Apollo车路协同自动驾驶算法挑战赛 [[info](https://aistudio.baidu.com/aistudio/competition/detail/522/0/introduction)]
 
@@ -19,48 +19,72 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ![](mode.png)
 
+### Possible Optimization Directions:fire::fire::fire:
+
+![](direction.png)
+
 ### Published Benchmark Results:rocket::rocket::rocket:
 
 - **V2XSet** (consider vehicles and infrastructures, pose error and time delay)
 
-| Method | Ideal AP@0.7 | Noisy AP@0.7 |
-| :-: | :-: | :-: |
-| MPDA [ArXiv'22] | **73.4** | - |
-| V2X-ViT [ECCV'22] | 71.2 | **61.4** |
-| DiscoNet [NeurIPS'21] | 69.5 | 54.1 |
-| F-Cooper [SEC'19] | 68.0 | 46.9 |
-| V2VNet [ECCV'20] | 67.7 | 49.3 |
-| AttFuse [ICRA'22] | 66.4 | 48.7 |
-| === | === | === |
-| Early Fusion (Upper Bound) | **71.0** | 38.4 |
-| Late Fusion | 62.0 | 30.7 |
-| No Fusion (Lower Bound) | 40.2 | **40.2** |
+| Method | Source | Ideal AP@0.7 | Noisy AP@0.7 |
+| :-: | :-: | :-: | :-: |
+| [MPDA [ICRA'23]](https://arxiv.org/abs/2210.08451) | [link](https://arxiv.org/pdf/2210.08451) | :trophy:73.4:star2: | - |
+| [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | [link](https://arxiv.org/pdf/2203.10638) | :trophy:71.2:star: | :trophy:61.4:star2: |
+| [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | [link](https://arxiv.org/pdf/2203.10638) | 69.5 | :trophy:54.1:star: |
+| [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | [link](https://arxiv.org/pdf/2203.10638) | 68.0 | 46.9 |
+| [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | [link](https://arxiv.org/pdf/2203.10638) | 67.7 | 49.3 |
+| [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | [link](https://arxiv.org/pdf/2203.10638) | 66.4 | 48.7 |
+| === | === | === | === |
+| Early Fusion (Upper Bound) | [link](https://arxiv.org/pdf/2203.10638) | **71.0** | 38.4 |
+| Late Fusion | [link](https://arxiv.org/pdf/2203.10638) | 62.0 | 30.7 |
+| No Fusion (Lower Bound) | [link](https://arxiv.org/pdf/2203.10638) | 40.2 | **40.2** |
 
 - **OPV2V** (consider adaptation ability by a digital town with realistic configs)
 
-| Method | Default AP@0.7 | Culver AP@0.7 |
-| :-: | :-: | :-: |
-| AdaFusion [WACV'22] | **85.6** | **79.0** |
-| FuseBEVT [CoRL'22] | 85.2 | - |
-| V2VAM [Arxiv'22] | 84.9 | 73.1 |
-| CoBEVT [CoRL'22] | 83.6 | 74.8 |
-| DiscoNet [NeurIPS'21] | 83.6 | - |
-| V2X-ViT [ECCV'22] | 82.6 | 73.7 |
-| V2VNet [ECCV'20] | 82.2 | 73.4 |
-| FPV-RCNN [RAL'22] | 82.0 | 76.3 |
-| AttFuse [ICRA'22] | 81.5 | 73.5 |
-| MAMP [ArXiv'22] | 81.3 | - |
-| F-Cooper [SEC'19] | 79.0 | 72.8 |
-| V2VAM+LCRN [Arxiv'22] | 78.3 | 70.9 |
-| CoAlign [Arxiv'22] | 74.3 | - |
-| MASH [IROS'21] | 53.1 | - |
-| Where2comm [NeurIPS'22] | 19.1 | - |
-| === | === | === |
-| Early Fusion (Upper Bound) | **80.0** | **69.6** |
-| Late Fusion | 78.1 | 66.8 |
-| No Fusion (Lower Bound) | 60.2 | 47.1 |
+| Method | Source | Default AP@0.7 | Culver AP@0.7 |
+| :-: | :-: | :-: | :-: |
+| [AdaFusion [WACV'23]](https://arxiv.org/abs/2208.00116) | [link](https://arxiv.org/pdf/2208.00116) | :trophy:85.6:star2: | :trophy:79.0:star2: |
+| [FuseBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | [link](https://arxiv.org/pdf/2207.02202) | :trophy:85.2:star: | - |
+| [V2VAM [Arxiv'22]](https://arxiv.org/abs/2212.08273) | [link](https://arxiv.org/pdf/2212.08273) | 84.9 | 73.1 |
+| [CoBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | [link](https://arxiv.org/pdf/2212.08273) | 83.6 | 74.8 |
+| [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | [link](https://arxiv.org/pdf/2207.02202) | 83.6 | - |
+| [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | [link](https://arxiv.org/pdf/2208.00116) | 82.6 | 73.7 |
+| [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | [link](https://github.com/DerrickXuNu/OpenCOOD) | 82.2 | 73.4 |
+| [FPV-RCNN [RAL'22]](https://arxiv.org/abs/2109.11615) | [link](https://github.com/DerrickXuNu/OpenCOOD) | 82.0 | :trophy:76.3:star: |
+| [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | [link](https://arxiv.org/pdf/2109.07644) | 81.5 | 73.5 |
+| [MAMP [ICRA'23]](https://arxiv.org/abs/2203.13168) | [link](https://arxiv.org/pdf/2203.13168) | 81.3 | - |
+| [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | [link](https://github.com/DerrickXuNu/OpenCOOD) | 79.0 | 72.8 |
+| [V2VAM+LCRN [Arxiv'22]](https://arxiv.org/abs/2212.08273) | [link](https://arxiv.org/pdf/2212.08273) | 78.3 | 70.9 |
+| === | === | === | === |
+| Early Fusion (Upper Bound) | [link](https://arxiv.org/pdf/2109.07644) | **80.0** | **69.6** |
+| Late Fusion | [link](https://arxiv.org/pdf/2109.07644) | 78.1 | 66.8 |
+| No Fusion (Lower Bound) | [link](https://arxiv.org/pdf/2109.07644) | 60.2 | 47.1 |
 
-- The results above are directly borrowed from publicly accessible papers. Some of the results here might be somewhat unreasonable since they focus on specific issues and adopt different training settings. The best effort is tried to ensure that all the collected benchmark results are in the same testing settings (if provided).
+- **V2X-Sim 2.0** (multi-modality multi-agent data for detection, tracking and segmentation)
+
+| Method | Source | Detection AP@0.7 | Detection AP@0.5 |
+| :-: | :-: | :-: | :-: |
+| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | [link](https://arxiv.org/pdf/2209.12836) | :trophy:74.1:star2: | :trophy:83.8:star2: |
+| [FPV-RCNN [RAL'22]](https://arxiv.org/abs/2109.11615) | [link](https://arxiv.org/pdf/2211.07214) | :trophy:72.1:star: | 78.7 |
+| [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | [link](https://arxiv.org/pdf/2211.07214) | 68.1 | :trophy:79.2:star: |
+| [Double-M Quantification [ICRA'23]](https://arxiv.org/abs/2209.08162) | [link](https://arxiv.org/pdf/2209.08162) | 66.4 | 70.4 |
+| [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | [link](https://arxiv.org/pdf/2202.08449) | 63.4 | 69.0 |
+| [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | [link](https://arxiv.org/pdf/2211.07214) | 62.9 | 76.0 |
+| [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | [link](https://arxiv.org/pdf/2202.08449) | 62.8 | 68.4 |
+| [CoAlign [ICRA'23]](https://arxiv.org/abs/2211.07214) | [link](https://arxiv.org/pdf/2211.07214) | 60.7 | 73.9 |
+| [STAR [CoRL'22]](https://openreview.net/forum?id=hW0tcXOJas2) | [link](https://openreview.net/pdf?id=hW0tcXOJas2) | 57.2 | 62.8 |
+| [Robust V2V [CoRL'20]](https://arxiv.org/abs/2011.05289) | [link](https://arxiv.org/pdf/2211.07214) | 56.0 | 69.3 |
+| [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | [link](https://arxiv.org/pdf/2211.07214) | 51.3 | 62.7 |
+| [MASH [IROS'21]](https://arxiv.org/abs/2107.00771) | [link](https://arxiv.org/pdf/2211.07214) | 49.6 | 62.2 |
+| [When2com [CVPR'20]](https://arxiv.org/abs/2006.00176) | [link](https://arxiv.org/pdf/2202.08449) | 39.9 | 44.0 |
+| [Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575) | [link](https://arxiv.org/pdf/2202.08449) | 39.9 | 44.0 |
+| === | === | === | === |
+| Early Fusion (Upper Bound) | [link](https://arxiv.org/pdf/2202.08449) | **67.0** | **70.4** |
+| Late Fusion | [link](https://arxiv.org/pdf/2202.08449) | 39.1 | 44.0 |
+| No Fusion (Lower Bound) | [link](https://arxiv.org/pdf/2202.08449) | 44.2 | 49.9 |
+
+- The results above are directly borrowed from publicly accessible papers. Since some of the results here are reported by the following papers instead of the original ones, the most reliable data source links are also given. The best effort is tried to ensure that all the collected benchmark results are in the same training and testing settings (if provided).
 
 ### Reproduced Benchmark Results:sweat_drops::sweat_drops::sweat_drops:
 
@@ -68,97 +92,137 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
-| F-Cooper [SEC'19] | **81.7** | **89.7** | **90.6** |
-| AttFuse [ICRA'22] | 79.4 | 87.9 | 88.8 |
-| V2VNet [ECCV'20] | 79.1 | 89.4 | 90.1 |
-| When2com [CVPR'20] | 78.0 | 88.4 | 89.1 |
-| DiscoNet [NeurIPS'21] | 77.6 | 86.4 | 87.4 |
-| V2X-ViT [ECCV'22] | 69.1 | 84.0 | 86.0 |
+| [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | :trophy:84.6:star2: | :trophy:94.2:star2: | :trophy:94.7:star: |
+| [AdaFusion [WACV'23]](https://arxiv.org/abs/2208.00116) | :trophy:83.6:star: | 93.6 | 94.1 |
+| [FuseBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | 83.3 | 93.0 | 93.7 |
+| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | 83.0 | 93.9 | 94.5 |
+| [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | 82.3 | 93.4 | 94.2 |
+| [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | 81.5 | :trophy:94.1:star: | :trophy:94.8:star2: |
+| [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | 81.4 | 93.4 | 94.2 |
+| [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | 81.2 | 93.1 | 93.8 |
+| *[Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836)* | 81.2 | 90.9 | 91.3 |
+| [When2com [CVPR'20]](https://arxiv.org/abs/2006.00176) | 75.6 | 89.5 | 90.1 |
+| [Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575) | 75.6 | 89.5 | 90.1 |
+| *[When2com [CVPR'20]](https://arxiv.org/abs/2006.00176)* | 71.0 | 87.8 | 89.0 |
+| *[Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575)* | 66.9 | 86.0 | 87.3 |
 | === | === | === | === |
-| Early Fusion (Upper Bound) | **82.2** | **90.2** | **91.2** |
-| Late Fusion | 76.2 | 84.0 | 85.2 |
-| No Fusion (Lower Bound) | 71.2 | 85.9 | 88.2 |
+| Early Fusion (Upper Bound) | **85.0** | **94.6** | **95.4** |
+| Late Fusion | 76.2 | 90.9 | 91.8 |
+| No Fusion (Lower Bound) | 65.1 | 87.9 | 89.8 |
 
 - **OPV2V Culver**
 
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
-| F-Cooper [SEC'19] | **75.9** | **89.1** | 91.0 |
-| AttFuse [ICRA'22] | 74.4 | 88.0 | 89.9 |
-| DiscoNet [NeurIPS'21] | 74.1 | 88.8 | **91.2** |
-| V2VNet [ECCV'20] | 71.7 | 87.6 | 89.5 |
-| When2com [CVPR'20] | 66.7 | 82.3 | 84.2 |
-| V2X-ViT [ECCV'22] | 58.6 | 76.1 | 79.7 |
+| [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | :trophy:75.8:star2: | :trophy:88.0:star2: | :trophy:89.5:star2: |
+| [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | :trophy:73.7:star: | :trophy:87.2:star: | :trophy:88.7:star: |
+| [FuseBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | 73.2 | 85.7 | 87.3 |
+| [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | 72.8 | 87.0 | 88.4 |
+| [AdaFusion [WACV'23]](https://arxiv.org/abs/2208.00116) | 72.7 | 86.6 | 88.1 |
+| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | 71.4 | 85.8 | 87.5 |
+| [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | 70.8 | 86.9 | :trophy:88.7:star: |
+| [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | 70.2 | 86.4 | 88.6 |
+| *[Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836)* | 67.8 | 80.5 | 81.5 |
+| [When2com [CVPR'20]](https://arxiv.org/abs/2006.00176) | 60.6 | 80.4 | 82.3 |
+| [Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575) | 60.6 | 80.4 | 82.3 |
+| *[When2com [CVPR'20]](https://arxiv.org/abs/2006.00176)* | 58.7 | 79.1 | 81.5 |
+| *[Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575)* | 51.6 | 75.5 | 79.0 |
 | === | === | === | === |
-| Early Fusion (Upper Bound) | **75.8** | **89.8** | **91.7** |
-| Late Fusion | 72.7 | 88.0 | 90.8 |
-| No Fusion (Lower Bound) | 65.6 | 84.3 | 88.5 |
+| Early Fusion (Upper Bound) | **73.5** | **88.2** | **89.8** |
+| Late Fusion | 64.9 | 86.4 | 89.5 |
+| No Fusion (Lower Bound) | 57.2 | 79.7 | 83.4 |
 
 - **V2XSet Ideal**
 
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
-| F-Cooper [SEC'19] | **74.8** | **86.0** | **87.4** |
-| AttFuse [ICRA'22] | 73.2 | 84.4 | 85.6 |
-| V2VNet [ECCV'20] | 71.8 | 85.2 | 86.4 |
-| DiscoNet [NeurIPS'21] | 71.5 | 83.2 | 84.8 |
-| When2com [CVPR'20] | 70.1 | 83.8 | 85.0 |
-| V2X-ViT [ECCV'22] | 55.5 | 75.0 | 79.0 |
+| [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | :trophy:80.3:star2: | :trophy:92.0:star: | :trophy:93.0:star: |
+| [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | :trophy:78.9:star: | :trophy:92.0:star: | 92.9 |
+| [AdaFusion [WACV'23]](https://arxiv.org/abs/2208.00116) | 78.6 | :trophy:92.1:star2: | 92.9 |
+| [FuseBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | 78.5 | 90.8 | 91.8 |
+| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | 77.5 | 91.5 | 92.5 |
+| [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | 77.1 | 91.0 | 91.9 |
+| [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | 76.3 | :trophy:92.1:star2: | :trophy:93.3:star2: |
+| [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | 75.8 | 91.4 | 92.6 |
+| *[Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836)* | 74.2 | 85.5 | 86.1 |
+| [When2com [CVPR'20]](https://arxiv.org/abs/2006.00176) | 67.9 | 86.4 | 87.5 |
+| [Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575) | 67.9 | 86.4 | 87.5 |
+| *[When2com [CVPR'20]](https://arxiv.org/abs/2006.00176)* | 61.1 | 83.0 | 84.9 |
+| *[Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575)* | 60.4 | 81.8 | 83.8 |
 | === | === | === | === |
-| Early Fusion (Upper Bound) | **76.0** | **86.9** | **88.3** |
-| Late Fusion | 65.2 | 78.3 | 80.3 |
-| No Fusion (Lower Bound) | 59.6 | 80.0 | 83.9 |
+| Early Fusion (Upper Bound) | **80.1** | **93.1** | **94.0** |
+| Late Fusion | 67.4 | 87.2 | 89.3 |
+| No Fusion (Lower Bound) | 57.9 | 83.5 | 86.6 |
 
 - **V2XSet Noisy**
 
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
-| V2X-ViT [ECCV'22] | **54.5** | 74.4 | 78.7 |
-| V2VNet [ECCV'20] | 51.6 | **81.9** | 86.1 |
-| When2com [CVPR'20] | 47.2 | 79.6 | 83.2 |
-| F-Cooper [SEC'19] | 46.8 | 80.8 | **86.7** |
-| AttFuse [ICRA'22] | 46.2 | 79.0 | 85.1 |
-| DiscoNet [NeurIPS'21] | 41.8 | 76.8 | 84.0 |
+| [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | :trophy:57.0:star2: | :trophy:88.7:star: | :trophy:92.7:star2: |
+| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | :trophy:55.7:star: | :trophy:88.9:star2: | 92.3 |
+| *[Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836)* | 54.9 | 83.7 | 86.3 |
+| [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | 53.4 | 86.3 | 90.2 |
+| [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | 53.2 | 88.0 | :trophy:92.6:star: |
+| [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | 52.7 | 88.2 | 92.1 |
+| [AdaFusion [WACV'23]](https://arxiv.org/abs/2208.00116) | 51.2 | 87.8 | 92.1 |
+| [FuseBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | 51.1 | 85.9 | 89.8 |
+| [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | 50.4 | 86.5 | 90.8 |
+| [When2com [CVPR'20]](https://arxiv.org/abs/2006.00176) | 48.2 | 81.4 | 85.2 |
+| [Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575) | 48.2 | 81.4 | 85.2 |
+| *[When2com [CVPR'20]](https://arxiv.org/abs/2006.00176)* | 41.9 | 77.7 | 83.3 |
+| *[Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575)* | 37.2 | 75.8 | 82.2 |
 | === | === | === | === |
-| Early Fusion (Upper Bound) | 46.9 | **83.1** | **87.9** |
-| Late Fusion | 37.7 | 68.2 | 77.3 |
-| No Fusion (Lower Bound) | **59.6** | 80.0 | 83.9 |
+| Early Fusion (Upper Bound) | 51.4 | **90.1** | **93.8** |
+| Late Fusion | 40.3 | 77.2 | 86.4 |
+| No Fusion (Lower Bound) | **57.9** | 83.5 | 86.6 |
 
 - **Joint Set**
 
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
-| F-Cooper [SEC'19] | **77.7** | **87.7** | **89.1** |
-| AttFuse [ICRA'22] | 75.6 | 86.0 | 87.5 |
-| V2VNet [ECCV'20] | 74.0 | 86.1 | 87.7 |
-| DiscoNet [NeurIPS'21] | 73.9 | 84.8 | 86.6 |
-| When2com [CVPR'20] | 71.5 | 84.7 | 85.8 |
-| V2X-ViT [ECCV'22] | 60.2 | 76.9 | 79.7 |
+| [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | :trophy:81.6:star2: | :trophy:92.5:star2: | :trophy:93.4:star2: |
+| [AdaFusion [WACV'23]](https://arxiv.org/abs/2208.00116) | :trophy:80.2:star: | 91.6 | 92.5 |
+| [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | 80.0 | 91.6 | 92.6 |
+| [FuseBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | 79.8 | 90.9 | 91.9 |
+| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | 79.3 | 91.4 | 92.5 |
+| [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | 78.9 | 91.0 | 91.9 |
+| [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | 78.1 | :trophy:92.1:star: | :trophy:93.4:star2: |
+| [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | 78.1 | 91.7 | :trophy:92.8:star: |
+| *[Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836)* | 75.9 | 86.6 | 87.2 |
+| [When2com [CVPR'20]](https://arxiv.org/abs/2006.00176) | 69.7 | 86.1 | 87.2 |
+| [Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575) | 69.7 | 86.1 | 87.2 |
+| *[When2com [CVPR'20]](https://arxiv.org/abs/2006.00176)* | 64.1 | 84.3 | 85.9 |
+| *[Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575)* | 60.9 | 81.8 | 83.7 |
 | === | === | === | === |
-| Early Fusion (Upper Bound) | **77.7** | **87.7** | **89.3** |
-| Late Fusion | 71.3 | 81.7 | 83.6 |
-| No Fusion (Lower Bound) | 65.3 | 82.1 | 85.3 |
+| Early Fusion (Upper Bound) | **82.1** | **93.2** | **94.2** |
+| Late Fusion | 73.8 | 89.6 | 91.2 |
+| No Fusion (Lower Bound) | 62.8 | 84.4 | 86.8 |
 
-- In Joint Set, the OPV2V test split (16 scenes), OPV2V test culver city split (4 scenes), OPV2V validation split (9 scenes), V2XSet test split (19 scenes) and V2XSet validation split (6 scenes) are combined together as a much larger evaluation dataset (totaling 54 different scenes) to allow more stable ranking. The evaluated models are trained on a joint set of OPV2V train split and V2XSet train split.
-- For fair comparison, all methods adopt the same one-stage training strategy in ideal settings (i.e., no pose error or time delay) without message compression, extra fusion modules (e.g., down-sampling convolution layers) of intermediate collaboration mode are simplified if not necessary to mitigate the concern about the actual performance gain.
-- Some of the results shown here are not satisfactory, cautious tuning and elaborate strategies are needed. Note that the reproduced results above are just a quick and fair evaluation for several representative collaborative perception methods without too much variants during training and inference. Please refer to the original papers or open-source codes collected below for detailed settings, which could be more helpful.
+- In **Joint Set** evaluation, the OPV2V test split (16 scenes), OPV2V test culver city split (4 scenes), OPV2V validation split (9 scenes), V2XSet test split (19 scenes) and V2XSet validation split (6 scenes) are combined together as a much larger evaluation dataset (totaling 54 different scenes) to allow more stable ranking. The evaluated models are trained on a joint set of OPV2V train split and V2XSet train split.
+- By default, the message is broadcasted to all agents to form a fully connected communication graph. Considering collaboration efficiency and bandwidth constraint, *Who2com*, *When2com* and *Where2comm* further apply different strategies to prune the fully connected communication graph into a partially connected one during inference. Both fully connected mode and partially connected mode are evaluated here and the latter is marked in *italic*.
+- For fair comparison, all methods adopt the identical one-stage training settings in ideal scenarios (i.e., no pose error or time delay) without message compression, extra fusion modules (e.g., down-sampling convolution layers) of intermediate collaboration mode are simplified if not necessary to mitigate the concern about the actual performance gain. PointPillar is adopted as the backbone for all reproduced methods.
+- Though the reproduction process is simple and quick (the whole round takes less than 2 days with only two 3090 GPUs), multiple advanced training strategies are applied, which may boost some performance and make the ranking not aligned with the original reports. The reproduction is just a straightforward and fair evaluation for representative collaborative perception methods. To know how the official results are obtained, please refer to the papers or codes collected below for more details, which could be helpful.
 
 
 
 ## :bookmark:Simulation Framework
 
-### CVPR 2022:tada::tada::tada:
-
-- **AutoCastSim** (AutoCastSim: An End-to-End Cooperative Perception and Collaborative Driving Simulation Framework) [[paper](https://arxiv.org/abs/2205.02222)] [[code](https://github.com/hangqiu/AutoCastSim)] [[project](https://utexas.app.box.com/v/coopernaut-dataset)]
-
-### Preprint 2022
+### ICRA 2023
 
 - **RLS** (Analyzing Infrastructure LiDAR Placement with Realistic LiDAR) [[paper](https://arxiv.org/abs/2211.15975)] [[code](https://github.com/PJLab-ADG/LiDARSimLib-and-Placement-Evaluation)] [~~project~~]
 - **V2XP-ASG** (V2XP-ASG: Generating Adversarial Scenes for Vehicle-to-Everything Perception) [[paper](https://arxiv.org/abs/2209.13679)] [~~code~~] [~~project~~]
 
+### CVPR 2022:tada::tada::tada:
+
+- **AutoCastSim** (AutoCastSim: An End-to-End Cooperative Perception and Collaborative Driving Simulation Framework) [[paper](https://arxiv.org/abs/2205.02222)] [[code](https://github.com/hangqiu/AutoCastSim)] [[project](https://utexas.app.box.com/v/coopernaut-dataset)]
+
 
 
 ## :bookmark:Dataset
+
+### ICRA 2023
+
+- **DAIR-V2X-C** (Robust Collaborative 3D Object Detection in Presence of Pose Errors) [[paper](https://arxiv.org/abs/2211.07214)] [[code](https://github.com/yifanlu0227/CoAlign)] [[project](https://siheng-chen.github.io/dataset/dair-v2x-c-complemented/)]
 
 ### CVPR 2022:tada::tada::tada:
 
@@ -183,11 +247,18 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 ### Preprint 2022
 
 - **CARLA-3D** (Collaborative 3D Object Detection for Automatic Vehicle Systems via Learnable Communications) [[paper](https://arxiv.org/abs/2205.11849)] [~~code~~] [~~project~~]
-- **DAIR-V2X-C** (Robust Collaborative 3D Object Detection in Presence of Pose Errors) [[paper](https://arxiv.org/abs/2211.07214)] [[code](https://github.com/yifanlu0227/CoAlign)] [[project](https://siheng-chen.github.io/dataset/dair-v2x-c-complemented/)]
 
 ### ICCV 2021:tada::tada::tada:
 
-- **V2X-Sim** (V2X-Sim: Multi-Agent Collaborative Perception Dataset and Benchmark for Autonomous Driving) [[paper](https://arxiv.org/abs/2202.08449)] [[code](https://github.com/ai4ce/V2X-Sim/)] [[project](https://ai4ce.github.io/V2X-Sim/)]
+- **V2X-Sim** (V2X-Sim: Multi-Agent Collaborative Perception Dataset and Benchmark for Autonomous Driving) [[paper](https://arxiv.org/abs/2202.08449)] [[code](https://github.com/ai4ce/V2X-Sim)] [[project](https://ai4ce.github.io/V2X-Sim/)]
+
+### BMVC 2021
+
+- **WIBAM** (Weakly Supervised Training of Monocular 3D Object Detectors Using Wide Baseline Multi-view Traffic Camera Data) [[paper](https://arxiv.org/abs/2110.10966)] [[code](https://github.com/MatthewHowe/WIBAM)] [[project](https://zenodo.org/record/5609988#.Y8UAvdJBxH5)]
+
+### RAL 2021
+
+- **CODD** (Fast and Robust Registration of Partially Overlapping Point Clouds) [[paper](https://arxiv.org/abs/2112.09922)] [[code](https://github.com/eduardohenriquearnold/CODD)] [[project](https://zenodo.org/record/5720317#.Y8qTD3ZBxD8)]
 
 ### CVPR 2020:tada::tada::tada:
 
@@ -205,12 +276,49 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ## :bookmark:Method
 
+### ICLR 2023:tada::tada::tada:
+
+- **CO^3** (CO^3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving) [[paper](https://arxiv.org/abs/2206.04028)] [[code](https://github.com/Runjian-Chen/CO3)]
+  - Mode: Intermediate Collaboration (for contrastive learning)
+  - Dataset: DAIR-V2X
+  - Task: Representation Learning
+
+### WACV 2023
+
+- **AdaFusion** (Adaptive Feature Fusion for Cooperative Perception Using LiDAR Point Clouds) [[paper](https://arxiv.org/abs/2208.00116)] [[code](https://github.com/DonghaoQiao/Adaptive-Feature-Fusion-for-Cooperative-Perception)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, CODD
+  - Task: 3D Detection
+
+### ICRA 2023
+
+- **CoAlign** (Robust Collaborative 3D Object Detection in Presence of Pose Errors) [[paper](https://arxiv.org/abs/2211.07214)] [[code](https://github.com/yifanlu0227/CoAlign)]
+  - Mode: Intermediate Collaboration, Late Collaboration
+  - Dataset: OPV2V, V2X-Sim, DAIR-V2X
+  - Task: 3D Detection
+- **Double-M Quantification** (Uncertainty Quantification of Collaborative Detection for Self-Driving) [[paper](https://arxiv.org/abs/2209.08162)] [[code](https://github.com/coperception/double-m-quantification)]
+  - Mode: Early Collaboration, Intermediate Collaboration
+  - Dataset: V2X-Sim
+  - Task: 3D Detection
+- **MAMP** (Model-Agnostic Multi-Agent Perception Framework) [[paper](https://arxiv.org/abs/2203.13168)] [~~code~~]
+  - Mode: Late Collaboration
+  - Dataset: OPV2V
+  - Task: 3D Detection
+- **MPDA** (Bridging the Domain Gap for Multi-Agent Perception) [[paper](https://arxiv.org/abs/2210.08451)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2XSet
+  - Task: 3D Detection
+
 ### CVPR 2022:tada::tada::tada:
 
 - **Coopernaut** (COOPERNAUT: End-to-End Driving with Cooperative Perception for Networked Vehicles) [[paper](https://arxiv.org/abs/2205.02222)] [[code](https://github.com/UT-Austin-RPL/Coopernaut)]
   - Mode: Intermediate Collaboration
   - Dataset: AutoCastSim (a simulation framework)
   - Task: Policy Learning
+- **TCLF** (DAIR-V2X: A Large-Scale Dataset for Vehicle-Infrastructure Cooperative 3D Object Detection) [[paper](https://arxiv.org/abs/2204.05575)] [[code](https://github.com/AIR-THU/DAIR-V2X)]
+  - Mode: Late Collaboration
+  - Dataset: DAIR-V2X
+  - Task: 3D Detection
 
 ### NeurIPS 2022:tada::tada::tada:
 
@@ -255,11 +363,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: V2X-Sim
   - Task: 3D Detection
 
-### WACV 2022
+### RAL 2022
 
-- **AdaFusion** (Adaptive Feature Fusion for Cooperative Perception Using LiDAR Point Clouds) [[paper](https://arxiv.org/abs/2208.00116)] [~~code~~]
+- **FPV-RCNN** (Keypoints-Based Deep Feature Fusion for Cooperative Vehicle Detection of Autonomous Driving) [[paper](https://arxiv.org/abs/2109.11615)] [[code](https://github.com/YuanYunshuang/FPV_RCNN)]
   - Mode: Intermediate Collaboration
-  - Dataset: OPV2V
+  - Dataset: COMAP
   - Task: 3D Detection
 
 ### ICRA 2022
@@ -275,18 +383,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### Preprint 2022
 
-- **CoAlign** (Robust Collaborative 3D Object Detection in Presence of Pose Errors) [[paper](https://arxiv.org/abs/2211.07214)] [[code](https://github.com/yifanlu0227/CoAlign)]
-  - Mode: Intermediate Collaboration, Late Collaboration
-  - Dataset: OPV2V, V2X-Sim, DAIR-V2X
-  - Task: 3D Detection
-- **CO^3** (CO^3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving) [[paper](https://arxiv.org/abs/2206.04028)] [[code](https://github.com/Runjian-Chen/CO3)]
-  - Mode: Intermediate Collaboration (for contrastive learning)
-  - Dataset: DAIR-V2X
-  - Task: Representation Learning
-- **Double-M Quantification** (Uncertainty Quantification of Collaborative Detection for Self-Driving) [[paper](https://arxiv.org/abs/2209.08162)] [[code](https://github.com/coperception/double-m-quantification)]
-  - Mode: Early Collaboration, Intermediate Collaboration
-  - Dataset: V2X-Sim
-  - Task: 3D Detection
 - **ICP&OT** (An Efficient and Robust Object-Level Cooperative Perception Framework for Connected and Automated Driving) [[paper](https://arxiv.org/abs/2210.06289)] [~~code~~]
   - Mode: Late Collaboration
   - Dataset: OPV2V
@@ -295,13 +391,9 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: CARLA-3D
   - Task: 3D Detection
-- **MAMP** (Model-Agnostic Multi-Agent Perception Framework) [[paper](https://arxiv.org/abs/2203.13168)] [~~code~~]
-  - Mode: Late Collaboration
-  - Dataset: OPV2V
-  - Task: 3D Detection
-- **MPDA** (Bridging the Domain Gap for Multi-Agent Perception) [[paper](https://arxiv.org/abs/2210.08451)] [~~code~~]
+- **VINet** (VINet: Lightweight, Scalable, and Heterogeneous Cooperative Perception for 3D Object Detection) [[paper](https://arxiv.org/abs/2212.07060)] [~~code~~]
   - Mode: Intermediate Collaboration
-  - Dataset: V2XSet
+  - Dataset: Unkown
   - Task: 3D Detection
 - **V2VAM+LCRN** (Learning for Vehicle-to-Vehicle Cooperative Perception under Lossy Communication) [[paper](https://arxiv.org/abs/2212.08273)] [~~code~~]
   - Mode: Intermediate Collaboration
@@ -322,6 +414,13 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: V2V-Sim (not publicly available)
   - Task: Adversarial Attack
 
+### RAL 2021
+
+- **FastReg** (Fast and Robust Registration of Partially Overlapping Point Clouds) [[paper](https://arxiv.org/abs/2112.09922)] [[code](https://github.com/eduardohenriquearnold/fastreg)]
+  - Mode: Early Collaboration
+  - Dataset: CODD
+  - Task: Point Cloud Registration
+
 ### IROS 2021
 
 - **MASH** (Overcoming Obstructions via Bandwidth-Limited Multi-Agent Spatial Handshaking) [[paper](https://arxiv.org/abs/2107.00771)] [~~code~~]
@@ -338,7 +437,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### ECCV 2020:tada::tada::tada:
 
-- **V2VNet** (V2VNet: Vehicle-to-Vehicle Communication for Joint Perception and Prediction) [[paper](https://arxiv.org/abs/2008.07519)] [[code](https://github.com/coperception/coperception)]
+- **V2VNet** (V2VNet: Vehicle-to-Vehicle Communication for Joint Perception and Prediction) [[paper](https://arxiv.org/abs/2008.07519)] [[code](https://github.com/DerrickXuNu/OpenCOOD)]
   - Mode: Intermediate Collaboration
   - Dataset: V2V-Sim (not publicly available)
   - Task: 3D Detection, Motion Forecasting
