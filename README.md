@@ -198,9 +198,9 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | Late Fusion | 73.8 | 89.6 | 91.2 |
 | No Fusion (Lower Bound) | 62.8 | 84.4 | 86.8 |
 
-- In **Joint Set** evaluation, the OPV2V test split (16 scenes), OPV2V test culver city split (4 scenes), OPV2V validation split (9 scenes), V2XSet test split (19 scenes) and V2XSet validation split (6 scenes) are combined together as a much larger evaluation dataset (totaling 54 different scenes) to allow more stable ranking. The evaluated models are trained on a joint set of OPV2V train split and V2XSet train split.
+- In **Joint Set** evaluation, the OPV2V test split (16 scenes), OPV2V test culver city split (4 scenes), OPV2V validation split (9 scenes), V2XSet test split (19 scenes) and V2XSet validation split (6 scenes) are combined together as a much larger evaluation dataset (totaling 54 different scenes) to allow more stable ranking. The evaluated models are trained on a joint set of OPV2V train split and V2XSet train split with ego vehicle shuffling to augment the data.
 - By default, the message is broadcasted to all agents to form a fully connected communication graph. Considering collaboration efficiency and bandwidth constraint, *Who2com*, *When2com* and *Where2comm* further apply different strategies to prune the fully connected communication graph into a partially connected one during inference. Both fully connected mode and partially connected mode are evaluated here and the latter is marked in *italic*.
-- For fair comparison, all methods adopt the identical one-stage training settings in ideal scenarios (i.e., no pose error or time delay) without message compression, extra fusion modules (e.g., down-sampling convolution layers) of intermediate collaboration mode are simplified if not necessary to mitigate the concern about the actual performance gain. PointPillar is adopted as the backbone for all reproduced methods.
+- For fair comparison, all methods adopt the identical one-stage training settings in ideal scenarios (i.e., no pose error or time delay) without weight fine-tuning and message compression, extra fusion modules (e.g., down-sampling convolution layers) of intermediate collaboration mode are simplified if not necessary to mitigate the concern about the actual performance gain. PointPillar is adopted as the backbone for all reproduced methods.
 - Though the reproduction process is simple and quick (the whole round takes less than 2 days with only two 3090 GPUs), multiple advanced training strategies are applied, which may boost some performance and make the ranking not aligned with the original reports. The reproduction is just a straightforward and fair evaluation for representative collaborative perception methods. To know how the official results are obtained, please refer to the papers or codes collected below for more details, which could be helpful.
 
 
@@ -211,6 +211,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 - **RLS** (Analyzing Infrastructure LiDAR Placement with Realistic LiDAR) [[paper](https://arxiv.org/abs/2211.15975)] [[code](https://github.com/PJLab-ADG/LiDARSimLib-and-Placement-Evaluation)] [~~project~~]
 - **V2XP-ASG** (V2XP-ASG: Generating Adversarial Scenes for Vehicle-to-Everything Perception) [[paper](https://arxiv.org/abs/2209.13679)] [~~code~~] [~~project~~]
+
+### Preprint 2023
+
+- **OpenCDA Ecosystem** (The OpenCDA Open-source Ecosystem for Cooperative Driving Automation Research) [[paper](https://arxiv.org/abs/2301.07325)] [[code](https://github.com/ucla-mobility/OpenCDA)] [[project](https://opencda-documentation.readthedocs.io/en/latest/)]
 
 ### CVPR 2022:tada::tada::tada:
 
@@ -391,6 +395,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: CARLA-3D
   - Task: 3D Detection
+- **Map Container** (Map Container: A Map-based Framework for Cooperative Perception) [[paper](https://arxiv.org/abs/2208.13226)] [~~code~~]
+  - Mode: Late Collaboration
+  - Dataset: Unkown
+  - Task: State Estimation
+
 - **VINet** (VINet: Lightweight, Scalable, and Heterogeneous Cooperative Perception for 3D Object Detection) [[paper](https://arxiv.org/abs/2212.07060)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: Unkown
