@@ -27,39 +27,39 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 - **V2XSet** (consider vehicles and infrastructures, pose error and time delay)
 
-| Method | Source | Ideal AP@0.7 | Noisy AP@0.7 |
-| :-: | :-: | :-: | :-: |
-| [MPDA [ICRA'23]](https://arxiv.org/abs/2210.08451) | [link](https://arxiv.org/pdf/2210.08451) | :trophy:73.4:star2: | - |
-| [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | [link](https://arxiv.org/pdf/2203.10638) | :trophy:71.2:star: | :trophy:61.4:star2: |
-| [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | [link](https://arxiv.org/pdf/2203.10638) | 69.5 | :trophy:54.1:star: |
-| [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | [link](https://arxiv.org/pdf/2203.10638) | 68.0 | 46.9 |
-| [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | [link](https://arxiv.org/pdf/2203.10638) | 67.7 | 49.3 |
-| [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | [link](https://arxiv.org/pdf/2203.10638) | 66.4 | 48.7 |
-| === | === | === | === |
-| Early Fusion (Upper Bound) | [link](https://arxiv.org/pdf/2203.10638) | **71.0** | 38.4 |
-| Late Fusion | [link](https://arxiv.org/pdf/2203.10638) | 62.0 | 30.7 |
-| No Fusion (Lower Bound) | [link](https://arxiv.org/pdf/2203.10638) | 40.2 | **40.2** |
+| Method | Source | Ideal AP@0.7 | Ideal AP@0.5 | Noisy AP@0.7 | Noisy AP@0.5 |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| [MPDA [ICRA'23]](https://arxiv.org/abs/2210.08451) | [link](https://arxiv.org/pdf/2210.08451) | :trophy:73.4:star2: | - | - | - |
+| [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | [link](https://arxiv.org/pdf/2203.10638) | :trophy:71.2:star: | :trophy:88.2:star2: | :trophy:61.4:star2: | :trophy:83.6:star2: |
+| [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | [link](https://arxiv.org/pdf/2203.10638) | 69.5 | 84.4 | :trophy:54.1:star: | :trophy:79.8:star: |
+| [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | [link](https://arxiv.org/pdf/2203.10638) | 68.0 | 84.0 | 46.9 | 71.5 |
+| [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | [link](https://arxiv.org/pdf/2203.10638) | 67.7 | :trophy:84.5:star: | 49.3 | 79.1 |
+| [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | [link](https://arxiv.org/pdf/2203.10638) | 66.4 | 80.7 | 48.7 | 70.9 |
+| === | === | === | === | === | === |
+| Early Fusion (Upper Bound) | [link](https://arxiv.org/pdf/2203.10638) | **71.0** | **81.9** | 38.4 | **72.0** |
+| Late Fusion | [link](https://arxiv.org/pdf/2203.10638) | 62.0 | 72.7 | 30.7 | 54.9 |
+| No Fusion (Lower Bound) | [link](https://arxiv.org/pdf/2203.10638) | 40.2 | 60.6 | **40.2** | 60.6 |
 
 - **OPV2V** (consider adaptation ability by a digital town with realistic configs)
 
-| Method | Source | Default AP@0.7 | Culver AP@0.7 |
-| :-: | :-: | :-: | :-: |
-| [AdaFusion [WACV'23]](https://arxiv.org/abs/2208.00116) | [link](https://arxiv.org/pdf/2208.00116) | :trophy:85.6:star2: | :trophy:79.0:star2: |
-| [FuseBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | [link](https://arxiv.org/pdf/2207.02202) | :trophy:85.2:star: | - |
-| [V2VAM [Arxiv'22]](https://arxiv.org/abs/2212.08273) | [link](https://arxiv.org/pdf/2212.08273) | 84.9 | 73.1 |
-| [CoBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | [link](https://arxiv.org/pdf/2212.08273) | 83.6 | 74.8 |
-| [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | [link](https://arxiv.org/pdf/2207.02202) | 83.6 | - |
-| [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | [link](https://arxiv.org/pdf/2208.00116) | 82.6 | 73.7 |
-| [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | [link](https://github.com/DerrickXuNu/OpenCOOD) | 82.2 | 73.4 |
-| [FPV-RCNN [RAL'22]](https://arxiv.org/abs/2109.11615) | [link](https://github.com/DerrickXuNu/OpenCOOD) | 82.0 | :trophy:76.3:star: |
-| [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | [link](https://arxiv.org/pdf/2109.07644) | 81.5 | 73.5 |
-| [MAMP [ICRA'23]](https://arxiv.org/abs/2203.13168) | [link](https://arxiv.org/pdf/2203.13168) | 81.3 | - |
-| [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | [link](https://github.com/DerrickXuNu/OpenCOOD) | 79.0 | 72.8 |
-| [V2VAM+LCRN [Arxiv'22]](https://arxiv.org/abs/2212.08273) | [link](https://arxiv.org/pdf/2212.08273) | 78.3 | 70.9 |
-| === | === | === | === |
-| Early Fusion (Upper Bound) | [link](https://arxiv.org/pdf/2109.07644) | **80.0** | **69.6** |
-| Late Fusion | [link](https://arxiv.org/pdf/2109.07644) | 78.1 | 66.8 |
-| No Fusion (Lower Bound) | [link](https://arxiv.org/pdf/2109.07644) | 60.2 | 47.1 |
+| Method | Source | Default AP@0.7 | Default AP@0.5 | Culver AP@0.7 | Culver AP@0.5 |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| [AdaFusion [WACV'23]](https://arxiv.org/abs/2208.00116) | [link](https://arxiv.org/pdf/2208.00116) | :trophy:85.6:star2: | :trophy:91.6:star: | :trophy:79.0:star2: | :trophy:88.0:star: |
+| [FuseBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | [link](https://arxiv.org/pdf/2207.02202) | :trophy:85.2:star: | - | - | - |
+| [V2VAM [Arxiv'22]](https://arxiv.org/abs/2212.08273) | [link](https://arxiv.org/pdf/2212.08273) | 84.9 | :trophy:92.0:star2: | 73.1 | :trophy:89.3:star2: |
+| [CoBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | [link](https://arxiv.org/pdf/2212.08273) | 83.6 | 91.4 | 74.8 | 87.7 |
+| [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | [link](https://arxiv.org/pdf/2301.07325) | 83.6 | 89.9 | - | - |
+| [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | [link](https://arxiv.org/pdf/2208.00116) | 82.6 | 89.1 | 73.7 | 87.3 |
+| [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | [link](https://arxiv.org/pdf/2208.00116) | 82.2 | 89.7 | 73.4 | 86.0 |
+| [FPV-RCNN [RAL'22]](https://arxiv.org/abs/2109.11615) | [link](https://github.com/DerrickXuNu/OpenCOOD) | 82.0 | - | :trophy:76.3:star: | - |
+| [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | [link](https://arxiv.org/pdf/2109.07644) | 81.5 | 90.8 | 73.5 | 85.4 |
+| [MAMP [ICRA'23]](https://arxiv.org/abs/2203.13168) | [link](https://arxiv.org/pdf/2203.13168) | 81.3 | - | - | - |
+| [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | [link](https://arxiv.org/pdf/2208.00116) | 79.0 | 88.7 | 72.8 | 84.6 |
+| [V2VAM+LCRN [Arxiv'22]](https://arxiv.org/abs/2212.08273) | [link](https://arxiv.org/pdf/2212.08273) | 78.3 | 88.7 | 70.9 | 87.1 |
+| === | === | === | === | === | === |
+| Early Fusion (Upper Bound) | [link](https://arxiv.org/pdf/2109.07644) | **80.0** | **89.1** | **69.6** | **82.9** |
+| Late Fusion | [link](https://arxiv.org/pdf/2109.07644) | 78.1 | 85.8 | 66.8 | 79.9 |
+| No Fusion (Lower Bound) | [link](https://arxiv.org/pdf/2109.07644) | 60.2 | 67.9 | 47.1 | 55.7 |
 
 - **V2X-Sim 2.0** (multi-modality multi-agent data for detection, tracking and segmentation)
 
