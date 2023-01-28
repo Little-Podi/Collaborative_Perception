@@ -95,12 +95,12 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | :trophy:84.6:star2: | :trophy:94.2:star2: | :trophy:94.7:star: |
 | [AdaFusion [WACV'23]](https://arxiv.org/abs/2208.00116) | :trophy:83.6:star: | 93.6 | 94.1 |
 | [FuseBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | 83.3 | 93.0 | 93.7 |
-| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | 83.0 | 93.9 | 94.5 |
+| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | 82.3 | 93.5 | 94.0 |
 | [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | 82.3 | 93.4 | 94.2 |
 | [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | 81.5 | :trophy:94.1:star: | :trophy:94.8:star2: |
 | [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | 81.4 | 93.4 | 94.2 |
 | [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | 81.2 | 93.1 | 93.8 |
-| *[Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836)* | 81.2 | 90.9 | 91.3 |
+| *[Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836)* | 80.7 | 92.2 | 92.9 |
 | [When2com [CVPR'20]](https://arxiv.org/abs/2006.00176) | 75.6 | 89.5 | 90.1 |
 | [Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575) | 75.6 | 89.5 | 90.1 |
 | *[When2com [CVPR'20]](https://arxiv.org/abs/2006.00176)* | 71.0 | 87.8 | 89.0 |
@@ -119,10 +119,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | [FuseBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | 73.2 | 85.7 | 87.3 |
 | [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | 72.8 | 87.0 | 88.4 |
 | [AdaFusion [WACV'23]](https://arxiv.org/abs/2208.00116) | 72.7 | 86.6 | 88.1 |
-| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | 71.4 | 85.8 | 87.5 |
+| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | 72.3 | 86.8 | 88.2 |
+| *[Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836)* | 71.5 | 86.5 | 88.0 |
 | [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | 70.8 | 86.9 | :trophy:88.7:star: |
 | [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | 70.2 | 86.4 | 88.6 |
-| *[Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836)* | 67.8 | 80.5 | 81.5 |
 | [When2com [CVPR'20]](https://arxiv.org/abs/2006.00176) | 60.6 | 80.4 | 82.3 |
 | [Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575) | 60.6 | 80.4 | 82.3 |
 | *[When2com [CVPR'20]](https://arxiv.org/abs/2006.00176)* | 58.7 | 79.1 | 81.5 |
@@ -140,11 +140,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | :trophy:78.9:star: | :trophy:92.0:star: | 92.9 |
 | [AdaFusion [WACV'23]](https://arxiv.org/abs/2208.00116) | 78.6 | :trophy:92.1:star2: | 92.9 |
 | [FuseBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | 78.5 | 90.8 | 91.8 |
-| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | 77.5 | 91.5 | 92.5 |
+| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | 78.0 | 91.6 | 92.4 |
 | [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | 77.1 | 91.0 | 91.9 |
 | [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | 76.3 | :trophy:92.1:star2: | :trophy:93.3:star2: |
+| *[Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836)* | 76.0 | 90.1 | 91.0 |
 | [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | 75.8 | 91.4 | 92.6 |
-| *[Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836)* | 74.2 | 85.5 | 86.1 |
 | [When2com [CVPR'20]](https://arxiv.org/abs/2006.00176) | 67.9 | 86.4 | 87.5 |
 | [Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575) | 67.9 | 86.4 | 87.5 |
 | *[When2com [CVPR'20]](https://arxiv.org/abs/2006.00176)* | 61.1 | 83.0 | 84.9 |
@@ -158,12 +158,12 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 | Method | AP@0.7 | AP@0.5 | AP@0.3 |
 | :-: | :-: | :-: | :-: |
-| [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | :trophy:57.0:star2: | :trophy:88.7:star: | :trophy:92.7:star2: |
-| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | :trophy:55.7:star: | :trophy:88.9:star2: | 92.3 |
-| *[Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836)* | 54.9 | 83.7 | 86.3 |
-| [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | 53.4 | 86.3 | 90.2 |
+| [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | :trophy:57.0:star2: | :trophy:88.7:star2: | :trophy:92.7:star2: |
+| [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | :trophy:53.4:star: | 86.3 | 90.2 |
 | [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | 53.2 | 88.0 | :trophy:92.6:star: |
-| [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | 52.7 | 88.2 | 92.1 |
+| [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | 52.7 | :trophy:88.2:star: | 92.1 |
+| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | 52.7 | 87.4 | 91.0 |
+| *[Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836)* | 51.3 | 85.9 | 89.7 |
 | [AdaFusion [WACV'23]](https://arxiv.org/abs/2208.00116) | 51.2 | 87.8 | 92.1 |
 | [FuseBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | 51.1 | 85.9 | 89.8 |
 | [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | 50.4 | 86.5 | 90.8 |
@@ -183,12 +183,12 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | :trophy:81.6:star2: | :trophy:92.5:star2: | :trophy:93.4:star2: |
 | [AdaFusion [WACV'23]](https://arxiv.org/abs/2208.00116) | :trophy:80.2:star: | 91.6 | 92.5 |
 | [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | 80.0 | 91.6 | 92.6 |
+| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | 79.9 | 91.3 | 92.2 |
 | [FuseBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | 79.8 | 90.9 | 91.9 |
-| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | 79.3 | 91.4 | 92.5 |
 | [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | 78.9 | 91.0 | 91.9 |
+| *[Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836)* | 78.5 | 90.1 | 91.1 |
 | [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | 78.1 | :trophy:92.1:star: | :trophy:93.4:star2: |
 | [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | 78.1 | 91.7 | :trophy:92.8:star: |
-| *[Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836)* | 75.9 | 86.6 | 87.2 |
 | [When2com [CVPR'20]](https://arxiv.org/abs/2006.00176) | 69.7 | 86.1 | 87.2 |
 | [Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575) | 69.7 | 86.1 | 87.2 |
 | *[When2com [CVPR'20]](https://arxiv.org/abs/2006.00176)* | 64.1 | 84.3 | 85.9 |
