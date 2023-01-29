@@ -251,6 +251,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### Preprint 2022
 
+- **CARTI** (VINet: Lightweight, Scalable, and Heterogeneous Cooperative Perception for 3D Object Detection) [[paper](https://arxiv.org/abs/2212.07060)] [~~code~~] [~~project~~]
 - **CARLA-3D** (Collaborative 3D Object Detection for Automatic Vehicle Systems via Learnable Communications) [[paper](https://arxiv.org/abs/2205.11849)] [~~code~~] [~~project~~]
 
 ### ICCV 2021:tada::tada::tada:
@@ -403,7 +404,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 - **VINet** (VINet: Lightweight, Scalable, and Heterogeneous Cooperative Perception for 3D Object Detection) [[paper](https://arxiv.org/abs/2212.07060)] [~~code~~]
   - Mode: Intermediate Collaboration
-  - Dataset: Unkown
+  - Dataset: CARTI
   - Task: 3D Detection
 - **V2VAM+LCRN** (Learning for Vehicle-to-Vehicle Cooperative Perception under Lossy Communication) [[paper](https://arxiv.org/abs/2212.08273)] [~~code~~]
   - Mode: Intermediate Collaboration
