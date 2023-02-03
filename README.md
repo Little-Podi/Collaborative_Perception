@@ -285,7 +285,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 ### ICLR 2023:tada::tada::tada:
 
 - **CO^3** (CO^3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving) [[paper](https://arxiv.org/abs/2206.04028)] [[code](https://github.com/Runjian-Chen/CO3)]
-  - Mode: Intermediate Collaboration (for contrastive learning)
+  - Mode: Early Collaboration (for contrastive learning)
   - Dataset: DAIR-V2X
   - Task: Representation Learning
 
