@@ -308,11 +308,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Early Collaboration, Intermediate Collaboration
   - Dataset: V2X-Sim
   - Task: 3D Detection
-- **MAMP** (Model-Agnostic Multi-Agent Perception Framework) [[paper](https://arxiv.org/abs/2203.13168)] [~~code~~]
+- **MAMP** (Model-Agnostic Multi-Agent Perception Framework) [[paper](https://arxiv.org/abs/2203.13168)] [[code](https://github.com/DerrickXuNu/model_anostic)]
   - Mode: Late Collaboration
   - Dataset: OPV2V
   - Task: 3D Detection
-- **MPDA** (Bridging the Domain Gap for Multi-Agent Perception) [[paper](https://arxiv.org/abs/2210.08451)] [~~code~~]
+- **MPDA** (Bridging the Domain Gap for Multi-Agent Perception) [[paper](https://arxiv.org/abs/2210.08451)] [[code](https://github.com/DerrickXuNu/MPDA)]
   - Mode: Intermediate Collaboration
   - Dataset: V2XSet
   - Task: 3D Detection
