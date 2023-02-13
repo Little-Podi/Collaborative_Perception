@@ -290,6 +290,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Early Collaboration (for contrastive learning)
   - Dataset: DAIR-V2X
   - Task: Representation Learning
+- **FFNet** (Vehicle-Infrastructure Cooperative 3D Detection via Feature Flow Prediction) [[paper](https://openreview.net/forum?id=ZLfD0cowleE)] [[code](https://github.com/haibao-yu/FFNet-VIC3D)]
+  - Mode: Intermediate Collaboration
+  - Dataset: DAIR-V2X
+  - Task: 3D Detection
 
 ### WACV 2023
 
