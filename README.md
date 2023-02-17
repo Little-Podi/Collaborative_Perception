@@ -208,10 +208,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 
 
-## :bookmark:Simulation Framework
+## :bookmark:Dataset and Simulator
 
 ### ICRA 2023
 
+- **DAIR-V2X-C** (Robust Collaborative 3D Object Detection in Presence of Pose Errors) [[paper](https://arxiv.org/abs/2211.07214)] [[code](https://github.com/yifanlu0227/CoAlign)] [[project](https://siheng-chen.github.io/dataset/dair-v2x-c-complemented/)]
 - **RLS** (Analyzing Infrastructure LiDAR Placement with Realistic LiDAR) [[paper](https://arxiv.org/abs/2211.15975)] [[code](https://github.com/PJLab-ADG/LiDARSimLib-and-Placement-Evaluation)] [~~project~~]
 - **V2XP-ASG** (V2XP-ASG: Generating Adversarial Scenes for Vehicle-to-Everything Perception) [[paper](https://arxiv.org/abs/2209.13679)] [~~code~~] [~~project~~]
 
@@ -222,17 +223,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 ### CVPR 2022:tada::tada::tada:
 
 - **AutoCastSim** (COOPERNAUT: End-to-End Driving with Cooperative Perception for Networked Vehicles) [[paper](https://arxiv.org/abs/2205.02222)] [[code](https://github.com/hangqiu/AutoCastSim)] [[project](https://utexas.app.box.com/v/coopernaut-dataset)]
-
-
-
-## :bookmark:Dataset
-
-### ICRA 2023
-
-- **DAIR-V2X-C** (Robust Collaborative 3D Object Detection in Presence of Pose Errors) [[paper](https://arxiv.org/abs/2211.07214)] [[code](https://github.com/yifanlu0227/CoAlign)] [[project](https://siheng-chen.github.io/dataset/dair-v2x-c-complemented/)]
-
-### CVPR 2022:tada::tada::tada:
-
 - **DAIR-V2X** (DAIR-V2X: A Large-Scale Dataset for Vehicle-Infrastructure Cooperative 3D Object Detection) [[paper](https://arxiv.org/abs/2204.05575)] [[code](https://github.com/AIR-THU/DAIR-V2X)] [[project](https://thudair.baai.ac.cn/index)]
 
 ### NeurIPS 2022:tada::tada::tada:
@@ -282,7 +272,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 
 
-## :bookmark:Method
+## :bookmark:Method and Framework
 
 ### ICLR 2023:tada::tada::tada:
 
@@ -320,6 +310,14 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: V2XSet
   - Task: 3D Detection
+
+### Preprint 2023
+
+- **Cooperverse** (Cooperverse: A Mobile-Edge-Cloud Framework for Universal Cooperative Perception with Mixed Connectivity and Automation) [[paper](https://arxiv.org/abs/2302.03128)] [~~code~~]
+  - Mode: Early Collaboration, Intermediate Collaboration, Late Collaboration
+  - Dataset: CARTI
+  - Task: 3D Detection
+
 
 ### CVPR 2022:tada::tada::tada:
 
