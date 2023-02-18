@@ -317,7 +317,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Early Collaboration, Intermediate Collaboration, Late Collaboration
   - Dataset: CARTI
   - Task: 3D Detection
-
+- **GevBEV** (Generating Evidential BEV Maps in Continuous Driving Space) [[paper](https://arxiv.org/abs/2302.02928)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V
+  - Task: 3D Segmentation
 
 ### CVPR 2022:tada::tada::tada:
 
