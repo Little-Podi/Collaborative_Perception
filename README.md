@@ -29,15 +29,15 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 | Method | Source | Ideal AP@0.7 | Ideal AP@0.5 | Noisy AP@0.7 | Noisy AP@0.5 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| [MVRF [PAAP'22]](https://ieeexplore.ieee.org/abstract/document/10010640) | [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10010640) | :trophy:71.5:star: | :trophy:88.9:star2: | :trophy:61.9:star2: | :trophy:84.3:star2: |
 | [MPDA [ICRA'23]](https://arxiv.org/abs/2210.08451) | [link](https://arxiv.org/pdf/2210.08451) | :trophy:73.4:star2: | - | - | - |
+| [MVRF [PAAP'22]](https://ieeexplore.ieee.org/abstract/document/10010640) | [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10010640) | :trophy:71.5:star: | :trophy:88.9:star2: | :trophy:61.9:star2: | :trophy:84.3:star2: |
 | [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | [link](https://arxiv.org/pdf/2203.10638) | 71.2 | :trophy:88.2:star: | :trophy:61.4:star: | :trophy:83.6:star: |
 | [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | [link](https://arxiv.org/pdf/2203.10638) | 69.5 | 84.4 | 54.1 | 79.8 |
-| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | [link](https://github.com/DerrickXuNu/OpenCOOD) | 68.0 | 84.1 | 45.7 | 78.4 |
 | [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | [link](https://arxiv.org/pdf/2203.10638) | 68.0 | 84.0 | 46.9 | 71.5 |
 | [V2VNet [ECCV'20]](https://arxiv.org/abs/2008.07519) | [link](https://arxiv.org/pdf/2203.10638) | 67.7 | 84.5 | 49.3 | 79.1 |
 | [AttFuse [ICRA'22]](https://arxiv.org/abs/2109.07644) | [link](https://arxiv.org/pdf/2203.10638) | 66.4 | 80.7 | 48.7 | 70.9 |
 | [CoBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | [link](https://github.com/DerrickXuNu/OpenCOOD) | 66.0 | 84.9 | 54.3 | 81.1 |
+| [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | [link](https://github.com/DerrickXuNu/OpenCOOD) | 65.4 | 85.5 | 53.4 | 82.0 |
 | === | === | === | === | === | === |
 | Early Fusion (Upper Bound) | [link](https://arxiv.org/pdf/2203.10638) | **71.0** | **81.9** | 38.4 | **72.0** |
 | Late Fusion | [link](https://arxiv.org/pdf/2203.10638) | 62.0 | 72.7 | 30.7 | 54.9 |
