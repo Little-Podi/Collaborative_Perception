@@ -8,11 +8,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### Helpful Learning Resource:thumbsup::thumbsup::thumbsup:
 
-- **(Talk)** Robust Collaborative Perception against Communication Interruption [[video](https://www.youtube.com/watch?v=3cIWpMrsyeE)], Collaborative and Adversarial 3D Perception for Autonomous Driving [[video](https://www.youtube.com/watch?v=W-AONQMfGi0)], Adversarial Robustness for Self-Driving [[video](https://www.youtube.com/watch?v=8uBFXzyII5Y)], Vehicle-to-Vehicle Communication for Self-Driving [[video](https://www.youtube.com/watch?v=oikdOpmIoc4)], 2022 1st Cooperative Perception Workshop Playback [[video](https://www.bilibili.com/video/BV1aK411Z7GY/)], 基于群体协作的超视距态势感知 [[video](https://www.koushare.com/video/videodetail/33015)], 协同自动驾驶：仿真与感知 [[video](https://course.zhidx.com/c/MmQ1YWUyMzM1M2I3YzVlZjE1NzM=)], 新一代协作感知Where2comm减少通信带宽十万倍 [[video](https://www.techbeat.net/talk-info?id=727)], 基于V2X的多源协同感知技术初探 [[video](https://www.bilibili.com/video/BV13v4y197Vc/)], 面向车路协同的群智机器网络 [[video](https://www.bilibili.com/video/BV1rV4y1w7kE/)], IACS2023协同感知 [[video](https://www.bilibili.com/video/BV14j411T7L3/)], CICV2022数据驱动的车路协同 [[video](https://mp.weixin.qq.com/s/a3ktA2TBgB5hiqf6OOBOxw)]
+- **(Talk)** Uncertainty Quantification of Collaborative Detection for Self-Driving [[video](https://www.youtube.com/watch?v=i59ifEZK5XM)], Robust Collaborative Perception against Communication Interruption [[video](https://www.youtube.com/watch?v=3cIWpMrsyeE)], Collaborative and Adversarial 3D Perception for Autonomous Driving [[video](https://www.youtube.com/watch?v=W-AONQMfGi0)], Adversarial Robustness for Self-Driving [[video](https://www.youtube.com/watch?v=8uBFXzyII5Y)], Vehicle-to-Vehicle Communication for Self-Driving [[video](https://www.youtube.com/watch?v=oikdOpmIoc4)], 2022 1st Cooperative Perception Workshop Playback [[video](https://www.bilibili.com/video/BV1aK411Z7GY/)], 基于群体协作的超视距态势感知 [[video](https://www.koushare.com/video/videodetail/33015)], 协同自动驾驶：仿真与感知 [[video](https://course.zhidx.com/c/MmQ1YWUyMzM1M2I3YzVlZjE1NzM=)], 新一代协作感知Where2comm减少通信带宽十万倍 [[video](https://www.techbeat.net/talk-info?id=727)], 基于V2X的多源协同感知技术初探 [[video](https://www.bilibili.com/video/BV13v4y197Vc/)], 面向车路协同的群智机器网络 [[video](https://www.bilibili.com/video/BV1rV4y1w7kE/)], IACS 2023 协同感知PhD Sharing [[video](https://www.bilibili.com/video/BV14j411T7L3/)], CICV 2022 数据驱动的车路协同专题 [[video](https://mp.weixin.qq.com/s/a3ktA2TBgB5hiqf6OOBOxw)]
 - **(Survey)** Collaborative Perception in Autonomous Driving: Methods, Datasets and Challenges [[paper](https://arxiv.org/abs/2301.06262)], A Survey and Framework of Cooperative Perception: From Heterogeneous Singleton to Hierarchical Cooperation [[paper](https://arxiv.org/abs/2208.10590)]
 - **(Library)** OpenCOOD: Open Cooperative Detection Framework for Autonomous Driving [[code](https://github.com/DerrickXuNu/OpenCOOD)] [[doc](https://opencood.readthedocs.io/en/latest/index.html)], CoPerception: SDK for Collaborative Perception [[code](https://github.com/coperception/coperception)] [[doc](https://coperception.readthedocs.io/en/latest/)]
-- **(People)** Siheng Chen@SJTU [[web](https://scholar.google.com/citations?hl=en&user=W_Q33RMAAAAJ&view_op=list_works&sortby=pubdate)], Chen Feng@NYU [[web](https://scholar.google.com/citations?hl=en&user=YeG8ZM0AAAAJ&view_op=list_works&sortby=pubdate)], Jiaqi Ma@UCLA [[web](https://scholar.google.com/citations?hl=en&user=S3cQz1AAAAAJ&view_op=list_works&sortby=pubdate)], Jianping Wang@CityU [[web](https://scholar.google.com/citations?hl=en&user=bow_liAAAAAJ&view_op=list_works&sortby=pubdate)], Yen-Cheng Liu@GaTech [[web](https://ycliu93.github.io/)], Tsun-Hsuan Wang@MIT [[web](https://zswang666.github.io/)], Yiming Li@NYU [[web](https://roboticsyimingli.github.io/)], Runsheng Xu@UCLA [[web](https://derrickxunu.github.io/)], Hao Xiang@UCLA [[web](https://xhwind.github.io/)], Zixing Lei@SJTU [[web](https://chezacar.github.io/)], Yifan Lu@SJTU [[web](https://yifanlu0227.github.io/)], Hang Qiu@Waymo [[web](https://hangqiu.github.io/)], Zhengwei Bai@UCR [[web](https://zwbai.github.io/)], Eduardo Arnold@Niantic [[web](https://earnold.me/)]
-- **(Workshop)** ICRA 2023 [[web](https://coperception.github.io/)], MFI 2022 [[web](https://coopermfi.github.io/)]
+- **(People)** Runsheng Xu@UCLA [[web](https://derrickxunu.github.io/)], Yiming Li@NYU [[web](https://roboticsyimingli.github.io/)]
+- **(Workshop)** ICRA 2023 [[web](https://coperception.github.io/)], MFI 2022 [[web](https://coopermfi.github.io/)], ITSC 2020 [[web](https://sites.google.com/view/cofed-dlad-2020/home)]
 - **(Competition)** VIC3D Object Detection Challenge 清华AIR-百度Apollo车路协同自动驾驶算法挑战赛 [[info](https://aistudio.baidu.com/aistudio/competition/detail/522/0/introduction)]
 
 ### Typical Collaboration Modes:handshake::handshake::handshake:
@@ -227,7 +227,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### NeurIPS 2022:tada::tada::tada:
 
-- **CoPerception-UAVs** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper](https://arxiv.org/abs/2209.12836)] [[code](https://github.com/MediaBrain-SJTU/where2comm)] [[project](https://siheng-chen.github.io/dataset/coperception-uav/)]
+- **CoPerception-UAVs** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper&review](https://openreview.net/forum?id=dLL4KXzKUpS)] [[code](https://github.com/MediaBrain-SJTU/where2comm)] [[project](https://siheng-chen.github.io/dataset/coperception-uav/)]
 
 ### ECCV 2022:tada::tada::tada:
 
@@ -276,11 +276,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### ICLR 2023:tada::tada::tada:
 
-- **CO^3** (CO^3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving) [[paper](https://arxiv.org/abs/2206.04028)] [[code](https://github.com/Runjian-Chen/CO3)]
+- **CO3** (CO3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving) [[paper&review](https://openreview.net/forum?id=QUaDoIdgo0)] [[code](https://github.com/Runjian-Chen/CO3)]
   - Mode: Early Collaboration (for contrastive learning)
   - Dataset: DAIR-V2X
   - Task: Representation Learning
-- **FFNet** (Vehicle-Infrastructure Cooperative 3D Detection via Feature Flow Prediction) [[paper](https://openreview.net/forum?id=ZLfD0cowleE)] [[code](https://github.com/haibao-yu/FFNet-VIC3D)]
+- **FFNet** (Vehicle-Infrastructure Cooperative 3D Detection via Feature Flow Prediction) [[paper&review](https://openreview.net/forum?id=ZLfD0cowleE)] [[code](https://github.com/haibao-yu/FFNet-VIC3D)]
   - Mode: Intermediate Collaboration
   - Dataset: DAIR-V2X
   - Task: 3D Detection
@@ -335,7 +335,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### NeurIPS 2022:tada::tada::tada:
 
-- **Where2comm** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper](https://arxiv.org/abs/2209.12836)] [[code](https://github.com/MediaBrain-SJTU/where2comm)]
+- **Where2comm** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper&review](https://openreview.net/forum?id=dLL4KXzKUpS)] [[code](https://github.com/MediaBrain-SJTU/where2comm)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2X-Sim, DAIR-V2X, CoPerception-UAVs
   - Task: 3D Detection
@@ -353,11 +353,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### CoRL 2022:tada::tada::tada:
 
-- **CoBEVT** (CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers) [[paper](https://arxiv.org/abs/2207.02202)] [[code](https://github.com/DerrickXuNu/CoBEVT)]
+- **CoBEVT** (CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers) [[paper&review](https://openreview.net/forum?id=PAFEQQtDf8s)] [[code](https://github.com/DerrickXuNu/CoBEVT)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
   - Task: 2D Segmentation, 3D Detection
-- **STAR** (Multi-Robot Scene Completion: Towards Task-Agnostic Collaborative Perception) [[paper](https://openreview.net/forum?id=hW0tcXOJas2)] [[code](https://github.com/coperception/star)]
+- **STAR** (Multi-Robot Scene Completion: Towards Task-Agnostic Collaborative Perception) [[paper&review](https://openreview.net/forum?id=hW0tcXOJas2)] [[code](https://github.com/coperception/star)]
   - Mode: Intermediate Collaboration
   - Dataset: V2X-Sim
   - Task: 2D Segmentation, 3D Detection
@@ -420,7 +420,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### NeurIPS 2021:tada::tada::tada:
 
-- **DiscoNet** (Learning Distilled Collaboration Graph for Multi-Agent Perception) [[paper](https://arxiv.org/abs/2111.00643)] [[code](https://github.com/ai4ce/DiscoNet)]
+- **DiscoNet** (Learning Distilled Collaboration Graph for Multi-Agent Perception) [[paper&review](https://openreview.net/forum?id=ZRcjSOmYraB)] [[code](https://github.com/ai4ce/DiscoNet)]
   - Mode: Early Collaboration (teacher model), Intermediate Collaboration (student model)
   - Dataset: V2X-Sim
   - Task: 3D Detection
