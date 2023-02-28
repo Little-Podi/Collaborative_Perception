@@ -8,12 +8,13 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### Helpful Learning Resource:thumbsup::thumbsup::thumbsup:
 
-- **(Talk)** Uncertainty Quantification of Collaborative Detection for Self-Driving [[video](https://www.youtube.com/watch?v=i59ifEZK5XM)], Robust Collaborative Perception against Communication Interruption [[video](https://www.youtube.com/watch?v=3cIWpMrsyeE)], Collaborative and Adversarial 3D Perception for Autonomous Driving [[video](https://www.youtube.com/watch?v=W-AONQMfGi0)], Adversarial Robustness for Self-Driving [[video](https://www.youtube.com/watch?v=8uBFXzyII5Y)], Vehicle-to-Vehicle Communication for Self-Driving [[video](https://www.youtube.com/watch?v=oikdOpmIoc4)], 2022 1st Cooperative Perception Workshop Playback [[video](https://www.bilibili.com/video/BV1aK411Z7GY/)], 基于群体协作的超视距态势感知 [[video](https://www.koushare.com/video/videodetail/33015)], 协同自动驾驶：仿真与感知 [[video](https://course.zhidx.com/c/MmQ1YWUyMzM1M2I3YzVlZjE1NzM=)], 新一代协作感知Where2comm减少通信带宽十万倍 [[video](https://www.techbeat.net/talk-info?id=727)], 基于V2X的多源协同感知技术初探 [[video](https://www.bilibili.com/video/BV13v4y197Vc/)], 面向车路协同的群智机器网络 [[video](https://www.bilibili.com/video/BV1rV4y1w7kE/)], IACS 2023 协同感知PhD Sharing [[video](https://www.bilibili.com/video/BV14j411T7L3/)], CICV 2022 数据驱动的车路协同专题 [[video](https://mp.weixin.qq.com/s/a3ktA2TBgB5hiqf6OOBOxw)]
+- **(Talk)** Robust Collaborative Perception against Communication Interruption [[video](https://www.youtube.com/watch?v=3cIWpMrsyeE)], Uncertainty Quantification of Collaborative Detection for Self-Driving [[video](https://www.youtube.com/watch?v=i59ifEZK5XM)], Collaborative and Adversarial 3D Perception for Autonomous Driving [[video](https://www.youtube.com/watch?v=W-AONQMfGi0)], Vehicle-to-Vehicle Communication for Self-Driving [[video](https://www.youtube.com/watch?v=oikdOpmIoc4)], Adversarial Robustness for Self-Driving [[video](https://www.youtube.com/watch?v=8uBFXzyII5Y)], 2022 1st Cooperative Perception Workshop Playback [[video](https://www.bilibili.com/video/BV1aK411Z7GY/)], 基于群体协作的超视距态势感知 [[video](https://www.koushare.com/video/videodetail/33015)], 协同自动驾驶：仿真与感知 [[video](https://course.zhidx.com/c/MmQ1YWUyMzM1M2I3YzVlZjE1NzM=)], 新一代协作感知Where2comm减少通信带宽十万倍 [[video](https://www.techbeat.net/talk-info?id=727)], 基于V2X的多源协同感知技术初探 [[video](https://www.bilibili.com/video/BV13v4y197Vc/)], 面向车路协同的群智机器网络 [[video](https://www.bilibili.com/video/BV1rV4y1w7kE/)], IACS 2023 协同感知PhD Sharing [[video](https://www.bilibili.com/video/BV14j411T7L3/)], CICV 2022 数据驱动的车路协同专题 [[video](https://mp.weixin.qq.com/s/a3ktA2TBgB5hiqf6OOBOxw)]
 - **(Survey)** Collaborative Perception in Autonomous Driving: Methods, Datasets and Challenges [[paper](https://arxiv.org/abs/2301.06262)], A Survey and Framework of Cooperative Perception: From Heterogeneous Singleton to Hierarchical Cooperation [[paper](https://arxiv.org/abs/2208.10590)]
 - **(Library)** OpenCOOD: Open Cooperative Detection Framework for Autonomous Driving [[code](https://github.com/DerrickXuNu/OpenCOOD)] [[doc](https://opencood.readthedocs.io/en/latest/index.html)], CoPerception: SDK for Collaborative Perception [[code](https://github.com/coperception/coperception)] [[doc](https://coperception.readthedocs.io/en/latest/)]
 - **(People)** Runsheng Xu@UCLA [[web](https://derrickxunu.github.io/)], Yiming Li@NYU [[web](https://roboticsyimingli.github.io/)]
 - **(Workshop)** ICRA 2023 [[web](https://coperception.github.io/)], MFI 2022 [[web](https://coopermfi.github.io/)], ITSC 2020 [[web](https://sites.google.com/view/cofed-dlad-2020/home)]
 - **(Competition)** VIC3D Object Detection Challenge 清华AIR-百度Apollo车路协同自动驾驶算法挑战赛 [[info](https://aistudio.baidu.com/aistudio/competition/detail/522/0/introduction)]
+- **(Background)** Current Approaches and Future Directions for Point Cloud Object Detection in Intelligent Agents [[video](https://www.youtube.com/watch?v=xFFCQVwYeec)], 3D Object Detection for Autonomous Driving: A Review and New Outlooks [[paper](https://arxiv.org/abs/2206.09474)], DACOM: Learning Delay-Aware Communication for Multi-Agent Reinforcement Learning [[video](https://www.youtube.com/watch?v=YBgW2oA_n3k)], A Survey of Multi-Agent Reinforcement Learning with Communication [[paper](https://arxiv.org/abs/2203.08975)]
 
 ### Typical Collaboration Modes:handshake::handshake::handshake:
 
@@ -39,7 +40,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | [CoBEVT [CoRL'22]](https://arxiv.org/abs/2207.02202) | [link](https://github.com/DerrickXuNu/OpenCOOD) | 66.0 | 84.9 | 54.3 | 81.1 |
 | [Where2comm [NeurIPS'22]](https://arxiv.org/abs/2209.12836) | [link](https://github.com/DerrickXuNu/OpenCOOD) | 65.4 | 85.5 | 53.4 | 82.0 |
 | === | === | === | === | === | === |
-| Early Fusion (Upper Bound) | [link](https://arxiv.org/pdf/2203.10638) | **71.0** | **81.9** | 38.4 | **72.0** |
+| Early Fusion (Upper Bound) [Cooper [ICDCS'19]](https://arxiv.org/abs/1905.05265) | [link](https://arxiv.org/pdf/2203.10638) | **71.0** | **81.9** | 38.4 | **72.0** |
 | Late Fusion | [link](https://arxiv.org/pdf/2203.10638) | 62.0 | 72.7 | 30.7 | 54.9 |
 | No Fusion (Lower Bound) | [link](https://arxiv.org/pdf/2203.10638) | 40.2 | 60.6 | **40.2** | 60.6 |
 
@@ -60,7 +61,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | [link](https://arxiv.org/pdf/2208.00116) | 79.0 | 88.7 | 72.8 | 84.6 |
 | [V2VAM+LCRN [Arxiv'22]](https://arxiv.org/abs/2212.08273) | [link](https://arxiv.org/pdf/2212.08273) | 78.3 | 88.7 | 70.9 | 87.1 |
 | === | === | === | === | === | === |
-| Early Fusion (Upper Bound) | [link](https://arxiv.org/pdf/2109.07644) | **80.0** | **89.1** | **69.6** | **82.9** |
+| Early Fusion (Upper Bound) [Cooper [ICDCS'19]](https://arxiv.org/abs/1905.05265) | [link](https://arxiv.org/pdf/2109.07644) | **80.0** | **89.1** | **69.6** | **82.9** |
 | Late Fusion | [link](https://arxiv.org/pdf/2109.07644) | 78.1 | 85.8 | 66.8 | 79.9 |
 | No Fusion (Lower Bound) | [link](https://arxiv.org/pdf/2109.07644) | 60.2 | 67.9 | 47.1 | 55.7 |
 
@@ -83,7 +84,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | [When2com [CVPR'20]](https://arxiv.org/abs/2006.00176) | [link](https://arxiv.org/pdf/2202.08449) | 39.9 | 44.0 |
 | [Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575) | [link](https://arxiv.org/pdf/2202.08449) | 39.9 | 44.0 |
 | === | === | === | === |
-| Early Fusion (Upper Bound) | [link](https://arxiv.org/pdf/2202.08449) | **67.0** | **70.4** |
+| Early Fusion (Upper Bound) [Cooper [ICDCS'19]](https://arxiv.org/abs/1905.05265) | [link](https://arxiv.org/pdf/2202.08449) | **67.0** | **70.4** |
 | Late Fusion | [link](https://arxiv.org/pdf/2202.08449) | 39.1 | 44.0 |
 | No Fusion (Lower Bound) | [link](https://arxiv.org/pdf/2202.08449) | 44.2 | 49.9 |
 
@@ -109,7 +110,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | *[When2com [CVPR'20]](https://arxiv.org/abs/2006.00176)* | 71.0 | 87.8 | 89.0 |
 | *[Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575)* | 66.9 | 86.0 | 87.3 |
 | === | === | === | === |
-| Early Fusion (Upper Bound) | **85.0** | **94.6** | **95.4** |
+| Early Fusion (Upper Bound) [Cooper [ICDCS'19]](https://arxiv.org/abs/1905.05265) | **85.0** | **94.6** | **95.4** |
 | Late Fusion | 76.2 | 90.9 | 91.8 |
 | No Fusion (Lower Bound) | 65.1 | 87.9 | 89.8 |
 
@@ -131,7 +132,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | *[When2com [CVPR'20]](https://arxiv.org/abs/2006.00176)* | 58.7 | 79.1 | 81.5 |
 | *[Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575)* | 51.6 | 75.5 | 79.0 |
 | === | === | === | === |
-| Early Fusion (Upper Bound) | **73.5** | **88.2** | **89.8** |
+| Early Fusion (Upper Bound) [Cooper [ICDCS'19]](https://arxiv.org/abs/1905.05265) | **73.5** | **88.2** | **89.8** |
 | Late Fusion | 64.9 | 86.4 | 89.5 |
 | No Fusion (Lower Bound) | 57.2 | 79.7 | 83.4 |
 
@@ -153,7 +154,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | *[When2com [CVPR'20]](https://arxiv.org/abs/2006.00176)* | 61.1 | 83.0 | 84.9 |
 | *[Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575)* | 60.4 | 81.8 | 83.8 |
 | === | === | === | === |
-| Early Fusion (Upper Bound) | **80.1** | **93.1** | **94.0** |
+| Early Fusion (Upper Bound) [Cooper [ICDCS'19]](https://arxiv.org/abs/1905.05265) | **80.1** | **93.1** | **94.0** |
 | Late Fusion | 67.4 | 87.2 | 89.3 |
 | No Fusion (Lower Bound) | 57.9 | 83.5 | 86.6 |
 
@@ -175,7 +176,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | *[When2com [CVPR'20]](https://arxiv.org/abs/2006.00176)* | 41.9 | 77.7 | 83.3 |
 | *[Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575)* | 37.2 | 75.8 | 82.2 |
 | === | === | === | === |
-| Early Fusion (Upper Bound) | 51.4 | **90.1** | **93.8** |
+| Early Fusion (Upper Bound) [Cooper [ICDCS'19]](https://arxiv.org/abs/1905.05265) | 51.4 | **90.1** | **93.8** |
 | Late Fusion | 40.3 | 77.2 | 86.4 |
 | No Fusion (Lower Bound) | **57.9** | 83.5 | 86.6 |
 
@@ -197,7 +198,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | *[When2com [CVPR'20]](https://arxiv.org/abs/2006.00176)* | 64.1 | 84.3 | 85.9 |
 | *[Who2com [ICRA'20]](https://arxiv.org/abs/2003.09575)* | 60.9 | 81.8 | 83.7 |
 | === | === | === | === |
-| Early Fusion (Upper Bound) | **82.1** | **93.2** | **94.2** |
+| Early Fusion (Upper Bound) [Cooper [ICDCS'19]](https://arxiv.org/abs/1905.05265) | **82.1** | **93.2** | **94.2** |
 | Late Fusion | 73.8 | 89.6 | 91.2 |
 | No Fusion (Lower Bound) | 62.8 | 84.4 | 86.8 |
 
@@ -209,6 +210,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 
 ## :bookmark:Dataset and Simulator
+
+### CVPR 2023:tada::tada::tada:
+
+- **V2V4Real** (V2V4Real: A Large-Scale Real-World Dataset for Vehicle-to-Vehicle Cooperative Perception) [~~paper~~] [~~code~~] [~~project~~]
+- **V2X-Seq** (V2X-Seq: The Large-Scale Sequential Dataset for the Vehicle-Infrastructure Cooperative Perception and Forecasting) [~~paper~~] [~~code~~] [~~project~~]
 
 ### ICRA 2023
 
@@ -273,6 +279,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 
 ## :bookmark:Method and Framework
+
+### CVPR 2023:tada::tada::tada:
+
+- **CHCOL** (Collaboration Helps Camera Overtake LiDAR in 3D Detection) [~~paper~~] [~~code~~]
+- **FF-Tracking** (V2X-Seq: The Large-Scale Sequential Dataset for the Vehicle-Infrastructure Cooperative Perception and Forecasting) [~~paper~~] [~~code~~]
 
 ### ICLR 2023:tada::tada::tada:
 
