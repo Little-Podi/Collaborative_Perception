@@ -213,7 +213,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### CVPR 2023:tada::tada::tada:
 
-- **V2V4Real** (V2V4Real: A Large-Scale Real-World Dataset for Vehicle-to-Vehicle Cooperative Perception) [~~paper~~] [[code](https://github.com/ucla-mobility/V2V4Real)] [~~project~~]
+- **V2V4Real** (V2V4Real: A Large-Scale Real-World Dataset for Vehicle-to-Vehicle Cooperative Perception) [[paper](https://arxiv.org/abs/2303.07601)] [[code](https://github.com/ucla-mobility/V2V4Real)] [~~project~~]
 - **V2X-Seq** (V2X-Seq: The Large-Scale Sequential Dataset for the Vehicle-Infrastructure Cooperative Perception and Forecasting) [~~paper~~] [~~code~~] [~~project~~]
 
 ### ICRA 2023
