@@ -282,7 +282,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### CVPR 2023:tada::tada::tada:
 
-- **CHCOL** (Collaboration Helps Camera Overtake LiDAR in 3D Detection) [~~paper~~] [~~code~~]
+- **CoCa3D** (Collaboration Helps Camera Overtake LiDAR in 3D Detection) [~~paper~~] [[code](https://github.com/MediaBrain-SJTU/CoCa3D)]
 - **FF-Tracking** (V2X-Seq: The Large-Scale Sequential Dataset for the Vehicle-Infrastructure Cooperative Perception and Forecasting) [~~paper~~] [~~code~~]
 
 ### ICLR 2023:tada::tada::tada:
