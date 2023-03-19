@@ -332,6 +332,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
   - Task: 3D Segmentation
+- **ROBOSAC** (Among Us: Adversarially Robust Collaborative Perception by Consensus) [[paper](https://arxiv.org/abs/2303.09495)] [[code](https://github.com/coperception/ROBOSAC)]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2X-Sim
+  - Task: 3D Detection
 
 ### CVPR 2022:tada::tada::tada:
 
