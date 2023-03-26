@@ -213,7 +213,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### CVPR 2023:tada::tada::tada:
 
-- **V2V4Real** (V2V4Real: A Large-Scale Real-World Dataset for Vehicle-to-Vehicle Cooperative Perception) [[paper](https://arxiv.org/abs/2303.07601)] [[code](https://github.com/ucla-mobility/V2V4Real)] [~~project~~]
+- **V2V4Real** (V2V4Real: A Large-Scale Real-World Dataset for Vehicle-to-Vehicle Cooperative Perception) [[paper](https://arxiv.org/abs/2303.07601)] [[code](https://github.com/ucla-mobility/V2V4Real)] [[project](https://mobility-lab.seas.ucla.edu/v2v4real/)]
 - **V2X-Seq** (V2X-Seq: The Large-Scale Sequential Dataset for the Vehicle-Infrastructure Cooperative Perception and Forecasting) [~~paper~~] [~~code~~] [~~project~~]
 
 ### ICRA 2023
@@ -247,22 +247,9 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 - **DOLPHINS** (DOLPHINS: Dataset for Collaborative Perception Enabled Harmonious and Interconnected Self-Driving) [[paper](https://arxiv.org/abs/2207.07609)] [[code](https://github.com/explosion5/Dolphins)] [[project](https://dolphins-dataset.net/)]
 
-### Preprint 2022
-
-- **CARTI** (VINet: Lightweight, Scalable, and Heterogeneous Cooperative Perception for 3D Object Detection) [[paper](https://arxiv.org/abs/2212.07060)] [~~code~~] [~~project~~]
-- **CARLA-3D** (Collaborative 3D Object Detection for Automatic Vehicle Systems via Learnable Communications) [[paper](https://arxiv.org/abs/2205.11849)] [~~code~~] [~~project~~]
-
 ### ICCV 2021:tada::tada::tada:
 
 - **V2X-Sim** (V2X-Sim: Multi-Agent Collaborative Perception Dataset and Benchmark for Autonomous Driving) [[paper](https://arxiv.org/abs/2202.08449)] [[code](https://github.com/ai4ce/V2X-Sim)] [[project](https://ai4ce.github.io/V2X-Sim/)]
-
-### BMVC 2021
-
-- **WIBAM** (Weakly Supervised Training of Monocular 3D Object Detectors Using Wide Baseline Multi-view Traffic Camera Data) [[paper](https://arxiv.org/abs/2110.10966)] [[code](https://github.com/MatthewHowe/WIBAM)] [[project](https://zenodo.org/record/5609988#.Y8UAvdJBxH5)]
-
-### RAL 2021
-
-- **CODD** (Fast and Robust Registration of Partially Overlapping Point Clouds) [[paper](https://arxiv.org/abs/2112.09922)] [[code](https://github.com/eduardohenriquearnold/CODD)] [[project](https://zenodo.org/record/5720317#.Y8qTD3ZBxD8)]
 
 ### CVPR 2020:tada::tada::tada:
 
@@ -275,6 +262,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 ### ICRA 2020
 
 - **AirSim-CP** (Who2com: Collaborative Perception via Learnable Handshake Communication) [[paper](https://arxiv.org/abs/2003.09575)] [~~code~~] [~~project~~]
+
+### CoRL 2017:tada::tada::tada:
+
+- **CARLA** (CARLA: An Open Urban Driving Simulator) [[paper](https://arxiv.org/abs/1711.03938)] [[code](https://github.com/carla-simulator/carla)] [[project](https://carla.org/)]
 
 
 
@@ -324,14 +315,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### Preprint 2023
 
-- **Cooperverse** (Cooperverse: A Mobile-Edge-Cloud Framework for Universal Cooperative Perception with Mixed Connectivity and Automation) [[paper](https://arxiv.org/abs/2302.03128)] [~~code~~]
-  - Mode: Early Collaboration, Intermediate Collaboration, Late Collaboration
-  - Dataset: CARTI
-  - Task: 3D Detection
-- **GevBEV** (Generating Evidential BEV Maps in Continuous Driving Space) [[paper](https://arxiv.org/abs/2302.02928)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V
-  - Task: 3D Segmentation
 - **ROBOSAC** (Among Us: Adversarially Robust Collaborative Perception by Consensus) [[paper](https://arxiv.org/abs/2303.09495)] [[code](https://github.com/coperception/ROBOSAC)]
   - Mode: Intermediate Collaboration
   - Dataset: V2X-Sim
@@ -342,6 +325,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 - **Coopernaut** (COOPERNAUT: End-to-End Driving with Cooperative Perception for Networked Vehicles) [[paper](https://arxiv.org/abs/2205.02222)] [[code](https://github.com/UT-Austin-RPL/Coopernaut)]
   - Mode: Intermediate Collaboration
   - Dataset: AutoCastSim (a simulation framework)
+  - Task: Policy Learning
+- **LAV** (Learning from All Vehicles) [[paper](https://arxiv.org/abs/2203.11934)] [[code](https://github.com/dotchen/LAV)]
+  - Mode: Late Collaboration
+  - Dataset: CARLA simulator
   - Task: Policy Learning
 - **TCLF** (DAIR-V2X: A Large-Scale Dataset for Vehicle-Infrastructure Cooperative 3D Object Detection) [[paper](https://arxiv.org/abs/2204.05575)] [[code](https://github.com/AIR-THU/DAIR-V2X)]
   - Mode: Late Collaboration
@@ -391,13 +378,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: V2X-Sim
   - Task: 3D Detection
 
-### RAL 2022
-
-- **FPV-RCNN** (Keypoints-Based Deep Feature Fusion for Cooperative Vehicle Detection of Autonomous Driving) [[paper](https://arxiv.org/abs/2109.11615)] [[code](https://github.com/YuanYunshuang/FPV_RCNN)]
-  - Mode: Intermediate Collaboration
-  - Dataset: COMAP
-  - Task: 3D Detection
-
 ### ICRA 2022
 
 - **AttFuse** (OPV2V: An Open Benchmark Dataset and Fusion Pipeline for Perception with Vehicle-to-Vehicle Communication) [[paper](https://arxiv.org/abs/2109.07644)] [[code](https://github.com/DerrickXuNu/OpenCOOD)]
@@ -408,30 +388,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: AirSim-MAP
   - Task: 2D Segmentation
-
-### Preprint 2022
-
-- **ICP&OT** (An Efficient and Robust Object-Level Cooperative Perception Framework for Connected and Automated Driving) [[paper](https://arxiv.org/abs/2210.06289)] [~~code~~]
-  - Mode: Late Collaboration
-  - Dataset: OPV2V
-  - Task: 3D Detection
-- **Learn2com** (Collaborative 3D Object Detection for Automatic Vehicle Systems via Learnable Communications) [[paper](https://arxiv.org/abs/2205.11849)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: CARLA-3D
-  - Task: 3D Detection
-- **Map Container** (Map Container: A Map-based Framework for Cooperative Perception) [[paper](https://arxiv.org/abs/2208.13226)] [~~code~~]
-  - Mode: Late Collaboration
-  - Dataset: Unkown
-  - Task: State Estimation
-
-- **VINet** (VINet: Lightweight, Scalable, and Heterogeneous Cooperative Perception for 3D Object Detection) [[paper](https://arxiv.org/abs/2212.07060)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: CARTI
-  - Task: 3D Detection
-- **V2VAM+LCRN** (Learning for Vehicle-to-Vehicle Cooperative Perception under Lossy Communication) [[paper](https://arxiv.org/abs/2212.08273)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V
-  - Task: 3D Detection
 
 ### NeurIPS 2021:tada::tada::tada:
 
@@ -446,13 +402,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Mode: Intermediate Collaboration
   - Dataset: V2V-Sim (not publicly available)
   - Task: Adversarial Attack
-
-### RAL 2021
-
-- **FastReg** (Fast and Robust Registration of Partially Overlapping Point Clouds) [[paper](https://arxiv.org/abs/2112.09922)] [[code](https://github.com/eduardohenriquearnold/fastreg)]
-  - Mode: Early Collaboration
-  - Dataset: CODD
-  - Task: Point Cloud Registration
 
 ### IROS 2021
 
