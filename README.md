@@ -262,7 +262,13 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: DAIR-V2X, V2X-Sim
   - Task: 3D Detection
 - **CoCa3D** (Collaboration Helps Camera Overtake LiDAR in 3D Detection) [~~paper~~] [[code](https://github.com/MediaBrain-SJTU/CoCa3D)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V
+  - Task: 3D Detection
 - **FF-Tracking** (V2X-Seq: The Large-Scale Sequential Dataset for the Vehicle-Infrastructure Cooperative Perception and Forecasting) [~~paper~~] [[code](https://github.com/AIR-THU/DAIR-V2X-Seq)]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2X-Seq
+  - Task: 3D Tracking
 
 ### ICLR 2023:tada::tada::tada:
 
