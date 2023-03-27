@@ -257,6 +257,8 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ## :bookmark:Method and Framework
 
+- Note: {Related} denotes that it is not a pure collaborative perception paper but has related content.
+
 ### Selected Preprint
 
 - {Related} **CBR** (Calibration-free BEV Representation for Infrastructure Perception) [[paper](https://arxiv.org/abs/2303.03583)] [~~code~~]
