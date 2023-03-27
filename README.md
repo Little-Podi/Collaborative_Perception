@@ -257,6 +257,33 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ## :bookmark:Method and Framework
 
+### Selected Preprint
+
+- {Related} **CBR** (Calibration-free BEV Representation for Infrastructure Perception) [[paper](https://arxiv.org/abs/2303.03583)] [~~code~~]
+  - Mode: No Collaboration (only infrastructure data)
+  - Dataset: DAIR-V2X
+  - Task: 3D Detection
+- **FFNet** (Vehicle-Infrastructure Cooperative 3D Object Detection via Feature Flow Prediction) [[paper](https://arxiv.org/abs/2303.10552)] [[code](https://github.com/haibao-yu/FFNet-VIC3D)]
+  - Mode: Intermediate Collaboration
+  - Dataset: DAIR-V2X
+  - Task: 3D Detection
+- **ROBOSAC** (Among Us: Adversarially Robust Collaborative Perception by Consensus) [[paper](https://arxiv.org/abs/2303.09495)] [[code](https://github.com/coperception/ROBOSAC)]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2X-Sim
+  - Task: 3D Detection
+- **UMC** (UMC: A Unified Bandwidth-efficient and Multi-resolution based Collaborative Perception Framework) [[paper](https://arxiv.org/abs/2303.12400)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2X-Sim, OPV2V
+  - Task: 3D Detection
+- **VIMI** (VIMI: Vehicle-Infrastructure Multi-view Intermediate Fusion for Camera-based 3D Object Detection) [[paper](https://arxiv.org/abs/2303.10975)] [[code](https://github.com/Bosszhe/VIMI)]
+  - Mode: Intermediate Collaboration
+  - Dataset: DAIR-V2X
+  - Task: 3D Detection
+- **V2VLC** (Learning for Vehicle-to-Vehicle Cooperative Perception under Lossy Communication) [[paper](https://arxiv.org/abs/2212.08273)] [[code](https://github.com/jinlong17/V2VLC)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V
+  - Task: 3D Detection
+
 ### CVPR 2023:tada::tada::tada:
 
 - {Related} **BEVHeight** (BEVHeight: A Robust Framework for Vision-based Roadside 3D Object Detection) [[paper](https://arxiv.org/abs/2303.08498)] [[code](https://github.com/ADLab-AutoDrive/BEVHeight)]
@@ -311,29 +338,6 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 - **MPDA** (Bridging the Domain Gap for Multi-Agent Perception) [[paper](https://arxiv.org/abs/2210.08451)] [[code](https://github.com/DerrickXuNu/MPDA)]
   - Mode: Intermediate Collaboration
   - Dataset: V2XSet
-  - Task: 3D Detection
-
-### Preprint 2023
-
-- {Related} **CBR** (Calibration-free BEV Representation for Infrastructure Perception) [[paper](https://arxiv.org/abs/2303.03583)] [~~code~~]
-  - Mode: No Collaboration (only infrastructure data)
-  - Dataset: DAIR-V2X
-  - Task: 3D Detection
-- **FFNet** (Vehicle-Infrastructure Cooperative 3D Object Detection via Feature Flow Prediction) [[paper](https://arxiv.org/abs/2303.10552)] [[code](https://github.com/haibao-yu/FFNet-VIC3D)]
-  - Mode: Intermediate Collaboration
-  - Dataset: DAIR-V2X
-  - Task: 3D Detection
-- **ROBOSAC** (Among Us: Adversarially Robust Collaborative Perception by Consensus) [[paper](https://arxiv.org/abs/2303.09495)] [[code](https://github.com/coperception/ROBOSAC)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Sim
-  - Task: 3D Detection
-- **UMC** (UMC: A Unified Bandwidth-efficient and Multi-resolution based Collaborative Perception Framework) [[paper](https://arxiv.org/abs/2303.12400)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Sim, OPV2V
-  - Task: 3D Detection
-- **VIMI** (VIMI: Vehicle-Infrastructure Multi-view Intermediate Fusion for Camera-based 3D Object Detection) [[paper](https://arxiv.org/abs/2303.10975)] [[code](https://github.com/Bosszhe/VIMI)]
-  - Mode: Intermediate Collaboration
-  - Dataset: DAIR-V2X
   - Task: 3D Detection
 
 ### CVPR 2022:tada::tada::tada:
