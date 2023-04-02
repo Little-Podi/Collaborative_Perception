@@ -217,6 +217,8 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### CVPR 2023:tada::tada::tada:
 
+- **CoPerception-UAVs+** (Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation) [[paper](https://arxiv.org/abs/2303.13560)] [[code](https://github.com/MediaBrain-SJTU/CoCa3D)] [[project](https://siheng-chen.github.io/dataset/CoPerception+/)]
+- **OPV2V+** (Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation) [[paper](https://arxiv.org/abs/2303.13560)] [[code](https://github.com/MediaBrain-SJTU/CoCa3D)] [[project](https://siheng-chen.github.io/dataset/CoPerception+/)]
 - {Real} **V2V4Real** (V2V4Real: A Large-Scale Real-World Dataset for Vehicle-to-Vehicle Cooperative Perception) [[paper](https://arxiv.org/abs/2303.07601)] [[code](https://github.com/ucla-mobility/V2V4Real)] [[project](https://mobility-lab.seas.ucla.edu/v2v4real/)]
 - {Real} **V2X-Seq** (V2X-Seq: The Large-Scale Sequential Dataset for the Vehicle-Infrastructure Cooperative Perception and Forecasting) [~~paper~~] [[code](https://github.com/AIR-THU/DAIR-V2X-Seq)] [[project](https://thudair.baai.ac.cn/index)]
 
@@ -273,6 +275,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: DAIR-V2X
   - Task: Detection
   - Input: Point Cloud
+- **MOT-CUP** (Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation) [[paper](https://arxiv.org/abs/2303.14346)] [~~code~~]
+  - Mode: Early Collaboration, Intermediate Collaboration
+  - Dataset: V2X-Sim
+  - Task: Tracking
+  - Input: Point Cloud
 - **ROBOSAC** (Among Us: Adversarially Robust Collaborative Perception by Consensus) [[paper](https://arxiv.org/abs/2303.09495)] [[code](https://github.com/coperception/ROBOSAC)]
   - Mode: Intermediate Collaboration
   - Dataset: V2X-Sim
@@ -301,11 +308,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: DAIR-V2X, V2X-Sim
   - Task: Detection
   - Input: RGB Image
-- **CoCa3D** (Collaboration Helps Camera Overtake LiDAR in 3D Detection) [~~paper~~] [[code](https://github.com/MediaBrain-SJTU/CoCa3D)]
+- **CoCa3D** (Collaboration Helps Camera Overtake LiDAR in 3D Detection) [[paper](https://arxiv.org/abs/2303.13560)] [[code](https://github.com/MediaBrain-SJTU/CoCa3D)]
   - Mode: Intermediate Collaboration
-  - Dataset: OPV2V
+  - Dataset: OPV2V+, DAIR-V2X, CoPerception-UAVs+
   - Task: Detection
-  - Input: RGB Image, Point Cloud
+  - Input: RGB Image
 - **FF-Tracking** (V2X-Seq: The Large-Scale Sequential Dataset for the Vehicle-Infrastructure Cooperative Perception and Forecasting) [~~paper~~] [[code](https://github.com/AIR-THU/DAIR-V2X-Seq)]
   - Mode: Intermediate Collaboration
   - Dataset: V2X-Seq
