@@ -215,6 +215,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 - Note: {Real} denotes that the sensor data is obtained by real-world collection instead of simulation.
 
+### Selected Preprint
+
+- **DeepAccident** (DeepAccident: A Motion and Accident Prediction Benchmark for V2X Autonomous Driving) [[paper](https://arxiv.org/abs/2304.01168)] [~~code~~] [[project](https://deepaccident.github.io/)]
+
 ### CVPR 2023:tada::tada::tada:
 
 - **CoPerception-UAVs+** (Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation) [[paper](https://arxiv.org/abs/2303.13560)] [[code](https://github.com/MediaBrain-SJTU/CoCa3D)] [[project](https://siheng-chen.github.io/dataset/CoPerception+/)]
@@ -300,6 +304,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: OPV2V
   - Task: Detection
   - Input: Point Cloud
+- **V2XFormer** (DeepAccident: A Motion and Accident Prediction Benchmark for V2X Autonomous Driving) [[paper](https://arxiv.org/abs/2304.01168)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: DeepAccident
+  - Task: Detection, Forecasting
+  - Input: RGB Image
 
 ### CVPR 2023:tada::tada::tada:
 
