@@ -217,7 +217,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### Selected Preprint
 
-- **DeepAccident** (DeepAccident: A Motion and Accident Prediction Benchmark for V2X Autonomous Driving) [[paper](https://arxiv.org/abs/2304.01168)] [~~code~~] [[project](https://deepaccident.github.io/)]
+- **DeepAccident** (DeepAccident: A Motion and Accident Prediction Benchmark for V2X Autonomous Driving) [[paper](https://arxiv.org/abs/2304.01168)] [[code](https://github.com/tianqi-wang1996/DeepAccident)] [[project](https://deepaccident.github.io/)]
 
 ### CVPR 2023:tada::tada::tada:
 
@@ -304,7 +304,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: OPV2V
   - Task: Detection
   - Input: Point Cloud
-- **V2XFormer** (DeepAccident: A Motion and Accident Prediction Benchmark for V2X Autonomous Driving) [[paper](https://arxiv.org/abs/2304.01168)] [~~code~~]
+- **V2XFormer** (DeepAccident: A Motion and Accident Prediction Benchmark for V2X Autonomous Driving) [[paper](https://arxiv.org/abs/2304.01168)] [[code](https://github.com/tianqi-wang1996/DeepAccident)]
   - Mode: Intermediate Collaboration
   - Dataset: DeepAccident
   - Task: Detection, Forecasting
