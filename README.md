@@ -269,7 +269,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### Selected Preprint
 
-- {Related} **CBR** (Calibration-free BEV Representation for Infrastructure Perception) [[paper](https://arxiv.org/abs/2303.03583)] [~~code~~]
+- {Related} **CBR** (Calibration-free BEV Representation for Infrastructure Perception) [[paper](https://arxiv.org/abs/2303.03583)] [[code](https://github.com/leofansq/CBR)]
   - Mode: No Collaboration (only infrastructure data)
   - Dataset: DAIR-V2X
   - Task: Detection
