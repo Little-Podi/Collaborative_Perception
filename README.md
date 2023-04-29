@@ -279,6 +279,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: DAIR-V2X
   - Task: Detection
   - Input: Point Cloud
+- **HM-ViT** (HM-ViT: Hetero-Modal Vehicle-to-Vehicle Cooperative Perception with Vision Transformer) [[paper](https://arxiv.org/abs/2304.10628)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V
+  - Task: Detection
+  - Input: RGB Image, Point Cloud
 - **MOT-CUP** (Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation) [[paper](https://arxiv.org/abs/2303.14346)] [~~code~~]
   - Mode: Early Collaboration, Intermediate Collaboration
   - Dataset: V2X-Sim
@@ -289,12 +294,12 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: V2X-Sim
   - Task: Detection
   - Input: Point Cloud
-- **UMC** (UMC: A Unified Bandwidth-efficient and Multi-resolution based Collaborative Perception Framework) [[paper](https://arxiv.org/abs/2303.12400)] [~~code~~]
+- **UMC** (UMC: A Unified Bandwidth-Efficient and Multi-Resolution Based Collaborative Perception Framework) [[paper](https://arxiv.org/abs/2303.12400)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2X-Sim
   - Task: Detection
   - Input: Point Cloud
-- **VIMI** (VIMI: Vehicle-Infrastructure Multi-view Intermediate Fusion for Camera-based 3D Object Detection) [[paper](https://arxiv.org/abs/2303.10975)] [[code](https://github.com/Bosszhe/VIMI)]
+- **VIMI** (VIMI: Vehicle-Infrastructure Multi-View Intermediate Fusion for Camera-Based 3D Object Detection) [[paper](https://arxiv.org/abs/2303.10975)] [[code](https://github.com/Bosszhe/VIMI)]
   - Mode: Intermediate Collaboration
   - Dataset: DAIR-V2X
   - Task: Detection
@@ -309,6 +314,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: DeepAccident
   - Task: Detection, Forecasting
   - Input: RGB Image
+- **V2X-INCOP** (Interruption-Aware Cooperative Perception for V2X Communication-Aided Autonomous Driving) [[paper](https://arxiv.org/abs/2304.11821)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2X-Sim, DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
 
 ### CVPR 2023:tada::tada::tada:
 
