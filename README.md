@@ -269,6 +269,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 ### Selected Preprint
 
+- **CBM** (A Spatial Calibration Method for Robust Cooperative Perception) [[paper](https://arxiv.org/abs/2304.12033)] [[code](https://github.com/zhyingS/CBM)]
+  - Mode: Late Collaboration
+  - Dataset: OPV2V
+  - Task: Detection
+  - Input: Point Cloud
 - {Related} **CBR** (Calibration-free BEV Representation for Infrastructure Perception) [[paper](https://arxiv.org/abs/2303.03583)] [[code](https://github.com/leofansq/CBR)]
   - Mode: No Collaboration (only infrastructure data)
   - Dataset: DAIR-V2X
@@ -289,6 +294,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: V2X-Sim
   - Task: Tracking
   - Input: Point Cloud
+- **OTICP** (A Cooperative Perception System Robust to Localization Errors) [[paper](https://arxiv.org/abs/2210.06289)] [~~code~~]
+  - Mode: Late Collaboration
+  - Dataset: OPV2V
+  - Task: Detection
+  - Input: Point Cloud
 - **ROBOSAC** (Among Us: Adversarially Robust Collaborative Perception by Consensus) [[paper](https://arxiv.org/abs/2303.09495)] [[code](https://github.com/coperception/ROBOSAC)]
   - Mode: Intermediate Collaboration
   - Dataset: V2X-Sim
@@ -304,7 +314,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: DAIR-V2X
   - Task: Detection
   - Input: RGB Image
-- **V2VLC** (Learning for Vehicle-to-Vehicle Cooperative Perception under Lossy Communication) [[paper](https://arxiv.org/abs/2212.08273)] [[code](https://github.com/jinlong17/V2VLC)]
+- **V2VLC** (Learning for Vehicle-to-Vehicle Cooperative Perception Under Lossy Communication) [[paper](https://arxiv.org/abs/2212.08273)] [[code](https://github.com/jinlong17/V2VLC)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
   - Task: Detection
