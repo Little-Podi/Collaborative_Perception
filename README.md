@@ -33,7 +33,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 | Method | Source | Ideal AP@0.7 | Ideal AP@0.5 | Noisy AP@0.7 | Noisy AP@0.5 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | [MPDA [ICRA'23]](https://arxiv.org/abs/2210.08451) | [link](https://arxiv.org/pdf/2210.08451) | :trophy:73.4:star2: | - | - | - |
-| [MVRF [PAAP'22]](https://ieeexplore.ieee.org/abstract/document/10010640) | [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10010640) | :trophy:71.5:star: | :trophy:88.9:star2: | :trophy:61.9:star2: | :trophy:84.3:star2: |
+| [MVRF [PAAP'22]](https://ieeexplore.ieee.org/document/10010640) | [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10010640) | :trophy:71.5:star: | :trophy:88.9:star2: | :trophy:61.9:star2: | :trophy:84.3:star2: |
 | [V2X-ViT [ECCV'22]](https://arxiv.org/abs/2203.10638) | [link](https://arxiv.org/pdf/2203.10638) | 71.2 | :trophy:88.2:star: | :trophy:61.4:star: | :trophy:83.6:star: |
 | [DiscoNet [NeurIPS'21]](https://arxiv.org/abs/2111.00643) | [link](https://arxiv.org/pdf/2203.10638) | 69.5 | 84.4 | 54.1 | 79.8 |
 | [F-Cooper [SEC'19]](https://arxiv.org/abs/1909.06459) | [link](https://arxiv.org/pdf/2203.10638) | 68.0 | 84.0 | 46.9 | 71.5 |
@@ -279,6 +279,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: DAIR-V2X
   - Task: Detection
   - Input: RGB Image
+- **FF** (Attention Based Feature Fusion For Multi-Agent Collaborative Perception) [[paper](https://arxiv.org/abs/2305.02061)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2X-Sim
+  - Task: Detection
+  - Input: Point Cloud
 - **FFNet** (Vehicle-Infrastructure Cooperative 3D Object Detection via Feature Flow Prediction) [[paper](https://arxiv.org/abs/2303.10552)] [[code](https://github.com/haibao-yu/FFNet-VIC3D)]
   - Mode: Intermediate Collaboration
   - Dataset: DAIR-V2X
@@ -396,6 +401,11 @@ This repository is a paper digest of recent advances in **collaborative** / **co
   - Dataset: V2XSet
   - Task: Detection
   - Input: Point Cloud
+- **WNT** (We Need to Talk: Identifying and Overcoming Communication-Critical Scenarios for Self-Driving) [[paper](https://arxiv.org/abs/2305.04352)] [~~code~~]
+  - Mode: Late Collaboration
+  - Dataset: CoBEV-Sim (simulator)
+  - Task: Planning
+  - Input: Point Cloud
 
 ### CVPR 2022:tada::tada::tada:
 
@@ -498,7 +508,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 
 - **MASH** (Overcoming Obstructions via Bandwidth-Limited Multi-Agent Spatial Handshaking) [[paper](https://arxiv.org/abs/2107.00771)] [[code](https://github.com/yifanlu0227/CoAlign)]
   - Mode: Late Collaboration
-  - Dataset: AirSim (simulator)
+  - Dataset: AirSim
   - Task: Segmentation
   - Input: RGB Image
 
@@ -531,5 +541,10 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 - **Who2com** (Who2com: Collaborative Perception via Learnable Handshake Communication) [[paper](https://arxiv.org/abs/2003.09575)] [[code](https://github.com/GT-RIPL/MultiAgentPerception)]
   - Mode: Intermediate Collaboration
   - Dataset: AirSim-CP (has an asynchronous issue between views)
+  - Task: Segmentation
+  - Input: RGB Image
+- **MAIN** (Enhancing Multi-Robot Perception via Learned Data Association) [[paper](https://arxiv.org/abs/2107.00769)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: AirSim
   - Task: Segmentation
   - Input: RGB Image
