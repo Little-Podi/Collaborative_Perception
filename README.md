@@ -88,40 +88,15 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### Selected Preprint
 
-- **CBM** (A Spatial Calibration Method for Robust Cooperative Perception) [[paper](https://arxiv.org/abs/2304.12033)] [[code](https://github.com/zhyingS/CBM)]
-  - Mode: Late Collaboration
-  - Dataset: OPV2V
-  - Task: Detection
-  - Input: Point Cloud
-- {Related} **CBR** (Calibration-free BEV Representation for Infrastructure Perception) [[paper](https://arxiv.org/abs/2303.03583)] [[code](https://github.com/leofansq/CBR)]
-  - Mode: No Collaboration (only infrastructure data)
-  - Dataset: DAIR-V2X
-  - Task: Detection
-  - Input: RGB Image
-- **FF** (Attention Based Feature Fusion For Multi-Agent Collaborative Perception) [[paper](https://arxiv.org/abs/2305.02061)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Sim
-  - Task: Detection
-  - Input: Point Cloud
 - **FFNet** (Vehicle-Infrastructure Cooperative 3D Object Detection via Feature Flow Prediction) [[paper](https://arxiv.org/abs/2303.10552)] [[code](https://github.com/haibao-yu/FFNet-VIC3D)]
   - Mode: Intermediate Collaboration
   - Dataset: DAIR-V2X
   - Task: Detection
   - Input: Point Cloud
-- **HM-ViT** (HM-ViT: Hetero-Modal Vehicle-to-Vehicle Cooperative Perception with Vision Transformer) [[paper](https://arxiv.org/abs/2304.10628)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V
-  - Task: Detection
-  - Input: RGB Image, Point Cloud
 - **MOT-CUP** (Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation) [[paper](https://arxiv.org/abs/2303.14346)] [~~code~~]
   - Mode: Early Collaboration, Intermediate Collaboration
   - Dataset: V2X-Sim
   - Task: Tracking
-  - Input: Point Cloud
-- **OTICP** (A Cooperative Perception System Robust to Localization Errors) [[paper](https://arxiv.org/abs/2210.06289)] [~~code~~]
-  - Mode: Late Collaboration
-  - Dataset: OPV2V
-  - Task: Detection
   - Input: Point Cloud
 - **ROBOSAC** (Among Us: Adversarially Robust Collaborative Perception by Consensus) [[paper](https://arxiv.org/abs/2303.09495)] [[code](https://github.com/coperception/ROBOSAC)]
   - Mode: Intermediate Collaboration
@@ -138,21 +113,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: DAIR-V2X
   - Task: Detection
   - Input: RGB Image
-- **V2VLC** (Learning for Vehicle-to-Vehicle Cooperative Perception Under Lossy Communication) [[paper](https://arxiv.org/abs/2212.08273)] [[code](https://github.com/jinlong17/V2VLC)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V
-  - Task: Detection
-  - Input: Point Cloud
 - **V2XFormer** (DeepAccident: A Motion and Accident Prediction Benchmark for V2X Autonomous Driving) [[paper](https://arxiv.org/abs/2304.01168)] [[code](https://github.com/tianqi-wang1996/DeepAccident)]
   - Mode: Intermediate Collaboration
   - Dataset: DeepAccident
   - Task: Detection, Forecasting
   - Input: RGB Image
-- **V2X-INCOP** (Interruption-Aware Cooperative Perception for V2X Communication-Aided Autonomous Driving) [[paper](https://arxiv.org/abs/2304.11821)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2X-Sim, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 
 ### CVPR 2023:tada::tada::tada:
 
