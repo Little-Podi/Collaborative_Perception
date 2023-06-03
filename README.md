@@ -122,7 +122,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### CVPR 2023:tada::tada::tada:
 
-- {Related} **BEVHeight** (BEVHeight: A Robust Framework for Vision-based Roadside 3D Object Detection) [[paper](https://arxiv.org/abs/2303.08498)] [[code](https://github.com/ADLab-AutoDrive/BEVHeight)]
+- {Related} **BEVHeight** (BEVHeight: A Robust Framework for Vision-Based Roadside 3D Object Detection) [[paper](https://arxiv.org/abs/2303.08498)] [[code](https://github.com/ADLab-AutoDrive/BEVHeight)]
   - Mode: No Collaboration (only infrastructure data)
   - Dataset: DAIR-V2X, V2X-Sim
   - Task: Detection
