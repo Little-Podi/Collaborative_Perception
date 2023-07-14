@@ -138,6 +138,14 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Tracking
   - Input: Point Cloud
 
+### ICCV 2023:tada::tada::tada:
+
+- **HM-ViT** (HM-ViT: Hetero-Modal Vehicle-to-Vehicle Cooperative perception with Vision Transformer) [[paper](https://arxiv.org/abs/2304.10628)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V
+  - Task: Detection
+  - Input: RGB Image, Point Cloud
+
 ### ICLR 2023:tada::tada::tada:
 
 - {Related} **CO3** (CO3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving) [[paper&review](https://openreview.net/forum?id=QUaDoIdgo0)] [[code](https://github.com/Runjian-Chen/CO3)]
