@@ -86,6 +86,10 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Tracking
   - Input: Point Cloud
 
+### NeurIPS 2023:tada::tada::tada:
+
+- **Wait and See**
+
 ### ICCV 2023:tada::tada::tada:
 
 - **HM-ViT** (HM-ViT: Hetero-Modal Vehicle-to-Vehicle Cooperative Perception with Vision Transformer) [[paper](https://arxiv.org/abs/2304.10628)] [~~code~~]
@@ -263,6 +267,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### ECCV 2020:tada::tada::tada:
 
+- **DSDNet** (DSDNet: Deep Structured Self-Driving Network) [[paper](https://arxiv.org/abs/2008.06041)] [~~code~~]
+  - Mode: Late Collaboration
+  - Dataset: nuScenes, CARLA (simulator), ATG4D
+  - Task: Planning
+  - Input: Point Cloud
 - **V2VNet** (V2VNet: Vehicle-to-Vehicle Communication for Joint Perception and Prediction) [[paper](https://arxiv.org/abs/2008.07519)] [[code](https://github.com/DerrickXuNu/OpenCOOD)]
   - Mode: Intermediate Collaboration
   - Dataset: V2V-Sim (not publicly available)
@@ -306,6 +315,10 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 - **OPV2V+** (Collaboration Helps Camera Overtake LiDAR in 3D Detection) [[paper](https://arxiv.org/abs/2303.13560)] [[code](https://github.com/MediaBrain-SJTU/CoCa3D)] [[project](https://siheng-chen.github.io/dataset/CoPerception+/)]
 - {Real} **V2V4Real** (V2V4Real: A Large-Scale Real-World Dataset for Vehicle-to-Vehicle Cooperative Perception) [[paper](https://arxiv.org/abs/2303.07601)] [[code](https://github.com/ucla-mobility/V2V4Real)] [[project](https://mobility-lab.seas.ucla.edu/v2v4real/)]
 - {Real} **V2X-Seq** (V2X-Seq: The Large-Scale Sequential Dataset for the Vehicle-Infrastructure Cooperative Perception and Forecasting) [[paper](https://arxiv.org/abs/2305.05938)] [[code](https://github.com/AIR-THU/DAIR-V2X-Seq)] [[project](https://thudair.baai.ac.cn/index)]
+
+### NeurIPS 2023:tada::tada::tada:
+
+- **Wait and See**
 
 ### ICCV 2023:tada::tada::tada:
 
