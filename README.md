@@ -47,11 +47,6 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: V2X-Sim
   - Task: Tracking
   - Input: Point Cloud
-- **ROBOSAC** (Among Us: Adversarially Robust Collaborative Perception by Consensus) [[paper](https://arxiv.org/abs/2303.09495)] [[code](https://github.com/coperception/ROBOSAC)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Sim
-  - Task: Detection
-  - Input: Point Cloud
 - **UMC** (UMC: A Unified Bandwidth-Efficient and Multi-Resolution Based Collaborative Perception Framework) [[paper](https://arxiv.org/abs/2303.12400)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2X-Sim
@@ -97,6 +92,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V
   - Task: Detection
   - Input: RGB Image, Point Cloud
+- **ROBOSAC** (Among Us: Adversarially Robust Collaborative Perception by Consensus) [[paper](https://arxiv.org/abs/2303.09495)] [[code](https://github.com/coperception/ROBOSAC)]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2X-Sim
+  - Task: Detection
+  - Input: Point Cloud
 
 ### ICLR 2023:tada::tada::tada:
 
