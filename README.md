@@ -47,11 +47,6 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: V2X-Sim
   - Task: Tracking
   - Input: Point Cloud
-- **UMC** (UMC: A Unified Bandwidth-Efficient and Multi-Resolution Based Collaborative Perception Framework) [[paper](https://arxiv.org/abs/2303.12400)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2X-Sim
-  - Task: Detection
-  - Input: Point Cloud
 - **VIMI** (VIMI: Vehicle-Infrastructure Multi-View Intermediate Fusion for Camera-Based 3D Object Detection) [[paper](https://arxiv.org/abs/2303.10975)] [[code](https://github.com/Bosszhe/VIMI)]
   - Mode: Intermediate Collaboration
   - Dataset: DAIR-V2X
@@ -95,6 +90,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **ROBOSAC** (Among Us: Adversarially Robust Collaborative Perception by Consensus) [[paper](https://arxiv.org/abs/2303.09495)] [[code](https://github.com/coperception/ROBOSAC)]
   - Mode: Intermediate Collaboration
   - Dataset: V2X-Sim
+  - Task: Detection
+  - Input: Point Cloud
+- **UMC** (UMC: A Unified Bandwidth-Efficient and Multi-Resolution Based Collaborative Perception Framework) [[paper](https://arxiv.org/abs/2303.12400)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2X-Sim
   - Task: Detection
   - Input: Point Cloud
 
