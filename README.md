@@ -78,10 +78,15 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### NeurIPS 2023:tada::tada::tada:
 
-- **Wait and See**
+- **Just Wait and See**
 
 ### ICCV 2023:tada::tada::tada:
 
+- **CORE** (CORE: Cooperative Reconstruction for Multi-Agent Perception) [[paper](https://arxiv.org/abs/2307.11514)] [[code](https://github.com/zllxot/CORE)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V
+  - Task: Segmentation, Detection
+  - Input: Point Cloud
 - **HM-ViT** (HM-ViT: Hetero-Modal Vehicle-to-Vehicle Cooperative Perception with Vision Transformer) [[paper](https://arxiv.org/abs/2304.10628)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
@@ -91,6 +96,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Mode: Intermediate Collaboration
   - Dataset: V2X-Sim
   - Task: Detection
+  - Input: Point Cloud
+- **SCOPE** (Spatio-Temporal Domain Awareness for Multi-Agent Collaborative Perception) [[paper](https://arxiv.org/abs/2307.13929)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2XSet, DAIR-V2X
+  - Task: Segmentation, Detection
   - Input: Point Cloud
 - **UMC** (UMC: A Unified Bandwidth-Efficient and Multi-Resolution Based Collaborative Perception Framework) [[paper](https://arxiv.org/abs/2303.12400)] [~~code~~]
   - Mode: Intermediate Collaboration
@@ -174,7 +184,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 - **Where2comm** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper&review](https://openreview.net/forum?id=dLL4KXzKUpS)] [[code](https://github.com/MediaBrain-SJTU/where2comm)]
   - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2X-Sim, DAIR-V2X, CoPerception-UAVs
+  - Dataset: OPV2V, DAIR-V2X, V2X-Sim, CoPerception-UAVs
   - Task: Detection
   - Input: Point Cloud
 
@@ -318,7 +328,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 
 ### NeurIPS 2023:tada::tada::tada:
 
-- **Wait and See**
+- **Just Wait and See**
 
 ### ICCV 2023:tada::tada::tada:
 
