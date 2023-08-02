@@ -87,7 +87,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V
   - Task: Segmentation, Detection
   - Input: Point Cloud
-- **HM-ViT** (HM-ViT: Hetero-Modal Vehicle-to-Vehicle Cooperative Perception with Vision Transformer) [[paper](https://arxiv.org/abs/2304.10628)] [~~code~~]
+- **HM-ViT** (HM-ViT: Hetero-Modal Vehicle-to-Vehicle Cooperative Perception with Vision Transformer) [[paper](https://arxiv.org/abs/2304.10628)] [[code](https://github.com/XHwind/HM-ViT)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
   - Task: Detection
