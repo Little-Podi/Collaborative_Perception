@@ -102,7 +102,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: V2X-Sim
   - Task: Detection
   - Input: Point Cloud
-- **SCOPE** (Spatio-Temporal Domain Awareness for Multi-Agent Collaborative Perception) [[paper](https://arxiv.org/abs/2307.13929)] [~~code~~]
+- **SCOPE** (Spatio-Temporal Domain Awareness for Multi-Agent Collaborative Perception) [[paper](https://arxiv.org/abs/2307.13929)] [[code](https://github.com/starfdu1418/SCOPE)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2XSet, DAIR-V2X
   - Task: Segmentation, Detection
