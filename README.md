@@ -107,6 +107,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V, V2XSet, DAIR-V2X
   - Task: Segmentation, Detection
   - Input: Point Cloud
+- **TransIFF** (TransIFF: An Instance-Level Feature Fusion Framework for Vehicle-Infrastructure Cooperative 3D Detection with Transformers) [~~paper~~] [~~code~~]
 - **UMC** (UMC: A Unified Bandwidth-Efficient and Multi-Resolution Based Collaborative Perception Framework) [[paper](https://arxiv.org/abs/2303.12400)] [[code](https://github.com/ispc-lab/UMC)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2X-Sim
