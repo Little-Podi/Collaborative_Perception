@@ -37,6 +37,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### Selected Preprint
 
+- **CoBEVFusion** (CoBEVFusion: Cooperative Perception with LiDAR-Camera Bird's-Eye View Fusion) [[paper](https://arxiv.org/abs/2310.06008)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V
+  - Task: Segmentation, Detection
+  - Input: RGB Image, Point Cloud
 - **MOT-CUP** (Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation) [[paper](https://arxiv.org/abs/2303.14346)] [[code](https://github.com/susanbao/mot_cup)]
   - Mode: Early Collaboration, Intermediate Collaboration
   - Dataset: V2X-Sim
