@@ -351,7 +351,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 
 ### ICCV 2023:tada::tada::tada:
 
-- **Roadside-Opt** (Optimizing the Placement of Roadside LiDARs for Autonomous Driving) [[paper](https://openaccess.thecvf.com/content/ICCV2023/html/Jiang_Optimizing_the_Placement_of_Roadside_LiDARs_for_Autonomous_Driving_ICCV_2023_paper.html)] [~~code~~] [~~project~~]
+- **Roadside-Opt** (Optimizing the Placement of Roadside LiDARs for Autonomous Driving) [[paper](https://arxiv.org/abs/2310.07247)] [~~code~~] [~~project~~]
 
 ### ICRA 2023
 
