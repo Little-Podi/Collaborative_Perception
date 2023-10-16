@@ -83,7 +83,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### NeurIPS 2023:tada::tada::tada:
 
-- **CoBEVFlow** (Robust Asynchronous Collaborative 3D Detection via Bird's Eye View Flow) [[paper&review](https://openreview.net/forum?id=UHIDdtxmVS)] [~~code~~]
+- **CoBEVFlow** (Robust Asynchronous Collaborative 3D Detection via Bird's Eye View Flow) [[paper&review](https://openreview.net/forum?id=UHIDdtxmVS)] [[code](https://github.com/MediaBrain-SJTU/CoBEVFlow)]
   - Mode: Intermediate Collaboration
   - Dataset: DAIR-V2X, IRV2V
   - Task: Detection
