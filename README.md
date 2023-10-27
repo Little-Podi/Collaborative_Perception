@@ -63,6 +63,14 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Detection, Forecasting
   - Input: RGB Image
 
+### WACV 2024
+
+- **MACP** (MACP: Efficient Model Adaptation for Cooperative Perception) [[paper](https://arxiv.org/abs/2310.16870)] [[code](https://github.com/PurdueDigitalTwin/MACP)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2V4Real
+  - Task: Detection
+  - Input: Point Cloud
+
 ### CVPR 2023:tada::tada::tada:
 
 - {Related} **BEVHeight** (BEVHeight: A Robust Framework for Vision-Based Roadside 3D Object Detection) [[paper](https://arxiv.org/abs/2303.08498)] [[code](https://github.com/ADLab-AutoDrive/BEVHeight)]
