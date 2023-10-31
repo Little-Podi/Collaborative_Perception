@@ -37,6 +37,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### Selected Preprint
 
+- **AR2VP** (Dynamic V2X Autonomous Perception from Road-to-Vehicle Vision) [[paper](https://arxiv.org/abs/2310.19113)] [[code](https://github.com/tjy1423317192/AP2VP)]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2X-Sim
+  - Task: Segmentation
+  - Input: Point Cloud
 - **CoBEVFusion** (CoBEVFusion: Cooperative Perception with LiDAR-Camera Bird's-Eye View Fusion) [[paper](https://arxiv.org/abs/2310.06008)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
