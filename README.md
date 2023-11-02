@@ -148,6 +148,19 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Representation Learning
   - Input: Point Cloud
 
+### MM 2023
+
+- **FeaCo** (FeaCo: Reaching Robust Feature-Level Consensus in Noisy Pose Conditions) [[paper](https://dl.acm.org/doi/abs/10.1145/3581783.3611880)] [[code](https://github.com/jmgu0212/FeaCo)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2V4Real
+  - Task: Detection
+  - Input: Point Cloud
+- **What2comm** (What2comm: Towards Communication-Efficient Collaborative Perception via Feature Decoupling) [[paper](https://dl.acm.org/doi/abs/10.1145/3581783.3611699)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2XSet, DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
+
 ### WACV 2023
 
 - **AdaFusion** (Adaptive Feature Fusion for Cooperative Perception Using LiDAR Point Clouds) [[paper](https://arxiv.org/abs/2208.00116)] [[code](https://github.com/DonghaoQiao/Adaptive-Feature-Fusion-for-Cooperative-Perception)]
