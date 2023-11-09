@@ -106,6 +106,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: DAIR-V2X
   - Task: Detection
   - Input: Point Cloud
+- **How2comm** (How2comm: Communication-Efficient and Collaboration-Pragmatic Multi-Agent Perception) [[paper&review](https://openreview.net/forum?id=Dbaxm9ujq6)] [[code](https://github.com/ydk122024/How2comm)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2XSet, DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
 
 ### ICCV 2023:tada::tada::tada:
 
