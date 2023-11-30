@@ -67,6 +67,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: DeepAccident
   - Task: Detection, Forecasting
   - Input: RGB Image
+- **V2X-Graph** (Learning Cooperative Trajectory Representations for Motion Forecasting) [[paper](https://arxiv.org/abs/2311.00371)] [[code](https://github.com/AIR-THU/V2X-Graph)]
+  - Mode: Intermediate Collaboration
+  - Dataset: DAIR-V2X-Seq, DAIR-V2X-Traj
+  - Task: Forecasting
+  - Input: Vector Map
 
 ### WACV 2024
 
@@ -368,6 +373,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 ### Selected Preprint
 
 - **DeepAccident** (DeepAccident: A Motion and Accident Prediction Benchmark for V2X Autonomous Driving) [[paper](https://arxiv.org/abs/2304.01168)] [[code](https://github.com/tianqi-wang1996/DeepAccident)] [[project](https://deepaccident.github.io/)]
+- **V2X-Traj** (Learning Cooperative Trajectory Representations for Motion Forecasting) [[paper](https://arxiv.org/abs/2311.00371)] [[code](https://github.com/AIR-THU/V2X-Graph)] [[project](https://thudair.baai.ac.cn/index)]
 
 ### CVPR 2023:tada::tada::tada:
 
