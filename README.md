@@ -57,6 +57,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: DAIR-V2X-Seq
   - Task: Detection
   - Input: RGB Image
+- **SiCP** (SiCP: Simultaneous Individual and Cooperative Perception for 3D Object Detection in Connected and Automated Vehicles) [[paper](https://arxiv.org/abs/2312.04822)] [[code](https://github.com/DarrenQu/SiCP)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V
+  - Task: Detection
+  - Input: Point Cloud
 - **VIMI** (VIMI: Vehicle-Infrastructure Multi-View Intermediate Fusion for Camera-Based 3D Object Detection) [[paper](https://arxiv.org/abs/2303.10975)] [[code](https://github.com/Bosszhe/VIMI)]
   - Mode: Intermediate Collaboration
   - Dataset: DAIR-V2X
