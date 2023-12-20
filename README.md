@@ -86,7 +86,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Detection
   - Input: Point Cloud
 
-### CVPR 2023:tada::tada::tada:
+### CVPR 2023
 
 - {Related} **BEVHeight** (BEVHeight: A Robust Framework for Vision-Based Roadside 3D Object Detection) [[paper](https://arxiv.org/abs/2303.08498)] [[code](https://github.com/ADLab-AutoDrive/BEVHeight)]
   - Mode: No Collaboration (only infrastructure data)
@@ -104,7 +104,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Tracking
   - Input: Point Cloud
 
-### NeurIPS 2023:tada::tada::tada:
+### NeurIPS 2023
 
 - **CoBEVFlow** (Robust Asynchronous Collaborative 3D Detection via Bird's Eye View Flow) [[paper&review](https://openreview.net/forum?id=UHIDdtxmVS)] [[code](https://github.com/MediaBrain-SJTU/CoBEVFlow)]
   - Mode: Intermediate Collaboration
@@ -122,7 +122,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Detection
   - Input: Point Cloud
 
-### ICCV 2023:tada::tada::tada:
+### ICCV 2023
 
 - **CORE** (CORE: Cooperative Reconstruction for Multi-Agent Perception) [[paper](https://arxiv.org/abs/2307.11514)] [[code](https://github.com/zllxot/CORE)]
   - Mode: Intermediate Collaboration
@@ -155,7 +155,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Detection
   - Input: Point Cloud
 
-### ICLR 2023:tada::tada::tada:
+### ICLR 2023
 
 - {Related} **CO3** (CO3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving) [[paper&review](https://openreview.net/forum?id=QUaDoIdgo0)] [[code](https://github.com/Runjian-Chen/CO3)]
   - Mode: Early Collaboration (for contrastive learning)
@@ -227,7 +227,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Planning
   - Input: Point Cloud
 
-### CVPR 2022:tada::tada::tada:
+### CVPR 2022
 
 - **Coopernaut** (COOPERNAUT: End-to-End Driving with Cooperative Perception for Networked Vehicles) [[paper](https://arxiv.org/abs/2205.02222)] [[code](https://github.com/UT-Austin-RPL/Coopernaut)]
   - Mode: Intermediate Collaboration
@@ -245,7 +245,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Detection
   - Input: RGB Image, Point Cloud
 
-### NeurIPS 2022:tada::tada::tada:
+### NeurIPS 2022
 
 - **Where2comm** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper&review](https://openreview.net/forum?id=dLL4KXzKUpS)] [[code](https://github.com/MediaBrain-SJTU/where2comm)]
   - Mode: Intermediate Collaboration
@@ -253,7 +253,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Detection
   - Input: Point Cloud
 
-### ECCV 2022:tada::tada::tada:
+### ECCV 2022
 
 - **SyncNet** (Latency-Aware Collaborative Perception) [[paper](https://arxiv.org/abs/2207.08560)] [[code](https://github.com/MediaBrain-SJTU/SyncNet)]
   - Mode: Intermediate Collaboration
@@ -266,7 +266,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Detection
   - Input: Point Cloud
 
-### CoRL 2022:tada::tada::tada:
+### CoRL 2022
 
 - **CoBEVT** (CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers) [[paper&review](https://openreview.net/forum?id=PAFEQQtDf8s)] [[code](https://github.com/DerrickXuNu/CoBEVT)]
   - Mode: Intermediate Collaboration
@@ -308,7 +308,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Segmentation
   - Input: RGB Image
 
-### NeurIPS 2021:tada::tada::tada:
+### NeurIPS 2021
 
 - **DiscoNet** (Learning Distilled Collaboration Graph for Multi-Agent Perception) [[paper&review](https://openreview.net/forum?id=ZRcjSOmYraB)] [[code](https://github.com/ai4ce/DiscoNet)]
   - Mode: Early Collaboration (teacher model), Intermediate Collaboration (student model)
@@ -316,7 +316,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Detection
   - Input: Point Cloud
 
-### ICCV 2021:tada::tada::tada:
+### ICCV 2021
 
 - **Adversarial V2V** (Adversarial Attacks On Multi-Agent Communication) [[paper](https://arxiv.org/abs/2101.06560)] [~~code~~]
   - Mode: Intermediate Collaboration
@@ -332,7 +332,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Segmentation
   - Input: RGB Image
 
-### CVPR 2020:tada::tada::tada:
+### CVPR 2020
 
 - **When2com** (When2com: Multi-Agent Perception via Communication Graph Grouping) [[paper](https://arxiv.org/abs/2006.00176)] [[code](https://github.com/GT-RIPL/MultiAgentPerception)]
   - Mode: Intermediate Collaboration
@@ -340,7 +340,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Segmentation, Classification
   - Input: RGB Image
 
-### ECCV 2020:tada::tada::tada:
+### ECCV 2020
 
 - **DSDNet** (DSDNet: Deep Structured Self-Driving Network) [[paper](https://arxiv.org/abs/2008.06041)] [~~code~~]
   - Mode: Late Collaboration
@@ -353,7 +353,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Detection, Forecasting
   - Input: Point Cloud
 
-### CoRL 2020:tada::tada::tada:
+### CoRL 2020
 
 - **Robust V2V** (Learning to Communicate and Correct Pose Errors) [[paper](https://arxiv.org/abs/2011.05289)] [[code](https://github.com/yifanlu0227/CoAlign)]
   - Mode: Intermediate Collaboration
@@ -385,18 +385,18 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 - **DeepAccident** (DeepAccident: A Motion and Accident Prediction Benchmark for V2X Autonomous Driving) [[paper](https://arxiv.org/abs/2304.01168)] [[code](https://github.com/tianqi-wang1996/DeepAccident)] [[project](https://deepaccident.github.io/)]
 - **V2X-Traj** (Learning Cooperative Trajectory Representations for Motion Forecasting) [[paper](https://arxiv.org/abs/2311.00371)] [[code](https://github.com/AIR-THU/V2X-Graph)] [[project](https://thudair.baai.ac.cn/index)]
 
-### CVPR 2023:tada::tada::tada:
+### CVPR 2023
 
 - **CoPerception-UAVs+** (Collaboration Helps Camera Overtake LiDAR in 3D Detection) [[paper](https://arxiv.org/abs/2303.13560)] [[code](https://github.com/MediaBrain-SJTU/CoCa3D)] [[project](https://siheng-chen.github.io/dataset/CoPerception+/)]
 - **OPV2V+** (Collaboration Helps Camera Overtake LiDAR in 3D Detection) [[paper](https://arxiv.org/abs/2303.13560)] [[code](https://github.com/MediaBrain-SJTU/CoCa3D)] [[project](https://siheng-chen.github.io/dataset/CoPerception+/)]
 - {Real} **V2V4Real** (V2V4Real: A Large-Scale Real-World Dataset for Vehicle-to-Vehicle Cooperative Perception) [[paper](https://arxiv.org/abs/2303.07601)] [[code](https://github.com/ucla-mobility/V2V4Real)] [[project](https://mobility-lab.seas.ucla.edu/v2v4real/)]
 - {Real} **DAIR-V2X-Seq** (V2X-Seq: The Large-Scale Sequential Dataset for the Vehicle-Infrastructure Cooperative Perception and Forecasting) [[paper](https://arxiv.org/abs/2305.05938)] [[code](https://github.com/AIR-THU/DAIR-V2X-Seq)] [[project](https://thudair.baai.ac.cn/index)]
 
-### NeurIPS 2023:tada::tada::tada:
+### NeurIPS 2023
 
 - **IRV2V** (Robust Asynchronous Collaborative 3D Detection via Bird's Eye View Flow) [[paper&review](https://openreview.net/forum?id=UHIDdtxmVS)] [~~code~~] [~~project~~]
 
-### ICCV 2023:tada::tada::tada:
+### ICCV 2023
 
 - **Roadside-Opt** (Optimizing the Placement of Roadside LiDARs for Autonomous Driving) [[paper](https://arxiv.org/abs/2310.07247)] [~~code~~] [~~project~~]
 
@@ -406,16 +406,16 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 - **RLS** (Analyzing Infrastructure LiDAR Placement with Realistic LiDAR Simulation Library) [[paper](https://arxiv.org/abs/2211.15975)] [[code](https://github.com/PJLab-ADG/LiDARSimLib-and-Placement-Evaluation)] [~~project~~]
 - **V2XP-ASG** (V2XP-ASG: Generating Adversarial Scenes for Vehicle-to-Everything Perception) [[paper](https://arxiv.org/abs/2209.13679)] [[code](https://github.com/XHwind/V2XP-ASG)] [~~project~~]
 
-### CVPR 2022:tada::tada::tada:
+### CVPR 2022
 
 - **AutoCastSim** (COOPERNAUT: End-to-End Driving with Cooperative Perception for Networked Vehicles) [[paper](https://arxiv.org/abs/2205.02222)] [[code](https://github.com/hangqiu/AutoCastSim)] [[project](https://utexas.app.box.com/v/coopernaut-dataset)]
 - {Real} **DAIR-V2X** (DAIR-V2X: A Large-Scale Dataset for Vehicle-Infrastructure Cooperative 3D Object Detection) [[paper](https://arxiv.org/abs/2204.05575)] [[code](https://github.com/AIR-THU/DAIR-V2X)] [[project](https://thudair.baai.ac.cn/index)]
 
-### NeurIPS 2022:tada::tada::tada:
+### NeurIPS 2022
 
 - **CoPerception-UAVs** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper&review](https://openreview.net/forum?id=dLL4KXzKUpS)] [[code](https://github.com/MediaBrain-SJTU/where2comm)] [[project](https://siheng-chen.github.io/dataset/coperception-uav/)]
 
-### ECCV 2022:tada::tada::tada:
+### ECCV 2022
 
 - **V2XSet** (V2X-ViT: Vehicle-to-Everything Cooperative Perception with Vision Transformer) [[paper](https://arxiv.org/abs/2203.10638)] [[code](https://github.com/DerrickXuNu/v2x-vit)] [[project](https://drive.google.com/drive/folders/1r5sPiBEvo8Xby-nMaWUTnJIPK6WhY1B6)]
 
@@ -427,10 +427,10 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 
 - **DOLPHINS** (DOLPHINS: Dataset for Collaborative Perception Enabled Harmonious and Interconnected Self-Driving) [[paper](https://arxiv.org/abs/2207.07609)] [[code](https://github.com/explosion5/Dolphins)] [[project](https://dolphins-dataset.net/)]
 
-### ICCV 2021:tada::tada::tada:
+### ICCV 2021
 
 - **V2X-Sim** (V2X-Sim: Multi-Agent Collaborative Perception Dataset and Benchmark for Autonomous Driving) [[paper](https://arxiv.org/abs/2202.08449)] [[code](https://github.com/ai4ce/V2X-Sim)] [[project](https://ai4ce.github.io/V2X-Sim/)]
 
-### CoRL 2017:tada::tada::tada:
+### CoRL 2017
 
 - **CARLA** (CARLA: An Open Urban Driving Simulator) [[paper](https://arxiv.org/abs/1711.03938)] [[code](https://github.com/carla-simulator/carla)] [[project](https://carla.org/)]
