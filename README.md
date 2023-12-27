@@ -78,6 +78,14 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Forecasting
   - Input: Vector Map
 
+### AAAI 2024
+
+- **DI-V2X** (DI-V2X: Learning Domain-Invariant Representation for Vehicle-Infrastructure Collaborative 3D Object Detection) [[paper](https://arxiv.org/abs/2312.15742)] [[code](https://github.com/Serenos/DI-V2X)]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2XSet, DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
+
 ### WACV 2024
 
 - **MACP** (MACP: Efficient Model Adaptation for Cooperative Perception) [[paper](https://arxiv.org/abs/2310.16870)] [[code](https://github.com/PurdueDigitalTwin/MACP)]
