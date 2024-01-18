@@ -171,6 +171,14 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Representation Learning
   - Input: Point Cloud
 
+### CoRL 2023
+
+- **BM2CP** {BM2CP: Efficient Collaborative Perception with LiDAR-Camera Modalities} [[paper&review](https://openreview.net/forum?id=uJqxFjF1xWp)] [[code](https://github.com/byzhaoAI/BM2CP)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, DAIR-V2X
+  - Task: Detection
+  - Input: RGB Image, Point Cloud
+
 ### MM 2023
 
 - **DUSA** (DUSA: Decoupled Unsupervised Sim2Real Adaptation for Vehicle-to-Everything Collaborative Perception) [[paper](https://arxiv.org/abs/2310.08117)] [[code](https://github.com/refkxh/DUSA)]
