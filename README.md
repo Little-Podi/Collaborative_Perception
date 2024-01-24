@@ -52,6 +52,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: V2X-Sim
   - Task: Tracking
   - Input: Point Cloud
+- **PragComm** (Pragmatic Communication in Multi-Agent Collaborative Perception) [[paper](https://arxiv.org/abs/2401.12694)] [[code](https://github.com/PhyllisH/PragComm)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2X-Sim, DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
 - **QUEST** (QUEST: Query Stream for Vehicle-Infrastructure Cooperative Perception) [[paper](https://arxiv.org/abs/2308.01804)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: DAIR-V2X-Seq
