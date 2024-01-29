@@ -83,6 +83,14 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Forecasting
   - Input: Vector Map
 
+### ICLR 2024
+
+- **HEAL** (An Extensible Framework for Open Heterogeneous Collaborative Perception) [[paper&review](https://openreview.net/forum?id=KkrDUGIASk)] [[code](https://github.com/yifanlu0227/HEAL)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V-H, DAIR-V2X
+  - Task: Detection
+  - Input: RGB Image, Point Cloud
+
 ### AAAI 2024
 
 - **DI-V2X** (DI-V2X: Learning Domain-Invariant Representation for Vehicle-Infrastructure Collaborative 3D Object Detection) [[paper](https://arxiv.org/abs/2312.15742)] [[code](https://github.com/Serenos/DI-V2X)]
@@ -405,6 +413,10 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 
 - **DeepAccident** (DeepAccident: A Motion and Accident Prediction Benchmark for V2X Autonomous Driving) [[paper](https://arxiv.org/abs/2304.01168)] [[code](https://github.com/tianqi-wang1996/DeepAccident)] [[project](https://deepaccident.github.io)]
 - **V2X-Traj** (Learning Cooperative Trajectory Representations for Motion Forecasting) [[paper](https://arxiv.org/abs/2311.00371)] [[code](https://github.com/AIR-THU/V2X-Graph)] [[project](https://thudair.baai.ac.cn/index)]
+
+### ICLR 2024
+
+- **OPV2V-H** (An Extensible Framework for Open Heterogeneous Collaborative Perception) [[paper&review](https://openreview.net/forum?id=KkrDUGIASk)] [[code](https://github.com/yifanlu0227/HEAL)] [[project](https://huggingface.co/datasets/yifanlu/OPV2V-H)]
 
 ### CVPR 2023
 
