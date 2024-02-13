@@ -47,6 +47,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V
   - Task: Segmentation, Detection
   - Input: RGB Image, Point Cloud
+- **CoHFF** (Collaborative Semantic Occupancy Prediction with Hybrid Feature Fusion in Connected Automated Vehicles) [[paper](https://arxiv.org/abs/2402.07635)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V+
+  - Task: Occupancy, Segmentation, Detection
+  - Input: RGB Image
 - **MOT-CUP** (Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation) [[paper](https://arxiv.org/abs/2303.14346)] [[code](https://github.com/susanbao/mot_cup)]
   - Mode: Early Collaboration, Intermediate Collaboration
   - Dataset: V2X-Sim
