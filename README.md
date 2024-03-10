@@ -420,6 +420,10 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 - **TUMTraf** (TUMTraf V2X Cooperative Perception Dataset) [[paper](https://arxiv.org/abs/2403.01316)] [[code](https://github.com/tum-traffic-dataset/tum-traffic-dataset-dev-kit)] [[project](https://tum-traffic-dataset.github.io/tumtraf-v2x)]
 - **V2X-Traj** (Learning Cooperative Trajectory Representations for Motion Forecasting) [[paper](https://arxiv.org/abs/2311.00371)] [[code](https://github.com/AIR-THU/V2X-Graph)] [[project](https://thudair.baai.ac.cn/index)]
 
+### CVPR 2024
+
+- **RCooper** (RCooper: A Real-World Large-Scale Dataset for Roadside Cooperative Perception) [~~paper~~] [[code](https://github.com/AIR-THU/DAIR-RCooper)] [~~project~~]
+
 ### ICLR 2024
 
 - **OPV2V-H** (An Extensible Framework for Open Heterogeneous Collaborative Perception) [[paper&review](https://openreview.net/forum?id=KkrDUGIASk)] [[code](https://github.com/yifanlu0227/HEAL)] [[project](https://huggingface.co/datasets/yifanlu/OPV2V-H)]
