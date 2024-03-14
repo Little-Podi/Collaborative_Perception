@@ -95,8 +95,8 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: TUMTraf-V2X
   - Task: Detection
   - Input: RGB Image, Point Cloud
-- Communication-Efficient Collaborative Perception via Information Filling with Codebook
-- Multi-Agent Collaborative Perception via Motion-Aware Robust Communication Network
+- Communication-Efficient Collaborative Perception via Information Filling with Codebook [~~paper~~] [~~code~~]
+- Multi-Agent Collaborative Perception via Motion-Aware Robust Communication Network [~~paper~~] [~~code~~]
 
 ### ICLR 2024
 
