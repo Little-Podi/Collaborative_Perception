@@ -47,11 +47,6 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V
   - Task: Segmentation, Detection
   - Input: RGB Image, Point Cloud
-- **CoHFF** (Collaborative Semantic Occupancy Prediction with Hybrid Feature Fusion in Connected Automated Vehicles) [[paper](https://arxiv.org/abs/2402.07635)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V+
-  - Task: Occupancy, Segmentation, Detection
-  - Input: RGB Image
 - **MOT-CUP** (Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation) [[paper](https://arxiv.org/abs/2303.14346)] [[code](https://github.com/susanbao/mot_cup)]
   - Mode: Early Collaboration, Intermediate Collaboration
   - Dataset: V2X-Sim
@@ -87,6 +82,21 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: DAIR-V2X-Seq, DAIR-V2X-Traj
   - Task: Forecasting
   - Input: Vector Map
+
+### CVPR 2024
+
+- **CoHFF** (Collaborative Semantic Occupancy Prediction with Hybrid Feature Fusion in Connected Automated Vehicles) [[paper](https://arxiv.org/abs/2402.07635)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V+
+  - Task: Occupancy, Segmentation, Detection
+  - Input: RGB Image
+- **CoopDet3D** (TUMTraf V2X Cooperative Perception Dataset) [[paper](https://arxiv.org/abs/2403.01316)] [[code](https://github.com/tum-traffic-dataset/coopdet3d)]
+  - Mode: Intermediate Collaboration
+  - Dataset: TUMTraf-V2X
+  - Task: Detection
+  - Input: RGB Image, Point Cloud
+- Communication-Efficient Collaborative Perception via Information Filling with Codebook
+- Multi-Agent Collaborative Perception via Motion-Aware Robust Communication Network
 
 ### ICLR 2024
 
@@ -417,12 +427,13 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 ### Selected Preprint
 
 - **DeepAccident** (DeepAccident: A Motion and Accident Prediction Benchmark for V2X Autonomous Driving) [[paper](https://arxiv.org/abs/2304.01168)] [[code](https://github.com/tianqi-wang1996/DeepAccident)] [[project](https://deepaccident.github.io)]
-- **TUMTraf** (TUMTraf V2X Cooperative Perception Dataset) [[paper](https://arxiv.org/abs/2403.01316)] [[code](https://github.com/tum-traffic-dataset/tum-traffic-dataset-dev-kit)] [[project](https://tum-traffic-dataset.github.io/tumtraf-v2x)]
-- **V2X-Traj** (Learning Cooperative Trajectory Representations for Motion Forecasting) [[paper](https://arxiv.org/abs/2311.00371)] [[code](https://github.com/AIR-THU/V2X-Graph)] [[project](https://thudair.baai.ac.cn/index)]
+- {Real} **V2X-Traj** (Learning Cooperative Trajectory Representations for Motion Forecasting) [[paper](https://arxiv.org/abs/2311.00371)] [[code](https://github.com/AIR-THU/V2X-Graph)] [[project](https://thudair.baai.ac.cn/index)]
 
 ### CVPR 2024
 
-- **RCooper** (RCooper: A Real-World Large-Scale Dataset for Roadside Cooperative Perception) [~~paper~~] [[code](https://github.com/AIR-THU/DAIR-RCooper)] [~~project~~]
+- {Real} **HoloVIC** (HoloVIC: Large-Scale Dataset and Benchmark for Multi-Sensor Holographic Intersection and Vehicle-Infrastructure Cooperative) [[paper](https://arxiv.org/abs/2403.02640)] [~~code~~] [[project](https://holovic.net)]
+- {Real} **RCooper** (RCooper: A Real-World Large-Scale Dataset for Roadside Cooperative Perception) [~~paper~~] [[code](https://github.com/AIR-THU/DAIR-RCooper)] [~~project~~]
+- {Real} **TUMTraf-V2X** (TUMTraf V2X Cooperative Perception Dataset) [[paper](https://arxiv.org/abs/2403.01316)] [[code](https://github.com/tum-traffic-dataset/tum-traffic-dataset-dev-kit)] [[project](https://tum-traffic-dataset.github.io/tumtraf-v2x)]
 
 ### ICLR 2024
 
