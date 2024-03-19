@@ -77,6 +77,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: DeepAccident
   - Task: Detection, Forecasting
   - Input: RGB Image
+- **V2X-DGW** (V2X-DGW: Domain Generalization for Multi-Agent Perception under Adverse Weather Conditions) [[paper](https://arxiv.org/abs/2403.11371)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V-w, V2XSet-w
+  - Task: Detection
+  - Input: Point Cloud
 - **V2X-Graph** (Learning Cooperative Trajectory Representations for Motion Forecasting) [[paper](https://arxiv.org/abs/2311.00371)] [[code](https://github.com/AIR-THU/V2X-Graph)]
   - Mode: Intermediate Collaboration
   - Dataset: DAIR-V2X-Seq, DAIR-V2X-Traj
