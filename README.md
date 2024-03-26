@@ -87,6 +87,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: DAIR-V2X-Seq, DAIR-V2X-Traj
   - Task: Forecasting
   - Input: Vector Map
+- **V2X-PC** (V2X-PC: Vehicle-to-Everything Collaborative Perception via Point Cluster) [[paper](https://arxiv.org/abs/2403.16635)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2XSet, DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
 
 ### CVPR 2024
 
@@ -437,6 +442,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 ### Selected Preprint
 
 - **DeepAccident** (DeepAccident: A Motion and Accident Prediction Benchmark for V2X Autonomous Driving) [[paper](https://arxiv.org/abs/2304.01168)] [[code](https://github.com/tianqi-wang1996/DeepAccident)] [[project](https://deepaccident.github.io)]
+- {Real} **V2X-Real** (V2X-Real: a Large-Scale Dataset for Vehicle-to-Everything Cooperative Perception) [[paper](https://arxiv.org/abs/2403.16034)] [~~code~~] [~~project~~]
 - {Real} **V2X-Traj** (Learning Cooperative Trajectory Representations for Motion Forecasting) [[paper](https://arxiv.org/abs/2311.00371)] [[code](https://github.com/AIR-THU/V2X-Graph)] [[project](https://thudair.baai.ac.cn/index)]
 
 ### CVPR 2024
