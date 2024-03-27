@@ -42,6 +42,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: V2X-Sim
   - Task: Segmentation
   - Input: Point Cloud
+- **CMP** (CMP: Cooperative Motion Prediction with Multi-Agent Communication) [[paper](https://arxiv.org/abs/2403.17916)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V
+  - Task: Forecasting
+  - Input: Point Cloud
 - **CoBEVFusion** (CoBEVFusion: Cooperative Perception with LiDAR-Camera Bird's-Eye View Fusion) [[paper](https://arxiv.org/abs/2310.06008)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
