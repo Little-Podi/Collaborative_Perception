@@ -72,6 +72,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V
   - Task: Detection
   - Input: Point Cloud
+- **UniV2X** (End-to-End Autonomous Driving through V2X Cooperation) [[paper](https://arxiv.org/abs/2404.00717)] [[code](https://github.com/AIR-THU/UniV2X)]
+  - Mode: Intermediate Collaboration
+  - Dataset: DAIR-V2X
+  - Task: Planning, Occupancy, Segmentation, Tracking
+  - Input: RGB Image
 - **VIMI** (VIMI: Vehicle-Infrastructure Multi-View Intermediate Fusion for Camera-Based 3D Object Detection) [[paper](https://arxiv.org/abs/2303.10975)] [[code](https://github.com/Bosszhe/VIMI)]
   - Mode: Intermediate Collaboration
   - Dataset: DAIR-V2X
