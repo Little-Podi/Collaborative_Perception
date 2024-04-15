@@ -82,11 +82,6 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: DAIR-V2X
   - Task: Detection
   - Input: RGB Image
-- **V2XFormer** (DeepAccident: A Motion and Accident Prediction Benchmark for V2X Autonomous Driving) [[paper](https://arxiv.org/abs/2304.01168)] [[code](https://github.com/tianqi-wang1996/DeepAccident)]
-  - Mode: Intermediate Collaboration
-  - Dataset: DeepAccident
-  - Task: Detection, Forecasting
-  - Input: RGB Image
 - **V2X-DGW** (V2X-DGW: Domain Generalization for Multi-Agent Perception under Adverse Weather Conditions) [[paper](https://arxiv.org/abs/2403.11371)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V-w, V2XSet-w
@@ -138,6 +133,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: V2XSet, DAIR-V2X
   - Task: Detection
   - Input: Point Cloud
+- **V2XFormer** (DeepAccident: A Motion and Accident Prediction Benchmark for V2X Autonomous Driving) [[paper](https://arxiv.org/abs/2304.01168)] [[code](https://github.com/tianqi-wang1996/DeepAccident)]
+  - Mode: Intermediate Collaboration
+  - Dataset: DeepAccident
+  - Task: Detection, Forecasting
+  - Input: RGB Image
 
 ### WACV 2024
 
