@@ -52,6 +52,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V
   - Task: Segmentation, Detection
   - Input: RGB Image, Point Cloud
+- **CoBEVGlue** (Self-Localized Collaborative Perception) [[paper](https://arxiv.org/abs/2406.12712)] [[code](https://github.com/VincentNi0107/CoBEVGlue)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2V4Real, DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
 - **CoDriving** (Towards Collaborative Autonomous Driving: Simulation Platform and End-to-End System) [[paper](https://arxiv.org/abs/2404.09496)] [[code](https://github.com/CollaborativePerception/V2Xverse)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2V4Real, V2X-Sim, DAIR-V2X
