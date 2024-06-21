@@ -125,8 +125,8 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: TUMTraf-V2X
   - Task: Detection
   - Input: RGB Image, Point Cloud
-- **CodeFilling** (Communication-Efficient Collaborative Perception via Information Filling with Codebook) [[code](https://arxiv.org/abs/2405.04966)] [[paper](https://github.com/PhyllisH/CodeFilling)]
-- Multi-Agent Collaborative Perception via Motion-Aware Robust Communication Network [~~paper~~] [~~code~~]
+- **CodeFilling** (Communication-Efficient Collaborative Perception via Information Filling with Codebook) [[paper](https://arxiv.org/abs/2405.04966)] [[code](https://github.com/PhyllisH/CodeFilling)]
+- **MRCNet** Multi-Agent Collaborative Perception via Motion-Aware Robust Communication Network [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Hong_Multi-agent_Collaborative_Perception_via_Motion-aware_Robust_Communication_Network_CVPR_2024_paper.html)] [[code](https://github.com/IndigoChildren/collaborative-perception-MRCNet)]
 
 ### ICLR 2024
 
