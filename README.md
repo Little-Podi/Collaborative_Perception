@@ -170,6 +170,14 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Detection
   - Input: Point Cloud
 
+### ICRA 2024
+
+- **FreeAlign** (Robust Collaborative Perception without External Localization and Clock Devices) [[paper](https://arxiv.org/abs/2405.02965)] [[code](https://github.com/MediaBrain-SJTU/FreeAlign)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
+
 ### CVPR 2023
 
 - {Related} **BEVHeight** (BEVHeight: A Robust Framework for Vision-Based Roadside 3D Object Detection) [[paper](https://arxiv.org/abs/2303.08498)] [[code](https://github.com/ADLab-AutoDrive/BEVHeight)]
