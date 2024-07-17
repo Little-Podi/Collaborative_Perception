@@ -107,6 +107,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: DAIR-V2X-Seq, DAIR-V2X-Traj
   - Task: Forecasting
   - Input: Vector Map
+- **V2X-M2C** (V2X-M2C: Efficient Multi-Module Collaborative Perception with Two Connections) [[paper](https://arxiv.org/abs/2407.11546)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2XSet
+  - Task: Detection
+  - Input: Point Cloud
 - **V2X-PC** (V2X-PC: Vehicle-to-Everything Collaborative Perception via Point Cluster) [[paper](https://arxiv.org/abs/2403.16635)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: V2XSet, DAIR-V2X
