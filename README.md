@@ -62,6 +62,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V, V2V4Real, V2X-Sim, DAIR-V2X
   - Task: Planning
   - Input: RGB Image, Point Cloud
+- **CoDrivingLLM** (Towards Interactive and Learnable Cooperative Driving Automation: A Large Language Model-Driven Decision-making Framework) [~~paper~~] [[code](https://github.com/FanGShiYuu/CoDrivingLLM)]
+  - Mode:
+  - Dataset:
+  - Task: Planning
+  - Input:
 - **Coopre** (CooPre: Cooperative Pretraining for V2X Cooperative Perception)
   - Mode: Early Collaboration, Intermediate Collaboration
   - Dataset: OPV2V, V2V4Real, V2X-Real
