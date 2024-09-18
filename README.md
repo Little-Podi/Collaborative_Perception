@@ -72,6 +72,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V, V2XSet, V2V4Real
   - Task: Detection
   - Input: Point Cloud
+- **CoMamba** (CoMamba: Real-time Cooperative Perception Unlocked with State Space Models) [[paper](https://arxiv.org/abs/2409.10699)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2XSet, V2V4Real
+  - Task: Detection
+  - Input: Point Cloud
 - **CooPre** (CooPre: Cooperative Pretraining for V2X Cooperative Perception)
   - Mode: Early Collaboration, Intermediate Collaboration
   - Dataset: OPV2V, V2V4Real, V2X-Real
