@@ -92,11 +92,21 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: V2X-Sim
   - Task: Detection
   - Input: Point Cloud
+- **LMMCoDrive** (LMMCoDrive: Cooperative Driving with Large Multimodal Model) [[paper](https://arxiv.org/abs/2409.11981)] [[code](https://github.com/henryhcliu/LMMCoDrive)]
+  - Mode: Late Collaboration
+  - Dataset: AMoD, CARLA (simulator)
+  - Task: Planning
+  - Input: Scene State
 - **MOT-CUP** (Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation) [[paper](https://arxiv.org/abs/2303.14346)] [[code](https://github.com/susanbao/mot_cup)]
   - Mode: Early Collaboration, Intermediate Collaboration
   - Dataset: V2X-Sim
   - Task: Tracking
   - Input: Point Cloud
+- **RopeBEV** (RopeBEV: A Multi-Camera Roadside Perception Network in Bird’s-Eye-View)
+  - Mode: Intermediate Collaboration
+  - Dataset: RoScenes
+  - Task: Segmentation
+  - Input: RGB Image
 - **PragComm** (Pragmatic Communication in Multi-Agent Collaborative Perception) [[paper](https://arxiv.org/abs/2401.12694)] [[code](https://github.com/PhyllisH/PragComm)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2X-Sim, DAIR-V2X
