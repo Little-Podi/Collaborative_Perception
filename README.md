@@ -62,7 +62,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V, V2V4Real, V2X-Sim, DAIR-V2X
   - Task: Planning
   - Input: RGB Image, Point Cloud
-- **CoDrivingLLM** (Towards Interactive and Learnable Cooperative Driving Automation: A Large Language Model-Driven Decision-making Framework) [[paper](https://fangshiyuu.github.io/CoDrivingLLM)] [[code](https://github.com/FanGShiYuu/CoDrivingLLM)]
+- **CoDrivingLLM** (Towards Interactive and Learnable Cooperative Driving Automation: A Large Language Model-Driven Decision-making Framework) [[paper](https://arxiv.org/abs/2409.12812)] [[code](https://github.com/FanGShiYuu/CoDrivingLLM)]
   - Mode: Late Collaboration
   - Dataset: Unknown
   - Task: Planning
