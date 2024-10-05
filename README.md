@@ -175,9 +175,17 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: DAIR-V2X, OPV2VH+
   - Task: Detection
   - Input: RGB Image, Point Cloud
-- **MRCNet** Multi-Agent Collaborative Perception via Motion-Aware Robust Communication Network [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Hong_Multi-agent_Collaborative_Perception_via_Motion-aware_Robust_Communication_Network_CVPR_2024_paper.html)] [[code](https://github.com/IndigoChildren/collaborative-perception-MRCNet)]
+- **MRCNet** (Multi-Agent Collaborative Perception via Motion-Aware Robust Communication Network) [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Hong_Multi-agent_Collaborative_Perception_via_Motion-aware_Robust_Communication_Network_CVPR_2024_paper.html)] [[code](https://github.com/IndigoChildren/collaborative-perception-MRCNet)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2XSet, V2X-Sim
+  - Task: Detection
+  - Input: Point Cloud
+
+### ECCV 2024
+
+- **Hetecooper** (Hetecooper: Feature Collaboration Graph for Heterogeneous Collaborative Perception) [[paper](https://eccv.ecva.net/virtual/2024/poster/2467)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2V4Real
   - Task: Detection
   - Input: Point Cloud
 
@@ -547,13 +555,13 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 - {Real} **RCooper** (RCooper: A Real-World Large-Scale Dataset for Roadside Cooperative Perception) [[paper](https://arxiv.org/abs/2403.10145)] [[code](https://github.com/AIR-THU/DAIR-RCooper)] [[project](https://www.t3caic.com/qingzhen)]
 - {Real} **TUMTraf-V2X** (TUMTraf V2X Cooperative Perception Dataset) [[paper](https://arxiv.org/abs/2403.01316)] [[code](https://github.com/tum-traffic-dataset/tum-traffic-dataset-dev-kit)] [[project](https://tum-traffic-dataset.github.io/tumtraf-v2x)]
 
-### NeurIPS 2024
-
-- {Real} **DAIR-V2X-Traj** (Learning Cooperative Trajectory Representations for Motion Forecasting) [[paper](https://arxiv.org/abs/2311.00371)] [[code](https://github.com/AIR-THU/V2X-Graph)] [[project](https://thudair.baai.ac.cn/index)]
-
 ### ECCV 2024
 
 - {Real} **H-V2X** (H-V2X: A Large Scale Highway Dataset for BEV Perception) [[paper](https://eccv2024.ecva.net/virtual/2024/poster/126)] [~~code~~] [~~project~~]
+
+### NeurIPS 2024
+
+- {Real} **DAIR-V2X-Traj** (Learning Cooperative Trajectory Representations for Motion Forecasting) [[paper](https://arxiv.org/abs/2311.00371)] [[code](https://github.com/AIR-THU/V2X-Graph)] [[project](https://thudair.baai.ac.cn/index)]
 
 ### ICLR 2024
 
