@@ -42,6 +42,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: V2X-Sim
   - Task: Segmentation
   - Input: Point Cloud
+- **CPPC** (Point Cluster: A Compact Message Unit for Communication-Efficient Collaborative Perception) [[paper&review](https://openreview.net/forum?id=54XlM8Clkg)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2XSet, DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
 - **CMP** (CMP: Cooperative Motion Prediction with Multi-Agent Communication) [[paper](https://arxiv.org/abs/2403.17916)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
@@ -57,6 +62,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V, V2V4Real, DAIR-V2X
   - Task: Detection
   - Input: Point Cloud
+- **CoCMT** (CoCMT: Towards Communication-Efficient Corss-Modal Transformer For Collaborative Perception) [[paper&review](https://openreview.net/forum?id=S1NrbfMS7T)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2V4Real
+  - Task: Detection
+  - Input: RGB Image, Point Cloud
 - **CoDriving** (Towards Collaborative Autonomous Driving: Simulation Platform and End-to-End System) [[paper](https://arxiv.org/abs/2404.09496)] [[code](https://github.com/CollaborativePerception/V2Xverse)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2V4Real, V2X-Sim, DAIR-V2X
@@ -82,11 +92,21 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V, V2V4Real, V2X-Real
   - Task: Detection
   - Input: Point Cloud
+- **CP-Guard+** (CP-Guard+: A New Paradigm for Malicious Agent Detection and Defense in Collaborative Perception) [[paper&review](https://openreview.net/forum?id=9MNzHTSDgh)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: CP-GuardBench, V2X-Sim
+  - Task: Detection
+  - Input: Point Cloud
 - **CTCE** (Leveraging Temporal Contexts to Enhance Vehicle-Infrastructure Cooperative Perception) [[paper](https://arxiv.org/abs/2408.10531)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: DAIR-V2X-Seq, V2X-Sim
   - Task: Detection
   - Input: RGB Image
+- **Debrief** (Talking Vehicles: Cooperative Driving via Natural Language) [[paper&review](https://openreview.net/forum?id=VYlfoA8I6A)] [~~code~~]
+  - Mode: Late Collaboration
+  - Dataset: TalkingVehiclesGym, CARLA (simulator)
+  - Task: Planning
+  - Input: Scene State
 - **DiffCP** (DiffCP: Ultra-Low Bit Collaborative Perception via Diffusion Model) [[paper](https://arxiv.org/abs/2409.19592)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
@@ -112,6 +132,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: RoScenes
   - Task: Segmentation
   - Input: RGB Image
+- **ParCon** (ParCon: Noise-Robust Collaborative Perception via Multi-Module Parallel Connection) [[paper&review](https://openreview.net/forum?id=fPQZd3p1De)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2XSet, DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
 - **PragComm** (Pragmatic Communication in Multi-Agent Collaborative Perception) [[paper](https://arxiv.org/abs/2401.12694)] [[code](https://github.com/PhyllisH/PragComm)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2X-Sim, DAIR-V2X
@@ -131,6 +156,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
   - Task: Detection
+  - Input: Point Cloud
+- **STAMP** (STAMP: Scalable Task- And Model-Agnostic Collaborative Perception) [[paper&review](https://openreview.net/forum?id=8NdNniulYE)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2V4Real
+  - Task: Segmentation, Detection
   - Input: Point Cloud
 - **UniV2X** (End-to-End Autonomous Driving through V2X Cooperation) [[paper](https://arxiv.org/abs/2404.00717)] [[code](https://github.com/AIR-THU/UniV2X)]
   - Mode: Intermediate Collaboration
@@ -544,6 +574,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 ### Selected Preprint
 
 - **Adver-City** (Adver-City: Open-Source Multi-Modal Dataset for Collaborative Perception Under Adverse Weather Conditions) [[paper](https://arxiv.org/abs/2410.06380)] [[code](https://github.com/QUARRG/Adver-City)] [[project](https://labs.cs.queensu.ca/quarrg/datasets/adver-city)]
+- **CP-GuardBench** (CP-Guard+: A New Paradigm for Malicious Agent Detection and Defense in Collaborative Perception) [[paper&review](https://openreview.net/forum?id=9MNzHTSDgh)] [~~code~~] [~~project~~]
 - {Real} **InScope** (InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios) [[paper](https://arxiv.org/abs/2407.21581)] [[code](https://github.com/xf-zh/InScope)] [~~project~~]
 - **Multi-V2X** (Multi-V2X: A Large Scale Multi-modal Multi-penetration-rate Dataset for Cooperative Perception) [[paper](https://arxiv.org/abs/2409.04980)] [[code](https://github.com/RadetzkyLi/Multi-V2X)] [~~project~~]
 - **OPV2V-N** (RCDN: Towards Robust Camera-Insensitivity Collaborative Perception via Dynamic Feature-based 3D Neural Modeling) [[paper](https://arxiv.org/abs/2405.16868)] [~~code~~] [~~project~~]
