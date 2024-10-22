@@ -132,7 +132,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: RoScenes
   - Task: Segmentation
   - Input: RGB Image
-- **ParCon** (ParCon: Noise-Robust Collaborative Perception via Multi-Module Parallel Connection) [[paper&review](https://openreview.net/forum?id=fPQZd3p1De)] [~~code~~]
+- **ParCon** (ParCon: Noise-Robust Collaborative Perception via Multi-Module Parallel Connection) [[paper](https://arxiv.org/abs/2407.11546)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2XSet, DAIR-V2X
   - Task: Detection
@@ -216,6 +216,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **Hetecooper** (Hetecooper: Feature Collaboration Graph for Heterogeneous Collaborative Perception) [[paper](https://eccv.ecva.net/virtual/2024/poster/2467)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2V4Real
+  - Task: Detection
+  - Input: Point Cloud
+- **Infra-Centric CP** (Rethinking the Role of Infrastructure in Collaborative Perception) [[paper](https://arxiv.org/abs/2410.11259)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2XSet, V2X-Sim
   - Task: Detection
   - Input: Point Cloud
 
