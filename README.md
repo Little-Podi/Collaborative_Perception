@@ -172,6 +172,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: DAIR-V2X
   - Task: Detection
   - Input: RGB Image
+- **V2XPnP** (V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction) [[paper](https://arxiv.org/abs/2412.01812)] [[code](https://github.com/Zewei-Zhou/V2XPnP)]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2XPnP-Seq
+  - Task: Detection, Forecasting
+  - Input: Point Cloud
 - **V2X-DGW** (V2X-DGW: Domain Generalization for Multi-Agent Perception under Adverse Weather Conditions) [[paper](https://arxiv.org/abs/2403.11371)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V-w, V2XSet-w
@@ -588,6 +593,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 - {Real} **InScope** (InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios) [[paper](https://arxiv.org/abs/2407.21581)] [[code](https://github.com/xf-zh/InScope)] [~~project~~]
 - **Multi-V2X** (Multi-V2X: A Large Scale Multi-modal Multi-penetration-rate Dataset for Cooperative Perception) [[paper](https://arxiv.org/abs/2409.04980)] [[code](https://github.com/RadetzkyLi/Multi-V2X)] [~~project~~]
 - **OPV2V-N** (RCDN: Towards Robust Camera-Insensitivity Collaborative Perception via Dynamic Feature-based 3D Neural Modeling) [[paper](https://arxiv.org/abs/2405.16868)] [~~code~~] [~~project~~]
+- {Real} **V2XPnP-Seq** (V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction) [[paper](https://arxiv.org/abs/2412.01812)] [[code](https://github.com/Zewei-Zhou/V2XPnP)] [[project](https://mobility-lab.seas.ucla.edu/v2xpnp)]
 - **V2X-R** (V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion) [[paper](https://arxiv.org/abs/2411.08402)] [[code](https://github.com/ylwhxht/V2X-R)] [~~project~~]
 - {Real} **V2X-Radar** (V2X-Radar: A Multi-Modal Dataset with 4D Radar for Cooperative Perception) [[paper](https://arxiv.org/abs/2411.10962)] [~~code~~] [[project](http://openmpd.com/column/V2X-Radar)]
 - {Real} **V2X-Real** (V2X-Real: a Large-Scale Dataset for Vehicle-to-Everything Cooperative Perception) [[paper](https://arxiv.org/abs/2403.16034)] [~~code~~] [~~project~~]
