@@ -197,6 +197,14 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: V2X-R
   - Task: Detection
   - Input: Point Cloud
+  
+### AAAI 2025
+
+- **DSRC** (DSRC: Learning Density-Insensitive and Semantic-Aware Collaborative Representation against Corruptions) [[paper](https://arxiv.org/abs/2412.10739)] [[code](https://github.com/Terry9a/DSRC)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
 
 ### CVPR 2024
 
@@ -215,6 +223,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: DAIR-V2X, OPV2VH+
   - Task: Detection
   - Input: RGB Image, Point Cloud
+- **ERMVP** (ERMVP: Communication-Efficient and Collaboration-Robust Multi-Vehicle Perception in Challenging Environments) [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_ERMVP_Communication-Efficient_and_Collaboration-Robust_Multi-Vehicle_Perception_in_Challenging_Environments_CVPR_2024_paper.html)] [[code](https://github.com/Terry9a/ERMVP)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2V4Real
+  - Task: Detection
+  - Input: Point Cloud
 - **MRCNet** (Multi-Agent Collaborative Perception via Motion-Aware Robust Communication Network) [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Hong_Multi-agent_Collaborative_Perception_via_Motion-aware_Robust_Communication_Network_CVPR_2024_paper.html)] [[code](https://github.com/IndigoChildren/collaborative-perception-MRCNet)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2XSet, V2X-Sim
