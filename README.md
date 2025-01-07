@@ -177,6 +177,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: V2XPnP-Seq
   - Task: Detection, Forecasting
   - Input: Point Cloud
+- **V2X-DGPE** (V2X-DGPE: Addressing Domain Gaps and Pose Errors for Robust Collaborative 3D Object Detection) [[paper](https://arxiv.org/abs/2501.02363)] [[code](https://github.com/wangsch10/V2X-DGPE)]
+  - Mode: Intermediate Collaboration
+  - Dataset: DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
 - **V2X-DGW** (V2X-DGW: Domain Generalization for Multi-Agent Perception under Adverse Weather Conditions) [[paper](https://arxiv.org/abs/2403.11371)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V-w, V2XSet-w
