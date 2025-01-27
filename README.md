@@ -122,6 +122,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: AMoD, CARLA (simulator)
   - Task: Planning
   - Input: Scene State
+- **mmCooper** (mmCooper: A Multi-Agent Multi-Stage Communication-Efficient and Collaboration-Robust Cooperative Perception Framework) [[paper](https://arxiv.org/abs/2501.12263)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2XSet, DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
 - **MOT-CUP** (Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation) [[paper](https://arxiv.org/abs/2303.14346)] [[code](https://github.com/susanbao/mot_cup)]
   - Mode: Early Collaboration, Intermediate Collaboration
   - Dataset: V2X-Sim
@@ -202,6 +207,14 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: V2X-R
   - Task: Detection
   - Input: Point Cloud
+
+### ICLR 2025
+
+- **STAMP** (STAMP: Scalable Task- And Model-Agnostic Collaborative Perception) [[paper&review](https://openreview.net/forum?id=8NdNniulYE)] [[code](https://github.com/taco-group/STAMP)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2V4Real
+  - Task: Detection
+  - Input: RGB Image, Point Cloud
   
 ### AAAI 2025
 
