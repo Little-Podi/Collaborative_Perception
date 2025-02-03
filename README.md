@@ -162,11 +162,6 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V
   - Task: Detection
   - Input: Point Cloud
-- **STAMP** (STAMP: Scalable Task- And Model-Agnostic Collaborative Perception) [[paper&review](https://openreview.net/forum?id=8NdNniulYE)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2V4Real
-  - Task: Segmentation, Detection
-  - Input: Point Cloud
 - **UniV2X** (End-to-End Autonomous Driving through V2X Cooperation) [[paper](https://arxiv.org/abs/2404.00717)] [[code](https://github.com/AIR-THU/UniV2X)]
   - Mode: Intermediate Collaboration
   - Dataset: DAIR-V2X
@@ -210,7 +205,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### ICLR 2025
 
-- **R&B-POP** (Learning 3D Perception from Others' Predictions)
+- **R&B-POP** (Learning 3D Perception from Others' Predictions) [[paper&review](https://openreview.net/forum?id=Ylk98vWQuQ)] [[code](https://github.com/jinsuyoo/rnb-pop)]
   - Mode: Late Collaboration (for training)
   - Dataset: V2V4Real
   - Task: Detection
@@ -218,7 +213,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **STAMP** (STAMP: Scalable Task- And Model-Agnostic Collaborative Perception) [[paper&review](https://openreview.net/forum?id=8NdNniulYE)] [[code](https://github.com/taco-group/STAMP)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2V4Real
-  - Task: Detection
+  - Task: Segmentation, Detection
   - Input: RGB Image, Point Cloud
   
 ### AAAI 2025
