@@ -210,6 +210,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### ICLR 2025
 
+- **R&B-POP** (Learning 3D Perception from Others' Predictions)
+  - Mode: Late Collaboration (for training)
+  - Dataset: V2V4Real
+  - Task: Detection
+  - Input: Point Cloud
 - **STAMP** (STAMP: Scalable Task- And Model-Agnostic Collaborative Perception) [[paper&review](https://openreview.net/forum?id=8NdNniulYE)] [[code](https://github.com/taco-group/STAMP)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2V4Real
