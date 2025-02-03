@@ -157,6 +157,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V-N
   - Task: Segmentation
   - Input: RGB Image
+- **RG-Attn** (RG-Attn: Radian Glue Attention for Multi-Modality Multi-Agent Cooperative Perception) [[paper](https://arxiv.org/abs/2501.16803)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, DAIR-V2X
+  - Task: Detection
+  - Input: RGB Image, Point Cloud
 - **SiCP** (SiCP: Simultaneous Individual and Cooperative Perception for 3D Object Detection in Connected and Automated Vehicles) [[paper](https://arxiv.org/abs/2312.04822)] [[code](https://github.com/DarrenQu/SiCP)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
@@ -205,6 +210,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### ICLR 2025
 
+- **CPPC** (Point Cluster: A Compact Message Unit for Communication-Efficient Collaborative Perception) [[paper&review](https://openreview.net/forum?id=54XlM8Clkg)] [~~code~~]
+  - Mode: Early Collaboration
+  - Dataset: OPV2V, V2XSet, DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
 - **R&B-POP** (Learning 3D Perception from Others' Predictions) [[paper&review](https://openreview.net/forum?id=Ylk98vWQuQ)] [[code](https://github.com/jinsuyoo/rnb-pop)]
   - Mode: Late Collaboration (for training)
   - Dataset: V2V4Real
