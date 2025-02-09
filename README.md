@@ -117,6 +117,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: V2X-Sim
   - Task: Detection
   - Input: Point Cloud
+- **I2XTraj** (Knowledge-Informed Multi-Agent Trajectory Prediction at Signalized Intersections for Infrastructure-to-Everything) [[paper](https://arxiv.org/abs/2501.13461)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2X-Seq, SinD
+  - Task: Forecasting
+  - Input: Scene State
 - **LMMCoDrive** (LMMCoDrive: Cooperative Driving with Large Multimodal Model) [[paper](https://arxiv.org/abs/2409.11981)] [[code](https://github.com/henryhcliu/LMMCoDrive)]
   - Mode: Late Collaboration
   - Dataset: AMoD, CARLA (simulator)
