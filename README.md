@@ -172,6 +172,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V
   - Task: Detection
   - Input: Point Cloud
+- **TYP** (Transfer Your Perspective: Controllable 3D Generation from Any Viewpoint in a Driving Scene) [[paper](https://arxiv.org/abs/2502.06682)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2V4Real, WOD
+  - Task: Generation
+  - Input: Point Cloud
 - **UniV2X** (End-to-End Autonomous Driving through V2X Cooperation) [[paper](https://arxiv.org/abs/2404.00717)] [[code](https://github.com/AIR-THU/UniV2X)]
   - Mode: Intermediate Collaboration
   - Dataset: DAIR-V2X
