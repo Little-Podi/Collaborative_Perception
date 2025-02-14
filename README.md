@@ -95,7 +95,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **CP-Guard+** (CP-Guard+: A New Paradigm for Malicious Agent Detection and Defense in Collaborative Perception) [[paper&review](https://openreview.net/forum?id=9MNzHTSDgh)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: CP-GuardBench, V2X-Sim
-  - Task: Detection
+  - Task: Adversarial Attack
   - Input: Point Cloud
 - **CTCE** (Leveraging Temporal Contexts to Enhance Vehicle-Infrastructure Cooperative Perception) [[paper](https://arxiv.org/abs/2408.10531)] [~~code~~]
   - Mode: Intermediate Collaboration
@@ -241,6 +241,14 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **DSRC** (DSRC: Learning Density-Insensitive and Semantic-Aware Collaborative Representation against Corruptions) [[paper](https://arxiv.org/abs/2412.10739)] [[code](https://github.com/Terry9a/DSRC)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
+
+### ICRA 2025
+
+- **CoDynTrust** (CoDynTrust: Robust Asynchronous Collaborative Perception via Dynamic Feature Trust Modulus) [[paper](https://arxiv.org/abs/2502.08169)] [[code](https://github.com/CrazyShout/CoDynTrust)]
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2XSet, DAIR-V2X
   - Task: Detection
   - Input: Point Cloud
 
@@ -577,7 +585,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 - **Adversarial V2V** (Adversarial Attacks On Multi-Agent Communication) [[paper](https://arxiv.org/abs/2101.06560)] [~~code~~]
   - Mode: Intermediate Collaboration
-  - Dataset: V2V-Sim (not publicly available)
+  - Dataset: V2V-Sim
   - Task: Adversarial Attack
   - Input: Point Cloud
 
@@ -606,7 +614,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Input: Point Cloud
 - **V2VNet** (V2VNet: Vehicle-to-Vehicle Communication for Joint Perception and Prediction) [[paper](https://arxiv.org/abs/2008.07519)] [[code](https://github.com/DerrickXuNu/OpenCOOD)]
   - Mode: Intermediate Collaboration
-  - Dataset: V2V-Sim (not publicly available)
+  - Dataset: V2V-Sim
   - Task: Detection, Forecasting
   - Input: Point Cloud
 
@@ -614,7 +622,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 - **Robust V2V** (Learning to Communicate and Correct Pose Errors) [[paper](https://arxiv.org/abs/2011.05289)] [[code](https://github.com/yifanlu0227/CoAlign)]
   - Mode: Intermediate Collaboration
-  - Dataset: V2V-Sim (not publicly available)
+  - Dataset: V2V-Sim
   - Task: Detection, Forecasting
   - Input: Point Cloud
 
