@@ -2,17 +2,16 @@
 
 This repository is a paper digest of recent advances in **collaborative** / **cooperative** / **multi-agent** perception for **V2I** / **V2V** / **V2X** autonomous driving scenario. Papers are listed in alphabetical order of the first character.
 
-### :link:Jump to:
+### 🔗Jump to:
+
 - ### [[Method and Framework](https://github.com/Little-Podi/Collaborative_Perception#bookmarkmethod-and-framework)]
 - ### [[Dataset and Simulator](https://github.com/Little-Podi/Collaborative_Perception#bookmarkdataset-and-simulator)]
 
 Note: I find it hard to fairly compare all methods on each benchmark since some published results are obtained without specified training and testing settings, or even modified model architectures. In fact, many works evaluate all baselines under their own settings and report them. Therefore, it is probably to find inconsistency between papers. Hence, I discard the collection and reproducton of all the benchmarks in a previous update. If you are interested, you can find plenty of results in [this archived version](https://github.com/Little-Podi/Collaborative_Perception/tree/1be25908aea0a9f635ff4852b3a90729cf2b6aac).
 
+## 🌟Recommendation
 
-
-## :star2:Recommendation
-
-### Helpful Learning Resource:thumbsup::thumbsup::thumbsup:
+### Helpful Learning Resource👍👍👍
 
 - **(Survey)** Collaborative Perception for Connected and Autonomous Driving: Challenges, Possible Solutions and Opportunities [[paper](https://arxiv.org/abs/2401.01544)], V2X Cooperative Perception for Autonomous Driving: Recent Advances and Challenges [[paper](https://arxiv.org/abs/2310.03525)], Towards Vehicle-to-Everything Autonomous Driving: A Survey on Collaborative Perception [[paper](https://arxiv.org/abs/2308.16714)], Collaborative Perception in Autonomous Driving: Methods, Datasets and Challenges [[paper](https://arxiv.org/abs/2301.06262)], A Survey and Framework of Cooperative Perception: From Heterogeneous Singleton to Hierarchical Cooperation [[paper](https://arxiv.org/abs/2208.10590)]
 - **(Talk)** Vehicle-to-Vehicle (V2V) Communication (Waabi CVPR 24 Tutorial on Self-Driving Cars) [[video](https://youtu.be/yceuUthWz9s)], Vehicle-to-Vehicle (V2V) Communication (Waabi CVPR 23 Tutorial on Self-Driving Cars) [[video](https://youtu.be/T-N51B8mZB8)], The Ultimate Solution for L4 Autonomous Driving [[video](https://youtu.be/cyNxemm4Ujg)], When Vision Transformers Meet Cooperative Perception [[video](https://youtu.be/rLAU4eqoOIU)], Scene Understanding beyond the Visible [[video](https://youtu.be/oz0AnmJZCR4)], Robust Collaborative Perception against Communication Interruption [[video](https://youtu.be/3cIWpMrsyeE)], Collaborative and Adversarial 3D Perception for Autonomous Driving [[video](https://youtu.be/W-AONQMfGi0)], Vehicle-to-Vehicle Communication for Self-Driving [[video](https://youtu.be/oikdOpmIoc4)], Adversarial Robustness for Self-Driving [[video](https://youtu.be/8uBFXzyII5Y)], L4感知系统的终极形态：协同驾驶 [[video](https://youtu.be/NvixMEDHht4)], CoBEVFlow-解决车-车/路协同感知的时序异步问题 [[video](https://youtu.be/IBTgalAjye8)], 新一代协作感知Where2comm减少通信带宽十万倍 [[video](https://youtu.be/i5coMk4hkuk)], 从任务相关到任务无关的多机器人协同感知 [[video](https://course.zhidx.com/c/MDlkZjcyZDgwZWI4ODBhOGQ4MzM=)], 协同自动驾驶：仿真与感知 [[video](https://course.zhidx.com/c/MmQ1YWUyMzM1M2I3YzVlZjE1NzM=)], 基于群体协作的超视距态势感知 [[video](https://www.koushare.com/video/videodetail/33015)]
@@ -21,17 +20,15 @@ Note: I find it hard to fairly compare all methods on each benchmark since some 
 - **(Workshop)** Co-Intelligence@ECCV'24 [[web](https://coop-intelligence.github.io/)], CoPerception@ICRA'23 [[web](https://coperception.github.io)], ScalableAD@ICRA'23 [[web](https://sites.google.com/view/icra2023av/home)]
 - **(Background)** Current Approaches and Future Directions for Point Cloud Object Detection in Intelligent Agents [[video](https://youtu.be/xFFCQVwYeec)], 3D Object Detection for Autonomous Driving: A Review and New Outlooks [[paper](https://arxiv.org/abs/2206.09474)], DACOM: Learning Delay-Aware Communication for Multi-Agent Reinforcement Learning [[video](https://youtu.be/YBgW2oA_n3k)], A Survey of Multi-Agent Reinforcement Learning with Communication [[paper](https://arxiv.org/abs/2203.08975)]
 
-### Typical Collaboration Modes:handshake::handshake::handshake:
+### Typical Collaboration Modes🤝🤝🤝
 
 ![](mode.png)
 
-### Possible Optimization Directions:fire::fire::fire:
+### Possible Optimization Directions🔥🔥🔥
 
 ![](direction.png)
 
-
-
-## :bookmark:Method and Framework
+## 🔖Method and Framework
 
 Note: {Related} denotes that it is not a pure collaborative perception paper but has related content.
 
@@ -42,7 +39,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: V2X-Sim
   - Task: Segmentation
   - Input: Point Cloud
-- **CPPC** (Point Cluster: A Compact Message Unit for Communication-Efficient Collaborative Perception) [[paper&review](https://openreview.net/forum?id=54XlM8Clkg)] [~~code~~]
+- **CPPC** (Point Cluster: A Compact Message Unit for Communication-Efficient Collaborative Perception) [[paper&amp;review](https://openreview.net/forum?id=54XlM8Clkg)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2XSet, DAIR-V2X
   - Task: Detection
@@ -62,7 +59,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V, V2V4Real, DAIR-V2X
   - Task: Detection
   - Input: Point Cloud
-- **CoCMT** (CoCMT: Towards Communication-Efficient Corss-Modal Transformer For Collaborative Perception) [[paper&review](https://openreview.net/forum?id=S1NrbfMS7T)] [~~code~~]
+- **CoCMT** (CoCMT: Towards Communication-Efficient Corss-Modal Transformer For Collaborative Perception) [[paper&amp;review](https://openreview.net/forum?id=S1NrbfMS7T)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2V4Real
   - Task: Detection
@@ -92,7 +89,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V, V2V4Real, V2X-Real
   - Task: Detection
   - Input: Point Cloud
-- **CP-Guard+** (CP-Guard+: A New Paradigm for Malicious Agent Detection and Defense in Collaborative Perception) [[paper&review](https://openreview.net/forum?id=9MNzHTSDgh)] [~~code~~]
+- **CP-Guard+** (CP-Guard+: A New Paradigm for Malicious Agent Detection and Defense in Collaborative Perception) [[paper&amp;review](https://openreview.net/forum?id=9MNzHTSDgh)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: CP-GuardBench, V2X-Sim
   - Task: Adversarial Attack
@@ -102,7 +99,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: DAIR-V2X-Seq, V2X-Sim
   - Task: Detection
   - Input: RGB Image
-- **Debrief** (Talking Vehicles: Cooperative Driving via Natural Language) [[paper&review](https://openreview.net/forum?id=VYlfoA8I6A)] [~~code~~]
+- **Debrief** (Talking Vehicles: Cooperative Driving via Natural Language) [[paper&amp;review](https://openreview.net/forum?id=VYlfoA8I6A)] [~~code~~]
   - Mode: Late Collaboration
   - Dataset: TalkingVehiclesGym, CARLA (simulator)
   - Task: Planning
@@ -110,11 +107,6 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **DiffCP** (DiffCP: Ultra-Low Bit Collaborative Perception via Diffusion Model) [[paper](https://arxiv.org/abs/2409.19592)] [~~code~~]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V
-  - Task: Detection
-  - Input: Point Cloud
-- **Direct-CP** (Direct-CP: Directed Collaborative Perception for Connected and Autonomous Vehicles via Proactive Attention) [[paper](https://arxiv.org/abs/2409.08840)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Sim
   - Task: Detection
   - Input: Point Cloud
 - **I2XTraj** (Knowledge-Informed Multi-Agent Trajectory Prediction at Signalized Intersections for Infrastructure-to-Everything) [[paper](https://arxiv.org/abs/2501.13461)] [~~code~~]
@@ -220,22 +212,22 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### ICLR 2025
 
-- **CPPC** (Point Cluster: A Compact Message Unit for Communication-Efficient Collaborative Perception) [[paper&review](https://openreview.net/forum?id=54XlM8Clkg)] [~~code~~]
+- **CPPC** (Point Cluster: A Compact Message Unit for Communication-Efficient Collaborative Perception) [[paper&amp;review](https://openreview.net/forum?id=54XlM8Clkg)] [~~code~~]
   - Mode: Early Collaboration
   - Dataset: OPV2V, V2XSet, DAIR-V2X
   - Task: Detection
   - Input: Point Cloud
-- **R&B-POP** (Learning 3D Perception from Others' Predictions) [[paper&review](https://openreview.net/forum?id=Ylk98vWQuQ)] [[code](https://github.com/jinsuyoo/rnb-pop)]
+- **R&B-POP** (Learning 3D Perception from Others' Predictions) [[paper&amp;review](https://openreview.net/forum?id=Ylk98vWQuQ)] [[code](https://github.com/jinsuyoo/rnb-pop)]
   - Mode: Late Collaboration (for training)
   - Dataset: V2V4Real
   - Task: Detection
   - Input: Point Cloud
-- **STAMP** (STAMP: Scalable Task- And Model-Agnostic Collaborative Perception) [[paper&review](https://openreview.net/forum?id=8NdNniulYE)] [[code](https://github.com/taco-group/STAMP)]
+- **STAMP** (STAMP: Scalable Task- And Model-Agnostic Collaborative Perception) [[paper&amp;review](https://openreview.net/forum?id=8NdNniulYE)] [[code](https://github.com/taco-group/STAMP)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2V4Real
   - Task: Segmentation, Detection
   - Input: RGB Image, Point Cloud
-  
+
 ### AAAI 2025
 
 - **DSRC** (DSRC: Learning Density-Insensitive and Semantic-Aware Collaborative Representation against Corruptions) [[paper](https://arxiv.org/abs/2412.10739)] [[code](https://github.com/Terry9a/DSRC)]
@@ -243,12 +235,22 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V, DAIR-V2X
   - Task: Detection
   - Input: Point Cloud
+- **CP-Guard** (CP-Guard: Malicious Agent Detection and Defense in Collaborative Bird's Eye View Perception) [[paper](https://arxiv.org/abs/2412.12000)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2X-Sim
+  - Task: Defense against Adversarial Attack in Collaborative Bird's Eye View Perception
+  - Input: Point Cloud
 
 ### ICRA 2025
 
 - **CoDynTrust** (CoDynTrust: Robust Asynchronous Collaborative Perception via Dynamic Feature Trust Modulus) [[paper](https://arxiv.org/abs/2502.08169)] [[code](https://github.com/CrazyShout/CoDynTrust)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2XSet, DAIR-V2X
+  - Task: Detection
+  - Input: Point Cloud
+- **Direct-CP** (Direct-CP: Directed Collaborative Perception for Connected and Autonomous Vehicles via Proactive Attention) [[paper](https://arxiv.org/abs/2409.08840)] [~~code~~]
+  - Mode: Intermediate Collaboration
+  - Dataset: V2X-Sim
   - Task: Detection
   - Input: Point Cloud
 
@@ -303,7 +305,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### ICLR 2024
 
-- **HEAL** (An Extensible Framework for Open Heterogeneous Collaborative Perception) [[paper&review](https://openreview.net/forum?id=KkrDUGIASk)] [[code](https://github.com/yifanlu0227/HEAL)]
+- **HEAL** (An Extensible Framework for Open Heterogeneous Collaborative Perception) [[paper&amp;review](https://openreview.net/forum?id=KkrDUGIASk)] [[code](https://github.com/yifanlu0227/HEAL)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V-H, DAIR-V2X
   - Task: Detection
@@ -363,17 +365,17 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### NeurIPS 2023
 
-- **CoBEVFlow** (Robust Asynchronous Collaborative 3D Detection via Bird's Eye View Flow) [[paper&review](https://openreview.net/forum?id=UHIDdtxmVS)] [[code](https://github.com/MediaBrain-SJTU/CoBEVFlow)]
+- **CoBEVFlow** (Robust Asynchronous Collaborative 3D Detection via Bird's Eye View Flow) [[paper&amp;review](https://openreview.net/forum?id=UHIDdtxmVS)] [[code](https://github.com/MediaBrain-SJTU/CoBEVFlow)]
   - Mode: Intermediate Collaboration
   - Dataset: DAIR-V2X, IRV2V
   - Task: Detection
   - Input: Point Cloud
-- **FFNet** (Flow-Based Feature Fusion for Vehicle-Infrastructure Cooperative 3D Object Detection) [[paper&review](https://openreview.net/forum?id=gsglrhvQxX)] [[code](https://github.com/haibao-yu/FFNet-VIC3D)]
+- **FFNet** (Flow-Based Feature Fusion for Vehicle-Infrastructure Cooperative 3D Object Detection) [[paper&amp;review](https://openreview.net/forum?id=gsglrhvQxX)] [[code](https://github.com/haibao-yu/FFNet-VIC3D)]
   - Mode: Intermediate Collaboration
   - Dataset: DAIR-V2X
   - Task: Detection
   - Input: Point Cloud
-- **How2comm** (How2comm: Communication-Efficient and Collaboration-Pragmatic Multi-Agent Perception) [[paper&review](https://openreview.net/forum?id=Dbaxm9ujq6)] [[code](https://github.com/ydk122024/How2comm)]
+- **How2comm** (How2comm: Communication-Efficient and Collaboration-Pragmatic Multi-Agent Perception) [[paper&amp;review](https://openreview.net/forum?id=Dbaxm9ujq6)] [[code](https://github.com/ydk122024/How2comm)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, V2XSet, DAIR-V2X
   - Task: Detection
@@ -414,7 +416,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### ICLR 2023
 
-- {Related} **CO3** (CO3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving) [[paper&review](https://openreview.net/forum?id=QUaDoIdgo0)] [[code](https://github.com/Runjian-Chen/CO3)]
+- {Related} **CO3** (CO3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving) [[paper&amp;review](https://openreview.net/forum?id=QUaDoIdgo0)] [[code](https://github.com/Runjian-Chen/CO3)]
   - Mode: Early Collaboration (for contrastive learning)
   - Dataset: DAIR-V2X
   - Task: Representation Learning
@@ -422,7 +424,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### CoRL 2023
 
-- **BM2CP** {BM2CP: Efficient Collaborative Perception with LiDAR-Camera Modalities} [[paper&review](https://openreview.net/forum?id=uJqxFjF1xWp)] [[code](https://github.com/byzhaoAI/BM2CP)]
+- **BM2CP** {BM2CP: Efficient Collaborative Perception with LiDAR-Camera Modalities} [[paper&amp;review](https://openreview.net/forum?id=uJqxFjF1xWp)] [[code](https://github.com/byzhaoAI/BM2CP)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, DAIR-V2X
   - Task: Detection
@@ -512,7 +514,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### NeurIPS 2022
 
-- **Where2comm** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper&review](https://openreview.net/forum?id=dLL4KXzKUpS)] [[code](https://github.com/MediaBrain-SJTU/where2comm)]
+- **Where2comm** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper&amp;review](https://openreview.net/forum?id=dLL4KXzKUpS)] [[code](https://github.com/MediaBrain-SJTU/where2comm)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, DAIR-V2X, V2X-Sim, CoPerception-UAV
   - Task: Detection
@@ -533,12 +535,12 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### CoRL 2022
 
-- **CoBEVT** (CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers) [[paper&review](https://openreview.net/forum?id=PAFEQQtDf8s)] [[code](https://github.com/DerrickXuNu/CoBEVT)]
+- **CoBEVT** (CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers) [[paper&amp;review](https://openreview.net/forum?id=PAFEQQtDf8s)] [[code](https://github.com/DerrickXuNu/CoBEVT)]
   - Mode: Intermediate Collaboration
   - Dataset: OPV2V, nuScenes
   - Task: Segmentation, Detection
   - Input: RGB Image, Point Cloud
-- **STAR** (Multi-Robot Scene Completion: Towards Task-Agnostic Collaborative Perception) [[paper&review](https://openreview.net/forum?id=hW0tcXOJas2)] [[code](https://github.com/coperception/star)]
+- **STAR** (Multi-Robot Scene Completion: Towards Task-Agnostic Collaborative Perception) [[paper&amp;review](https://openreview.net/forum?id=hW0tcXOJas2)] [[code](https://github.com/coperception/star)]
   - Mode: Intermediate Collaboration
   - Dataset: V2X-Sim
   - Task: Segmentation, Detection
@@ -575,7 +577,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### NeurIPS 2021
 
-- **DiscoNet** (Learning Distilled Collaboration Graph for Multi-Agent Perception) [[paper&review](https://openreview.net/forum?id=ZRcjSOmYraB)] [[code](https://github.com/ai4ce/DiscoNet)]
+- **DiscoNet** (Learning Distilled Collaboration Graph for Multi-Agent Perception) [[paper&amp;review](https://openreview.net/forum?id=ZRcjSOmYraB)] [[code](https://github.com/ai4ce/DiscoNet)]
   - Mode: Early Collaboration (teacher model), Intermediate Collaboration (student model)
   - Dataset: V2X-Sim
   - Task: Detection
@@ -639,16 +641,14 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Task: Segmentation
   - Input: RGB Image
 
-
-
-## :bookmark:Dataset and Simulator
+## 🔖Dataset and Simulator
 
 Note: {Real} denotes that the sensor data is obtained by real-world collection instead of simulation.
 
 ### Selected Preprint
 
 - **Adver-City** (Adver-City: Open-Source Multi-Modal Dataset for Collaborative Perception Under Adverse Weather Conditions) [[paper](https://arxiv.org/abs/2410.06380)] [[code](https://github.com/QUARRG/Adver-City)] [[project](https://labs.cs.queensu.ca/quarrg/datasets/adver-city)]
-- **CP-GuardBench** (CP-Guard+: A New Paradigm for Malicious Agent Detection and Defense in Collaborative Perception) [[paper&review](https://openreview.net/forum?id=9MNzHTSDgh)] [~~code~~] [~~project~~]
+- **CP-GuardBench** (CP-Guard+: A New Paradigm for Malicious Agent Detection and Defense in Collaborative Perception) [[paper&amp;review](https://openreview.net/forum?id=9MNzHTSDgh)] [~~code~~] [~~project~~]
 - {Real} **InScope** (InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios) [[paper](https://arxiv.org/abs/2407.21581)] [[code](https://github.com/xf-zh/InScope)] [~~project~~]
 - **Multi-V2X** (Multi-V2X: A Large Scale Multi-modal Multi-penetration-rate Dataset for Cooperative Perception) [[paper](https://arxiv.org/abs/2409.04980)] [[code](https://github.com/RadetzkyLi/Multi-V2X)] [~~project~~]
 - **OPV2V-N** (RCDN: Towards Robust Camera-Insensitivity Collaborative Perception via Dynamic Feature-based 3D Neural Modeling) [[paper](https://arxiv.org/abs/2405.16868)] [~~code~~] [~~project~~]
@@ -675,7 +675,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 
 ### ICLR 2024
 
-- **OPV2V-H** (An Extensible Framework for Open Heterogeneous Collaborative Perception) [[paper&review](https://openreview.net/forum?id=KkrDUGIASk)] [[code](https://github.com/yifanlu0227/HEAL)] [[project](https://huggingface.co/datasets/yifanlu/OPV2V-H)]
+- **OPV2V-H** (An Extensible Framework for Open Heterogeneous Collaborative Perception) [[paper&amp;review](https://openreview.net/forum?id=KkrDUGIASk)] [[code](https://github.com/yifanlu0227/HEAL)] [[project](https://huggingface.co/datasets/yifanlu/OPV2V-H)]
 
 ### AAAI 2024
 
@@ -690,7 +690,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 
 ### NeurIPS 2023
 
-- **IRV2V** (Robust Asynchronous Collaborative 3D Detection via Bird's Eye View Flow) [[paper&review](https://openreview.net/forum?id=UHIDdtxmVS)] [~~code~~] [~~project~~]
+- **IRV2V** (Robust Asynchronous Collaborative 3D Detection via Bird's Eye View Flow) [[paper&amp;review](https://openreview.net/forum?id=UHIDdtxmVS)] [~~code~~] [~~project~~]
 
 ### ICCV 2023
 
@@ -709,7 +709,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 
 ### NeurIPS 2022
 
-- **CoPerception-UAV** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper&review](https://openreview.net/forum?id=dLL4KXzKUpS)] [[code](https://github.com/MediaBrain-SJTU/where2comm)] [[project](https://siheng-chen.github.io/dataset/coperception-uav)]
+- **CoPerception-UAV** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper&amp;review](https://openreview.net/forum?id=dLL4KXzKUpS)] [[code](https://github.com/MediaBrain-SJTU/where2comm)] [[project](https://siheng-chen.github.io/dataset/coperception-uav)]
 
 ### ECCV 2022
 
