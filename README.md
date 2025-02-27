@@ -266,6 +266,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   - Dataset: OPV2V, V2XSet, DAIR-V2X
   - Task: Detection
   - Input: Point Cloud
+- **CoopDETR** (CoopDETR: A Unified Cooperative Perception Framework for 3D Detection via Object Query)
+  - Mode: Intermediate Collaboration
+  - Dataset: OPV2V, V2XSet
+  - Task: Detection
+  - Input: Point Cloud
 - **Co-MTP** (Co-MTP: A Cooperative Trajectory Prediction Framework with Multi-Temporal Fusion for Autonomous Driving) [[paper](https://arxiv.org/abs/2502.16589)] [[code](https://github.com/xiaomiaozhang/Co-MTP)]
   - Mode: Intermediate Collaboration
   - Dataset: V2X-Seq
