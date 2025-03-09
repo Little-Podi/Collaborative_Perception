@@ -38,644 +38,213 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 ### Selected Preprint
 
 - **AR2VP** (Dynamic V2X Autonomous Perception from Road-to-Vehicle Vision) [[paper](https://arxiv.org/abs/2310.19113)] [[code](https://github.com/tjy1423317192/AP2VP)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Sim
-  - Task: Segmentation
-  - Input: Point Cloud
 - **CPPC** (Point Cluster: A Compact Message Unit for Communication-Efficient Collaborative Perception) [[paper&review](https://openreview.net/forum?id=54XlM8Clkg)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2XSet, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 - **CMP** (CMP: Cooperative Motion Prediction with Multi-Agent Communication) [[paper](https://arxiv.org/abs/2403.17916)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V
-  - Task: Forecasting
-  - Input: Point Cloud
 - **CoBEVFusion** (CoBEVFusion: Cooperative Perception with LiDAR-Camera Bird's-Eye View Fusion) [[paper](https://arxiv.org/abs/2310.06008)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V
-  - Task: Segmentation, Detection
-  - Input: RGB Image, Point Cloud
 - **CoBEVGlue** (Self-Localized Collaborative Perception) [[paper](https://arxiv.org/abs/2406.12712)] [[code](https://github.com/VincentNi0107/CoBEVGlue)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2V4Real, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 - **CoCMT** (CoCMT: Towards Communication-Efficient Corss-Modal Transformer For Collaborative Perception) [[paper&review](https://openreview.net/forum?id=S1NrbfMS7T)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2V4Real
-  - Task: Detection
-  - Input: RGB Image, Point Cloud
 - **CoDiff** (CoDiff: Conditional Diffusion Model for Collaborative 3D Object Detection) [[paper](https://arxiv.org/abs/2502.14891)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2V4Real, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 - **CoDriving** (Towards Collaborative Autonomous Driving: Simulation Platform and End-to-End System) [[paper](https://arxiv.org/abs/2404.09496)] [[code](https://github.com/CollaborativePerception/V2Xverse)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2V4Real, V2X-Sim, DAIR-V2X
-  - Task: Planning
-  - Input: RGB Image, Point Cloud
 - **CoDrivingLLM** (Towards Interactive and Learnable Cooperative Driving Automation: A Large Language Model-Driven Decision-making Framework) [[paper](https://arxiv.org/abs/2409.12812)] [[code](https://github.com/FanGShiYuu/CoDrivingLLM)]
-  - Mode: Late Collaboration
-  - Dataset: Unknown
-  - Task: Planning
-  - Input: Scene State
 - **CollaMamba** (CollaMamba: Efficient Collaborative Perception with Cross-Agent Spatial-Temporal State Space Model) [[paper](https://arxiv.org/abs/2409.07714)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2XSet, V2V4Real
-  - Task: Detection
-  - Input: Point Cloud
 - **CoMamba** (CoMamba: Real-time Cooperative Perception Unlocked with State Space Models) [[paper](https://arxiv.org/abs/2409.10699)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2XSet, V2V4Real
-  - Task: Detection
-  - Input: Point Cloud
 - **CooPre** (CooPre: Cooperative Pretraining for V2X Cooperative Perception)
-  - Mode: Early Collaboration, Intermediate Collaboration
-  - Dataset: OPV2V, V2V4Real, V2X-Real
-  - Task: Detection
-  - Input: Point Cloud
 - **CP-Guard+** (CP-Guard+: A New Paradigm for Malicious Agent Detection and Defense in Collaborative Perception) [[paper&review](https://openreview.net/forum?id=9MNzHTSDgh)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: CP-GuardBench, V2X-Sim
-  - Task: Adversarial Attack
-  - Input: Point Cloud
 - **CTCE** (Leveraging Temporal Contexts to Enhance Vehicle-Infrastructure Cooperative Perception) [[paper](https://arxiv.org/abs/2408.10531)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: DAIR-V2X-Seq, V2X-Sim
-  - Task: Detection
-  - Input: RGB Image
 - **Debrief** (Talking Vehicles: Cooperative Driving via Natural Language) [[paper&review](https://openreview.net/forum?id=VYlfoA8I6A)] [~~code~~]
-  - Mode: Late Collaboration
-  - Dataset: TalkingVehiclesGym, CARLA (simulator)
-  - Task: Planning
-  - Input: Scene State
 - **DiffCP** (DiffCP: Ultra-Low Bit Collaborative Perception via Diffusion Model) [[paper](https://arxiv.org/abs/2409.19592)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V
-  - Task: Detection
-  - Input: Point Cloud
 - **I2XTraj** (Knowledge-Informed Multi-Agent Trajectory Prediction at Signalized Intersections for Infrastructure-to-Everything) [[paper](https://arxiv.org/abs/2501.13461)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Seq, SinD
-  - Task: Forecasting
-  - Input: Scene State
 - **LCV2I** (LCV2I: Communication-Efficient and High-Performance Collaborative Perception Framework with Low-Resolution LiDAR) [[paper](https://arxiv.org/abs/2502.17039)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 - **LMMCoDrive** (LMMCoDrive: Cooperative Driving with Large Multimodal Model) [[paper](https://arxiv.org/abs/2409.11981)] [[code](https://github.com/henryhcliu/LMMCoDrive)]
-  - Mode: Late Collaboration
-  - Dataset: AMoD, CARLA (simulator)
-  - Task: Planning
-  - Input: Scene State
 - **mmCooper** (mmCooper: A Multi-Agent Multi-Stage Communication-Efficient and Collaboration-Robust Cooperative Perception Framework) [[paper](https://arxiv.org/abs/2501.12263)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2XSet, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 - **MOT-CUP** (Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation) [[paper](https://arxiv.org/abs/2303.14346)] [[code](https://github.com/susanbao/mot_cup)]
-  - Mode: Early Collaboration, Intermediate Collaboration
-  - Dataset: V2X-Sim
-  - Task: Tracking
-  - Input: Point Cloud
 - **RopeBEV** (RopeBEV: A Multi-Camera Roadside Perception Network in Bird’s-Eye-View)
-  - Mode: Intermediate Collaboration
-  - Dataset: RoScenes
-  - Task: Segmentation
-  - Input: RGB Image
 - **ParCon** (ParCon: Noise-Robust Collaborative Perception via Multi-Module Parallel Connection) [[paper](https://arxiv.org/abs/2407.11546)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2XSet, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 - **PragComm** (Pragmatic Communication in Multi-Agent Collaborative Perception) [[paper](https://arxiv.org/abs/2401.12694)] [[code](https://github.com/PhyllisH/PragComm)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2X-Sim, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 - **QUEST** (QUEST: Query Stream for Vehicle-Infrastructure Cooperative Perception) [[paper](https://arxiv.org/abs/2308.01804)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: DAIR-V2X-Seq
-  - Task: Detection
-  - Input: RGB Image
 - **RCDN** (RCDN: Towards Robust Camera-Insensitivity Collaborative Perception via Dynamic Feature-Based 3D Neural Modeling) [[paper](https://arxiv.org/abs/2405.16868)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V-N
-  - Task: Segmentation
-  - Input: RGB Image
 - **RG-Attn** (RG-Attn: Radian Glue Attention for Multi-Modality Multi-Agent Cooperative Perception) [[paper](https://arxiv.org/abs/2501.16803)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, DAIR-V2X
-  - Task: Detection
-  - Input: RGB Image, Point Cloud
 - **SiCP** (SiCP: Simultaneous Individual and Cooperative Perception for 3D Object Detection in Connected and Automated Vehicles) [[paper](https://arxiv.org/abs/2312.04822)] [[code](https://github.com/DarrenQu/SiCP)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V
-  - Task: Detection
-  - Input: Point Cloud
 - {Related} **TYP** (Transfer Your Perspective: Controllable 3D Generation from Any Viewpoint in a Driving Scene) [[paper](https://arxiv.org/abs/2502.06682)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2V4Real, WOD
-  - Task: Generation
-  - Input: Point Cloud
-- **UniV2X** (End-to-End Autonomous Driving through V2X Cooperation) [[paper](https://arxiv.org/abs/2404.00717)] [[code](https://github.com/AIR-THU/UniV2X)]
-  - Mode: Intermediate Collaboration
-  - Dataset: DAIR-V2X
-  - Task: Planning, Occupancy, Segmentation, Tracking
-  - Input: RGB Image
 - **VIMI** (VIMI: Vehicle-Infrastructure Multi-View Intermediate Fusion for Camera-Based 3D Object Detection) [[paper](https://arxiv.org/abs/2303.10975)] [[code](https://github.com/Bosszhe/VIMI)]
-  - Mode: Intermediate Collaboration
-  - Dataset: DAIR-V2X
-  - Task: Detection
-  - Input: RGB Image
 - **V2V-LLM** (V2V-LLM: Vehicle-to-Vehicle Cooperative Autonomous Driving with Multi-Modal Large Language Models) [[paper](https://arxiv.org/abs/2502.09980)] [[code](https://github.com/eddyhkchiu/V2VLLM)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2V-QA
-  - Task: Planning
-  - Input: Point Cloud
 - **V2XPnP** (V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction) [[paper](https://arxiv.org/abs/2412.01812)] [[code](https://github.com/Zewei-Zhou/V2XPnP)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2XPnP-Seq
-  - Task: Detection, Forecasting
-  - Input: Point Cloud
 - **V2X-DGPE** (V2X-DGPE: Addressing Domain Gaps and Pose Errors for Robust Collaborative 3D Object Detection) [[paper](https://arxiv.org/abs/2501.02363)] [[code](https://github.com/wangsch10/V2X-DGPE)]
-  - Mode: Intermediate Collaboration
-  - Dataset: DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 - **V2X-DGW** (V2X-DGW: Domain Generalization for Multi-Agent Perception under Adverse Weather Conditions) [[paper](https://arxiv.org/abs/2403.11371)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V-w, V2XSet-w
-  - Task: Detection
-  - Input: Point Cloud
 - **V2X-M2C** (V2X-M2C: Efficient Multi-Module Collaborative Perception with Two Connections) [[paper](https://arxiv.org/abs/2407.11546)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2XSet
-  - Task: Detection
-  - Input: Point Cloud
 - **V2X-PC** (V2X-PC: Vehicle-to-Everything Collaborative Perception via Point Cluster) [[paper](https://arxiv.org/abs/2403.16635)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2XSet, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 
 ### CVPR 2025
 
+- **CoSDH** (CoSDH: Communication-Efficient Collaborative Perception via Supply-Demand Awareness and Intermediate-Late Hybridization) [[paper](https://arxiv.org/abs/2503.03430)] [[code](https://github.com/Xu2729/CoSDH)]
 - **V2X-R** (V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion) [[paper](https://arxiv.org/abs/2411.08402)] [[code](https://github.com/ylwhxht/V2X-R)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-R
-  - Task: Detection
-  - Input: Point Cloud
 
 ### ICLR 2025
 
 - **CPPC** (Point Cluster: A Compact Message Unit for Communication-Efficient Collaborative Perception) [[paper&review](https://openreview.net/forum?id=54XlM8Clkg)] [~~code~~]
-  - Mode: Early Collaboration
-  - Dataset: OPV2V, V2XSet, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 - **R&B-POP** (Learning 3D Perception from Others' Predictions) [[paper&review](https://openreview.net/forum?id=Ylk98vWQuQ)] [[code](https://github.com/jinsuyoo/rnb-pop)]
-  - Mode: Late Collaboration (for training)
-  - Dataset: V2V4Real
-  - Task: Detection
-  - Input: Point Cloud
 - **STAMP** (STAMP: Scalable Task- And Model-Agnostic Collaborative Perception) [[paper&review](https://openreview.net/forum?id=8NdNniulYE)] [[code](https://github.com/taco-group/STAMP)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2V4Real
-  - Task: Segmentation, Detection
-  - Input: RGB Image, Point Cloud
   
 ### AAAI 2025
 
 - **CP-Guard** (CP-Guard: Malicious Agent Detection and Defense in Collaborative Bird's Eye View Perception) [[paper](https://arxiv.org/abs/2412.12000)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Sim
-  - Task: Adversarial Attack
-  - Input: Point Cloud
 - **DSRC** (DSRC: Learning Density-Insensitive and Semantic-Aware Collaborative Representation against Corruptions) [[paper](https://arxiv.org/abs/2412.10739)] [[code](https://github.com/Terry9a/DSRC)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
+- **UniV2X** (End-to-End Autonomous Driving through V2X Cooperation) [[paper](https://arxiv.org/abs/2404.00717)] [[code](https://github.com/AIR-THU/UniV2X)]
 
 ### ICRA 2025
 
 - **CoDynTrust** (CoDynTrust: Robust Asynchronous Collaborative Perception via Dynamic Feature Trust Modulus) [[paper](https://arxiv.org/abs/2502.08169)] [[code](https://github.com/CrazyShout/CoDynTrust)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2XSet, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
-- **CoopDETR** (CoopDETR: A Unified Cooperative Perception Framework for 3D Detection via Object Query)
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2XSet
-  - Task: Detection
-  - Input: Point Cloud
+- **CoopDETR** (CoopDETR: A Unified Cooperative Perception Framework for 3D Detection via Object Query) [[paper](https://arxiv.org/abs/2502.19313)] [~~code~~]
 - **Co-MTP** (Co-MTP: A Cooperative Trajectory Prediction Framework with Multi-Temporal Fusion for Autonomous Driving) [[paper](https://arxiv.org/abs/2502.16589)] [[code](https://github.com/xiaomiaozhang/Co-MTP)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Seq
-  - Task: Forecasting
-  - Input: Scene State
 - **Direct-CP** (Direct-CP: Directed Collaborative Perception for Connected and Autonomous Vehicles via Proactive Attention) [[paper](https://arxiv.org/abs/2409.08840)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Sim
-  - Task: Detection
-  - Input: Point Cloud
 
 ### CVPR 2024
 
 - **CoHFF** (Collaborative Semantic Occupancy Prediction with Hybrid Feature Fusion in Connected Automated Vehicles) [[paper](https://arxiv.org/abs/2402.07635)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V+
-  - Task: Occupancy, Segmentation, Detection
-  - Input: RGB Image
 - **CoopDet3D** (TUMTraf V2X Cooperative Perception Dataset) [[paper](https://arxiv.org/abs/2403.01316)] [[code](https://github.com/tum-traffic-dataset/coopdet3d)]
-  - Mode: Intermediate Collaboration
-  - Dataset: TUMTraf-V2X
-  - Task: Detection
-  - Input: RGB Image, Point Cloud
 - **CodeFilling** (Communication-Efficient Collaborative Perception via Information Filling with Codebook) [[paper](https://arxiv.org/abs/2405.04966)] [[code](https://github.com/PhyllisH/CodeFilling)]
-  - Mode: Intermediate Collaboration
-  - Dataset: DAIR-V2X, OPV2VH+
-  - Task: Detection
-  - Input: RGB Image, Point Cloud
 - **ERMVP** (ERMVP: Communication-Efficient and Collaboration-Robust Multi-Vehicle Perception in Challenging Environments) [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_ERMVP_Communication-Efficient_and_Collaboration-Robust_Multi-Vehicle_Perception_in_Challenging_Environments_CVPR_2024_paper.html)] [[code](https://github.com/Terry9a/ERMVP)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2V4Real
-  - Task: Detection
-  - Input: Point Cloud
 - **MRCNet** (Multi-Agent Collaborative Perception via Motion-Aware Robust Communication Network) [[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Hong_Multi-agent_Collaborative_Perception_via_Motion-aware_Robust_Communication_Network_CVPR_2024_paper.html)] [[code](https://github.com/IndigoChildren/collaborative-perception-MRCNet)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2XSet, V2X-Sim
-  - Task: Detection
-  - Input: Point Cloud
 
 ### ECCV 2024
 
 - **Hetecooper** (Hetecooper: Feature Collaboration Graph for Heterogeneous Collaborative Perception) [[paper](https://eccv.ecva.net/virtual/2024/poster/2467)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2V4Real
-  - Task: Detection
-  - Input: Point Cloud
 - **Infra-Centric CP** (Rethinking the Role of Infrastructure in Collaborative Perception) [[paper](https://arxiv.org/abs/2410.11259)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2XSet, V2X-Sim
-  - Task: Detection
-  - Input: Point Cloud
 
 ### NeurIPS 2024
 
 - **V2X-Graph** (Learning Cooperative Trajectory Representations for Motion Forecasting) [[paper](https://arxiv.org/abs/2311.00371)] [[code](https://github.com/AIR-THU/V2X-Graph)]
-  - Mode: Intermediate Collaboration
-  - Dataset: DAIR-V2X-Seq, DAIR-V2X-Traj
-  - Task: Forecasting
-  - Input: Vector Map
 
 ### ICLR 2024
 
 - **HEAL** (An Extensible Framework for Open Heterogeneous Collaborative Perception) [[paper&review](https://openreview.net/forum?id=KkrDUGIASk)] [[code](https://github.com/yifanlu0227/HEAL)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V-H, DAIR-V2X
-  - Task: Detection
-  - Input: RGB Image, Point Cloud
 
 ### AAAI 2024
 
 - **CMiMC** (What Makes Good Collaborative Views? Contrastive Mutual Information Maximization for Multi-Agent Perception) [[paper](https://arxiv.org/abs/2403.10068)] [[code](https://github.com/77SWF/CMiMC)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Sim
-  - Task: Detection
-  - Input: Point Cloud
 - **DI-V2X** (DI-V2X: Learning Domain-Invariant Representation for Vehicle-Infrastructure Collaborative 3D Object Detection) [[paper](https://arxiv.org/abs/2312.15742)] [[code](https://github.com/Serenos/DI-V2X)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2XSet, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 - **V2XFormer** (DeepAccident: A Motion and Accident Prediction Benchmark for V2X Autonomous Driving) [[paper](https://arxiv.org/abs/2304.01168)] [[code](https://github.com/tianqi-wang1996/DeepAccident)]
-  - Mode: Intermediate Collaboration
-  - Dataset: DeepAccident
-  - Task: Detection, Forecasting
-  - Input: RGB Image
 
 ### WACV 2024
 
 - **MACP** (MACP: Efficient Model Adaptation for Cooperative Perception) [[paper](https://arxiv.org/abs/2310.16870)] [[code](https://github.com/PurdueDigitalTwin/MACP)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2V4Real
-  - Task: Detection
-  - Input: Point Cloud
 
 ### ICRA 2024
 
 - **DMSTrack** (Probabilistic 3D Multi-Object Cooperative Tracking for Autonomous Driving via Differentiable Multi-Sensor Kalman Filter) [[paper](https://arxiv.org/abs/2309.14655)] [[code](https://github.com/eddyhkchiu/DMSTrack)]
-  - Mode: Late Collaboration
-  - Dataset: V2V4Real
-  - Task: Tracking
-  - Input: Point Cloud
 - **FreeAlign** (Robust Collaborative Perception without External Localization and Clock Devices) [[paper](https://arxiv.org/abs/2405.02965)] [[code](https://github.com/MediaBrain-SJTU/FreeAlign)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 
 ### CVPR 2023
 
 - {Related} **BEVHeight** (BEVHeight: A Robust Framework for Vision-Based Roadside 3D Object Detection) [[paper](https://arxiv.org/abs/2303.08498)] [[code](https://github.com/ADLab-AutoDrive/BEVHeight)]
-  - Mode: No Collaboration (only infrastructure data)
-  - Dataset: DAIR-V2X, V2X-Sim
-  - Task: Detection
-  - Input: RGB Image
 - **CoCa3D** (Collaboration Helps Camera Overtake LiDAR in 3D Detection) [[paper](https://arxiv.org/abs/2303.13560)] [[code](https://github.com/MediaBrain-SJTU/CoCa3D)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V+, DAIR-V2X, CoPerception-UAV+
-  - Task: Detection
-  - Input: RGB Image
 - **FF-Tracking** (V2X-Seq: The Large-Scale Sequential Dataset for the Vehicle-Infrastructure Cooperative Perception and Forecasting) [[paper](https://arxiv.org/abs/2305.05938)] [[code](https://github.com/AIR-THU/DAIR-V2X-Seq)]
-  - Mode: Intermediate Collaboration
-  - Dataset: DAIR-V2X-Seq
-  - Task: Tracking
-  - Input: Point Cloud
 
 ### NeurIPS 2023
 
 - **CoBEVFlow** (Robust Asynchronous Collaborative 3D Detection via Bird's Eye View Flow) [[paper&review](https://openreview.net/forum?id=UHIDdtxmVS)] [[code](https://github.com/MediaBrain-SJTU/CoBEVFlow)]
-  - Mode: Intermediate Collaboration
-  - Dataset: DAIR-V2X, IRV2V
-  - Task: Detection
-  - Input: Point Cloud
 - **FFNet** (Flow-Based Feature Fusion for Vehicle-Infrastructure Cooperative 3D Object Detection) [[paper&review](https://openreview.net/forum?id=gsglrhvQxX)] [[code](https://github.com/haibao-yu/FFNet-VIC3D)]
-  - Mode: Intermediate Collaboration
-  - Dataset: DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 - **How2comm** (How2comm: Communication-Efficient and Collaboration-Pragmatic Multi-Agent Perception) [[paper&review](https://openreview.net/forum?id=Dbaxm9ujq6)] [[code](https://github.com/ydk122024/How2comm)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2XSet, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 
 ### ICCV 2023
 
 - **CORE** (CORE: Cooperative Reconstruction for Multi-Agent Perception) [[paper](https://arxiv.org/abs/2307.11514)] [[code](https://github.com/zllxot/CORE)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V
-  - Task: Segmentation, Detection
-  - Input: Point Cloud
 - **HM-ViT** (HM-ViT: Hetero-Modal Vehicle-to-Vehicle Cooperative Perception with Vision Transformer) [[paper](https://arxiv.org/abs/2304.10628)] [[code](https://github.com/XHwind/HM-ViT)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V
-  - Task: Detection
-  - Input: RGB Image, Point Cloud
 - **ROBOSAC** (Among Us: Adversarially Robust Collaborative Perception by Consensus) [[paper](https://arxiv.org/abs/2303.09495)] [[code](https://github.com/coperception/ROBOSAC)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Sim
-  - Task: Detection
-  - Input: Point Cloud
 - **SCOPE** (Spatio-Temporal Domain Awareness for Multi-Agent Collaborative Perception) [[paper](https://arxiv.org/abs/2307.13929)] [[code](https://github.com/starfdu1418/SCOPE)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2XSet, DAIR-V2X
-  - Task: Segmentation, Detection
-  - Input: Point Cloud
 - **TransIFF** (TransIFF: An Instance-Level Feature Fusion Framework for Vehicle-Infrastructure Cooperative 3D Detection with Transformers) [[paper](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_TransIFF_An_Instance-Level_Feature_Fusion_Framework_for_Vehicle-Infrastructure_Cooperative_3D_ICCV_2023_paper.html)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 - **UMC** (UMC: A Unified Bandwidth-Efficient and Multi-Resolution Based Collaborative Perception Framework) [[paper](https://arxiv.org/abs/2303.12400)] [[code](https://github.com/ispc-lab/UMC)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2X-Sim
-  - Task: Detection
-  - Input: Point Cloud
 
 ### ICLR 2023
 
 - {Related} **CO3** (CO3: Cooperative Unsupervised 3D Representation Learning for Autonomous Driving) [[paper&review](https://openreview.net/forum?id=QUaDoIdgo0)] [[code](https://github.com/Runjian-Chen/CO3)]
-  - Mode: Early Collaboration (for contrastive learning)
-  - Dataset: DAIR-V2X
-  - Task: Representation Learning
-  - Input: Point Cloud
 
 ### CoRL 2023
 
 - **BM2CP** {BM2CP: Efficient Collaborative Perception with LiDAR-Camera Modalities} [[paper&review](https://openreview.net/forum?id=uJqxFjF1xWp)] [[code](https://github.com/byzhaoAI/BM2CP)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, DAIR-V2X
-  - Task: Detection
-  - Input: RGB Image, Point Cloud
 
 ### MM 2023
 
 - **DUSA** (DUSA: Decoupled Unsupervised Sim2Real Adaptation for Vehicle-to-Everything Collaborative Perception) [[paper](https://arxiv.org/abs/2310.08117)] [[code](https://github.com/refkxh/DUSA)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2XSet, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 - **FeaCo** (FeaCo: Reaching Robust Feature-Level Consensus in Noisy Pose Conditions) [[paper](https://dl.acm.org/doi/abs/10.1145/3581783.3611880)] [[code](https://github.com/jmgu0212/FeaCo)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2V4Real
-  - Task: Detection
-  - Input: Point Cloud
 - **What2comm** (What2comm: Towards Communication-Efficient Collaborative Perception via Feature Decoupling) [[paper](https://dl.acm.org/doi/abs/10.1145/3581783.3611699)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, V2XSet, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 
 ### WACV 2023
 
 - **AdaFusion** (Adaptive Feature Fusion for Cooperative Perception Using LiDAR Point Clouds) [[paper](https://arxiv.org/abs/2208.00116)] [[code](https://github.com/DonghaoQiao/Adaptive-Feature-Fusion-for-Cooperative-Perception)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, CODD
-  - Task: Detection
-  - Input: Point Cloud
 
 ### ICRA 2023
 
 - **CoAlign** (Robust Collaborative 3D Object Detection in Presence of Pose Errors) [[paper](https://arxiv.org/abs/2211.07214)] [[code](https://github.com/yifanlu0227/CoAlign)]
-  - Mode: Intermediate Collaboration, Late Collaboration
-  - Dataset: OPV2V, V2X-Sim, DAIR-V2X
-  - Task: Detection
-  - Input: Point Cloud
 - {Related} **DMGM** (Deep Masked Graph Matching for Correspondence Identification in Collaborative Perception) [[paper](https://arxiv.org/abs/2303.07555)] [[code](https://github.com/gaopeng5/DMGM)]
-  - Mode: Intermediate Collaboration
-  - Dataset: CAD
-  - Task: Correspondence Identification
-  - Input: RGBD Image
 - **Double-M Quantification** (Uncertainty Quantification of Collaborative Detection for Self-Driving) [[paper](https://arxiv.org/abs/2209.08162)] [[code](https://github.com/coperception/double-m-quantification)]
-  - Mode: Early Collaboration, Intermediate Collaboration
-  - Dataset: V2X-Sim
-  - Task: Detection
-  - Input: Point Cloud
 - **MAMP** (Model-Agnostic Multi-Agent Perception Framework) [[paper](https://arxiv.org/abs/2203.13168)] [[code](https://github.com/DerrickXuNu/model_anostic)]
-  - Mode: Late Collaboration
-  - Dataset: OPV2V
-  - Task: Detection
-  - Input: Point Cloud
 - **MATE** (Communication-Critical Planning via Multi-Agent Trajectory Exchange) [[paper](https://arxiv.org/abs/2303.06080)] [~~code~~]
-  - Mode: Late Collaboration
-  - Dataset: AutoCastSim (simulator), CoBEV-Sim (simulator)
-  - Task: Planning
-  - Input: Point Cloud
 - **MPDA** (Bridging the Domain Gap for Multi-Agent Perception) [[paper](https://arxiv.org/abs/2210.08451)] [[code](https://github.com/DerrickXuNu/MPDA)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2XSet
-  - Task: Detection
-  - Input: Point Cloud
 - **WNT** (We Need to Talk: Identifying and Overcoming Communication-Critical Scenarios for Self-Driving) [[paper](https://arxiv.org/abs/2305.04352)] [~~code~~]
-  - Mode: Late Collaboration
-  - Dataset: CoBEV-Sim (simulator)
-  - Task: Planning
-  - Input: Point Cloud
 
 ### CVPR 2022
 
 - **Coopernaut** (COOPERNAUT: End-to-End Driving with Cooperative Perception for Networked Vehicles) [[paper](https://arxiv.org/abs/2205.02222)] [[code](https://github.com/UT-Austin-RPL/Coopernaut)]
-  - Mode: Intermediate Collaboration
-  - Dataset: AutoCastSim (simulator)
-  - Task: Planning
-  - Input: Point Cloud
 - {Related} **LAV** (Learning from All Vehicles) [[paper](https://arxiv.org/abs/2203.11934)] [[code](https://github.com/dotchen/LAV)]
-  - Mode: Late Collaboration (for training)
-  - Dataset: CARLA (simulator)
-  - Task: Planning, Detection (auxiliary supervision), Segmentation (auxiliary supervision)
-  - Input: RGB Image, Point Cloud
 - **TCLF** (DAIR-V2X: A Large-Scale Dataset for Vehicle-Infrastructure Cooperative 3D Object Detection) [[paper](https://arxiv.org/abs/2204.05575)] [[code](https://github.com/AIR-THU/DAIR-V2X)]
-  - Mode: Late Collaboration
-  - Dataset: DAIR-V2X
-  - Task: Detection
-  - Input: RGB Image, Point Cloud
 
 ### NeurIPS 2022
 
 - **Where2comm** (Where2comm: Efficient Collaborative Perception via Spatial Confidence Maps) [[paper&review](https://openreview.net/forum?id=dLL4KXzKUpS)] [[code](https://github.com/MediaBrain-SJTU/where2comm)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, DAIR-V2X, V2X-Sim, CoPerception-UAV
-  - Task: Detection
-  - Input: Point Cloud
 
 ### ECCV 2022
 
 - **SyncNet** (Latency-Aware Collaborative Perception) [[paper](https://arxiv.org/abs/2207.08560)] [[code](https://github.com/MediaBrain-SJTU/SyncNet)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Sim
-  - Task: Detection
-  - Input: Point Cloud
 - **V2X-ViT** (V2X-ViT: Vehicle-to-Everything Cooperative Perception with Vision Transformer) [[paper](https://arxiv.org/abs/2203.10638)] [[code](https://github.com/DerrickXuNu/v2x-vit)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2XSet
-  - Task: Detection
-  - Input: Point Cloud
 
 ### CoRL 2022
 
 - **CoBEVT** (CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers) [[paper&review](https://openreview.net/forum?id=PAFEQQtDf8s)] [[code](https://github.com/DerrickXuNu/CoBEVT)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V, nuScenes
-  - Task: Segmentation, Detection
-  - Input: RGB Image, Point Cloud
 - **STAR** (Multi-Robot Scene Completion: Towards Task-Agnostic Collaborative Perception) [[paper&review](https://openreview.net/forum?id=hW0tcXOJas2)] [[code](https://github.com/coperception/star)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Sim
-  - Task: Segmentation, Detection
-  - Input: Point Cloud
 
 ### IJCAI 2022
 
 - **IA-RCP** (Robust Collaborative Perception against Communication Interruption) [[paper](https://learn-to-race.org/workshop-ai4ad-ijcai2022/papers.html)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Sim
-  - Task: Detection
-  - Input: Point Cloud
 
 ### MM 2022
 
 - **CRCNet** (Complementarity-Enhanced and Redundancy-Minimized Collaboration Network for Multi-agent Perception) [[paper](https://dl.acm.org/doi/abs/10.1145/3503161.3548197)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2X-Sim
-  - Task: Detection
-  - Input: Point Cloud
 
 ### ICRA 2022
 
 - **AttFuse** (OPV2V: An Open Benchmark Dataset and Fusion Pipeline for Perception with Vehicle-to-Vehicle Communication) [[paper](https://arxiv.org/abs/2109.07644)] [[code](https://github.com/DerrickXuNu/OpenCOOD)]
-  - Mode: Intermediate Collaboration
-  - Dataset: OPV2V
-  - Task: Detection
-  - Input: Point Cloud
 - **MP-Pose** (Multi-Robot Collaborative Perception with Graph Neural Networks) [[paper](https://arxiv.org/abs/2201.01760)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: AirSim-MAP
-  - Task: Segmentation
-  - Input: RGB Image
 
 ### NeurIPS 2021
 
 - **DiscoNet** (Learning Distilled Collaboration Graph for Multi-Agent Perception) [[paper&review](https://openreview.net/forum?id=ZRcjSOmYraB)] [[code](https://github.com/ai4ce/DiscoNet)]
-  - Mode: Early Collaboration (teacher model), Intermediate Collaboration (student model)
-  - Dataset: V2X-Sim
-  - Task: Detection
-  - Input: Point Cloud
 
 ### ICCV 2021
 
 - **Adversarial V2V** (Adversarial Attacks On Multi-Agent Communication) [[paper](https://arxiv.org/abs/2101.06560)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2V-Sim
-  - Task: Adversarial Attack
-  - Input: Point Cloud
 
 ### IROS 2021
 
 - **MASH** (Overcoming Obstructions via Bandwidth-Limited Multi-Agent Spatial Handshaking) [[paper](https://arxiv.org/abs/2107.00771)] [[code](https://github.com/yifanlu0227/CoAlign)]
-  - Mode: Late Collaboration
-  - Dataset: AirSim
-  - Task: Segmentation
-  - Input: RGB Image
 
 ### CVPR 2020
 
 - **When2com** (When2com: Multi-Agent Perception via Communication Graph Grouping) [[paper](https://arxiv.org/abs/2006.00176)] [[code](https://github.com/GT-RIPL/MultiAgentPerception)]
-  - Mode: Intermediate Collaboration
-  - Dataset: AirSim-MAP
-  - Task: Segmentation, Classification
-  - Input: RGB Image
 
 ### ECCV 2020
 
 - **DSDNet** (DSDNet: Deep Structured Self-Driving Network) [[paper](https://arxiv.org/abs/2008.06041)] [~~code~~]
-  - Mode: Late Collaboration
-  - Dataset: nuScenes, CARLA (simulator), ATG4D
-  - Task: Planning
-  - Input: Point Cloud
 - **V2VNet** (V2VNet: Vehicle-to-Vehicle Communication for Joint Perception and Prediction) [[paper](https://arxiv.org/abs/2008.07519)] [[code](https://github.com/DerrickXuNu/OpenCOOD)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2V-Sim
-  - Task: Detection, Forecasting
-  - Input: Point Cloud
 
 ### CoRL 2020
 
 - **Robust V2V** (Learning to Communicate and Correct Pose Errors) [[paper](https://arxiv.org/abs/2011.05289)] [[code](https://github.com/yifanlu0227/CoAlign)]
-  - Mode: Intermediate Collaboration
-  - Dataset: V2V-Sim
-  - Task: Detection, Forecasting
-  - Input: Point Cloud
 
 ### ICRA 2020
 
 - **Who2com** (Who2com: Collaborative Perception via Learnable Handshake Communication) [[paper](https://arxiv.org/abs/2003.09575)] [[code](https://github.com/GT-RIPL/MultiAgentPerception)]
-  - Mode: Intermediate Collaboration
-  - Dataset: AirSim-CP (has an asynchronous issue between views)
-  - Task: Segmentation
-  - Input: RGB Image
 - **MAIN** (Enhancing Multi-Robot Perception via Learned Data Association) [[paper](https://arxiv.org/abs/2107.00769)] [~~code~~]
-  - Mode: Intermediate Collaboration
-  - Dataset: AirSim
-  - Task: Segmentation
-  - Input: RGB Image
 
 
 
