@@ -105,6 +105,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **CoopDETR** (CoopDETR: A Unified Cooperative Perception Framework for 3D Detection via Object Query) [[paper](https://arxiv.org/abs/2502.19313)] [~~code~~]
 - **Co-MTP** (Co-MTP: A Cooperative Trajectory Prediction Framework with Multi-Temporal Fusion for Autonomous Driving) [[paper](https://arxiv.org/abs/2502.16589)] [[code](https://github.com/xiaomiaozhang/Co-MTP)]
 - **Direct-CP** (Direct-CP: Directed Collaborative Perception for Connected and Autonomous Vehicles via Proactive Attention) [[paper](https://arxiv.org/abs/2409.08840)] [~~code~~]
+- **V2X-DG** (V2X-DG: Domain Generalization for Vehicle-to-Everything Cooperative Perception) [[paper](https://arxiv.org/abs/2503.15435)] [~~code~~]
 
 ### CVPR 2024
 
