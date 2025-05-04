@@ -71,6 +71,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **RoCo-Sim** (RoCo-Sim: Enhancing Roadside Collaborative Perception through Foreground Simulation) [[paper](https://arxiv.org/abs/2503.10410)] [[code](https://github.com/duyuwen-duen/RoCo-Sim)]
 - **SiCP** (SiCP: Simultaneous Individual and Cooperative Perception for 3D Object Detection in Connected and Automated Vehicles) [[paper](https://arxiv.org/abs/2312.04822)] [[code](https://github.com/DarrenQu/SiCP)]
 - **SparseAlign** (SparseAlign: A Fully Sparse Framework for Cooperative Object Detection) [[paper](https://arxiv.org/abs/2503.12982)] [~~code~~]
+- **TOCOM-V2I** (Task-Oriented Communication for Vehicle-to-Infrastructure Cooperative Perception) [[paper](https://arxiv.org/abs/2407.20748)] [~~code~~]
 - {Related} **TYP** (Transfer Your Perspective: Controllable 3D Generation from Any Viewpoint in a Driving Scene) [[paper](https://arxiv.org/abs/2502.06682)] [~~code~~]
 - **VIMI** (VIMI: Vehicle-Infrastructure Multi-View Intermediate Fusion for Camera-Based 3D Object Detection) [[paper](https://arxiv.org/abs/2303.10975)] [[code](https://github.com/Bosszhe/VIMI)]
 - **VLIF** (Is Intermediate Fusion All You Need for UAV-Based Collaborative Perception?) [[paper](https://arxiv.org/abs/2504.21774)] [[code](https://github.com/uestchjw/LIF)]
