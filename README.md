@@ -87,10 +87,10 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### CVPR 2025
 
-- **CoGMP** (Generative Map Priors for Collaborative BEV Semantic Segmentation) [~~paper~~] [~~code~~]
+- **CoGMP** (Generative Map Priors for Collaborative BEV Semantic Segmentation) [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Fu_Generative_Map_Priors_for_Collaborative_BEV_Semantic_Segmentation_CVPR_2025_paper.html)] [~~code~~]
 - **CoSDH** (CoSDH: Communication-Efficient Collaborative Perception via Supply-Demand Awareness and Intermediate-Late Hybridization) [[paper](https://arxiv.org/abs/2503.03430)] [[code](https://github.com/Xu2729/CoSDH)]
-- **PolyInter** (One is Plenty: A Polymorphic Feature Interpreter for Immutable Heterogeneous Collaborative Perception) [[paper](https://arxiv.org/abs/2411.16799)] [~~code~~]
-- **SparseAlign** (SparseAlign: A Fully Sparse Framework for Cooperative Object Detection) [~~paper~~] [~~code~~]
+- **PolyInter** (One is Plenty: A Polymorphic Feature Interpreter for Immutable Heterogeneous Collaborative Perception) [[paper](https://arxiv.org/abs/2411.16799)] [[code](https://github.com/yuchen-xia/PolyInter)]
+- **SparseAlign** (SparseAlign: A Fully Sparse Framework for Cooperative Object Detection) [[paper](https://arxiv.org/abs/2503.12982)] [~~code~~]
 - **V2X-R** (V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion) [[paper](https://arxiv.org/abs/2411.08402)] [[code](https://github.com/ylwhxht/V2X-R)]
 
 ### ICLR 2025
@@ -287,8 +287,8 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 
 ### CVPR 2025
 
-- **Mono3DVLT-V2X** (Mono3DVLT: Monocular-Video-Based 3D Visual Language Tracking) [~~paper~~] [~~code~~] [~~project~~]
-- **RCP-Bench** (RCP-Bench: Benchmarking Robustness for Collaborative Perception Under Diverse Corruptions) [~~paper~~] [~~code~~] [~~project~~]
+- **Mono3DVLT-V2X** (Mono3DVLT: Monocular-Video-Based 3D Visual Language Tracking) [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wei_Mono3DVLT_Monocular-Video-Based_3D_Visual_Language_Tracking_CVPR_2025_paper.html)] [~~code~~] [~~project~~]
+- **RCP-Bench** (RCP-Bench: Benchmarking Robustness for Collaborative Perception Under Diverse Corruptions) [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Du_RCP-Bench_Benchmarking_Robustness_for_Collaborative_Perception_Under_Diverse_Corruptions_CVPR_2025_paper.html)] [[code](https://github.com/LuckyDush/RCP-Bench)] [~~project~~]
 - **V2X-R** (V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion) [[paper](https://arxiv.org/abs/2411.08402)] [[code](https://github.com/ylwhxht/V2X-R)] [~~project~~]
 
 ### CVPR 2024
