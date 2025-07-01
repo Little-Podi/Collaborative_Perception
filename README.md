@@ -82,8 +82,10 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **V2X-DGW** (V2X-DGW: Domain Generalization for Multi-Agent Perception under Adverse Weather Conditions) [[paper](https://arxiv.org/abs/2403.11371)] [~~code~~]
 - **V2X-M2C** (V2X-M2C: Efficient Multi-Module Collaborative Perception with Two Connections) [[paper](https://arxiv.org/abs/2407.11546)] [~~code~~]
 - **V2X-PC** (V2X-PC: Vehicle-to-Everything Collaborative Perception via Point Cluster) [[paper](https://arxiv.org/abs/2403.16635)] [~~code~~]
+- **V2X-REALM** (V2X-REALM: Vision-Language Model-Based Robust End-to-End Cooperative Autonomous Driving with Adaptive Long-Tail Modeling) [[paper](https://arxiv.org/abs/2506.21041)] [~~code~~]
 - **V2X-ReaLO** (V2X-ReaLO: An Open Online Framework and Dataset for Cooperative Perception in Reality) [[paper](https://arxiv.org/abs/2503.10034)] [~~code~~]
 - **V2X-UniPool** (V2X-UniPool: Unifying Multimodal Perception and Knowledge Reasoning for Autonomous Driving) [[paper](https://arxiv.org/abs/2506.02580)] [[code](https://github.com/snowwhite1016/V2X-UniPool)]
+- **V2X-VLM** (V2X-VLM: End-to-End V2X Cooperative Autonomous Driving Through Large Vision-Language Models) [[paper](https://arxiv.org/abs/2408.09251)] [~~code~~]
 
 ### CVPR 2025
 
