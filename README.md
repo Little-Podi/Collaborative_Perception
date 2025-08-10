@@ -6,7 +6,7 @@ This repository is a paper digest of recent advances in **collaborative** / **co
 - ### [[Method and Framework](https://github.com/Little-Podi/Collaborative_Perception#bookmarkmethod-and-framework)]
 - ### [[Dataset and Simulator](https://github.com/Little-Podi/Collaborative_Perception#bookmarkdataset-and-simulator)]
 
-Note: I find it hard to fairly compare all methods on each benchmark since some published results are obtained without specified training and testing settings, or even modified model architectures. In fact, many works evaluate all baselines under their own settings and report them. Therefore, it is probably to find inconsistency between papers. Hence, I discard the collection and reproducton of all the benchmarks in a previous update. If you are interested, you can find plenty of results in [this archived version](https://github.com/Little-Podi/Collaborative_Perception/tree/1be25908aea0a9f635ff4852b3a90729cf2b6aac).
+Note: I find it hard to fairly compare all methods on each benchmark since some published results are obtained without specified training and testing settings, or even modified model architectures. In fact, many works evaluate all baselines under their own settings and report them. Therefore, it is probably to find inconsistency between papers. Hence, I discard the collection and reproducton of all the benchmarks in a previous update. If you are interested, you can find a bunch of results in [this archived version](https://github.com/Little-Podi/Collaborative_Perception/tree/1be25908aea0a9f635ff4852b3a90729cf2b6aac).
 
 
 
@@ -39,6 +39,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **ACCO** (Is Discretization Fusion All You Need for Collaborative Perception?) [[paper](https://arxiv.org/abs/2503.13946)] [[code](https://github.com/sidiangongyuan/ACCO)]
 - **AR2VP** (Dynamic V2X Autonomous Perception from Road-to-Vehicle Vision) [[paper](https://arxiv.org/abs/2310.19113)] [[code](https://github.com/tjy1423317192/AP2VP)]
 - **CPPC** (Point Cluster: A Compact Message Unit for Communication-Efficient Collaborative Perception) [[paper&review](https://openreview.net/forum?id=54XlM8Clkg)] [~~code~~]
+- **CP-FREEZER** (CP-FREEZER: Latency Attacks against Vehicular Cooperative Perception) [[paper](https://arxiv.org/abs/2508.01062)] [[code](https://github.com/WiSeR-Lab/CP-FREEZER)]
 - **CMP** (CMP: Cooperative Motion Prediction with Multi-Agent Communication) [[paper](https://arxiv.org/abs/2403.17916)] [~~code~~]
 - **CoBEVFusion** (CoBEVFusion: Cooperative Perception with LiDAR-Camera Bird's-Eye View Fusion) [[paper](https://arxiv.org/abs/2310.06008)] [~~code~~]
 - **CoBEVGlue** (Self-Localized Collaborative Perception) [[paper](https://arxiv.org/abs/2406.12712)] [[code](https://github.com/VincentNi0107/CoBEVGlue)]
@@ -98,7 +99,9 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 ### ICCV 2025
 
 - **CoopTrack** (CoopTrack: Exploring End-to-End Learning for Efficient Cooperative Sequential Perception) [[paper](https://arxiv.org/abs/2507.19239)] [[code](https://github.com/zhongjiaru/CoopTrack)]
+- **CoST** (CoST: Efficient Collaborative Perception From Unified Spatiotemporal Perspective) [[paper](https://arxiv.org/abs/2508.00359)] [[code](https://github.com/tzhhhh123/CoST)]
 - **MamV2XCalib** (MamV2XCalib: V2X-Based Target-Less Infrastructure Camera Calibration with State Space Model) [[paper](https://arxiv.org/abs/2507.23595)] [[code](https://github.com/zhuyaoye/MamV2XCalib)]
+- **TurboTrain** (TurboTrain: Towards Efficient and Balanced Multi-Task Learning for Multi-Agent Perception and Prediction) [[paper](https://arxiv.org/abs/2508.04682)] [[code](https://github.com/ucla-mobility/TurboTrain)]
 
 ### ICLR 2025
 
@@ -288,6 +291,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 - **Griffin** (Griffin: Aerial-Ground Cooperative Detection and Tracking Dataset and Benchmark) [[paper](https://arxiv.org/abs/2503.06983)] [[code](https://github.com/wang-jh18-SVM/Griffin)] [[project](https://pan.baidu.com/s/1NDgsuHB-QPRiROV73NRU5g)]
 - {Real} **InScope** (InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios) [[paper](https://arxiv.org/abs/2407.21581)] [[code](https://github.com/xf-zh/InScope)] [~~project~~]
 - {Real} **Mixed Signals** (Mixed Signals: A Diverse Point Cloud Dataset for Heterogeneous LiDAR V2X Collaboration) [[paper](https://arxiv.org/abs/2502.14156)] [[code](https://github.com/chinitaberrio/Mixed-Signals)] [[project](https://mixedsignalsdataset.cs.cornell.edu)]
+- **MobileVerse** (MobiVerse: Scaling Urban Mobility Simulation with Hybrid Lightweight Domain-Specific Generator and Large Language Models) [[paper](https://arxiv.org/abs/2506.21784)] [[code](https://github.com/ucla-mobility/MobiVerse)] [~~project~~]
 - **Multi-V2X** (Multi-V2X: A Large Scale Multi-modal Multi-penetration-rate Dataset for Cooperative Perception) [[paper](https://arxiv.org/abs/2409.04980)] [[code](https://github.com/RadetzkyLi/Multi-V2X)] [~~project~~]
 - **M3CAD** (M3CAD: Towards Generic Cooperative Autonomous Driving Benchmark) [[paper](https://arxiv.org/abs/2505.06746)] [[code](https://github.com/zhumorui/M3CAD)] [[project](https://zhumorui.github.io/m3cad)]
 - **OPV2V-N** (RCDN: Towards Robust Camera-Insensitivity Collaborative Perception via Dynamic Feature-Based 3D Neural Modeling) [[paper](https://arxiv.org/abs/2405.16868)] [~~code~~] [~~project~~]
