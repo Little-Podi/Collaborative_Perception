@@ -56,6 +56,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **Debrief** (Talking Vehicles: Cooperative Driving via Natural Language) [[paper&review](https://openreview.net/forum?id=VYlfoA8I6A)] [~~code~~]
 - **DeepFleet** (DeepFleet: Multi-Agent Foundation Models for Mobile Robots) [[paper](https://arxiv.org/abs/2508.08574)] [~~code~~]
 - **DiffCP** (DiffCP: Ultra-Low Bit Collaborative Perception via Diffusion Model) [[paper](https://arxiv.org/abs/2409.19592)] [~~code~~]
+- **FadeLead** (Background Fades, Foreground Leads: Curriculum-Guided Background Pruning for Efficient Foreground-Centric Collaborative Perception) [[paper](https://arxiv.org/abs/2510.19250)] [~~code~~]
 - **HyComm** (Communication-Efficient Multi-Agent 3D Detection via Hybrid Collaboration) [[paper](https://arxiv.org/abs/2508.07092)] [~~code~~]
 - **InSPE** (InSPE: Rapid Evaluation of Heterogeneous Multi-Modal Infrastructure Sensor Placement) [[paper](https://arxiv.org/abs/2504.08240)] [~~code~~]
 - **I2XTraj** (Knowledge-Informed Multi-Agent Trajectory Prediction at Signalized Intersections for Infrastructure-to-Everything) [[paper](https://arxiv.org/abs/2501.13461)] [~~code~~]
@@ -73,11 +74,13 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **RG-Attn** (RG-Attn: Radian Glue Attention for Multi-Modality Multi-Agent Cooperative Perception) [[paper](https://arxiv.org/abs/2501.16803)] [~~code~~]
 - **RiskMM** (Risk Map As Middleware: Towards Interpretable Cooperative End-to-End Autonomous Driving for Risk-Aware Planning) [[paper](https://arxiv.org/abs/2508.07686)] [~~code~~]
 - **RoCo-Sim** (RoCo-Sim: Enhancing Roadside Collaborative Perception through Foreground Simulation) [[paper](https://arxiv.org/abs/2503.10410)] [[code](https://github.com/duyuwen-duen/RoCo-Sim)]
+- **SafeCoop** (SafeCoop: Unravelling Full Stack Safety in Agentic Collaborative Driving) [[paper](https://arxiv.org/abs/2510.18123)] [[code](https://github.com/taco-group/SafeCoop)]
 - **SiCP** (SiCP: Simultaneous Individual and Cooperative Perception for 3D Object Detection in Connected and Automated Vehicles) [[paper](https://arxiv.org/abs/2312.04822)] [[code](https://github.com/DarrenQu/SiCP)]
 - **SparseAlign** (SparseAlign: A Fully Sparse Framework for Cooperative Object Detection) [[paper](https://arxiv.org/abs/2503.12982)] [~~code~~]
 - **Talking Vehicles** (Towards Natural Language Communication for Cooperative Autonomous Driving via Self-Play) [[paper](https://arxiv.org/abs/2505.18334)] [[code](https://github.com/cuijiaxun/talking-vehicles)]
 - **TOCOM-V2I** (Task-Oriented Communication for Vehicle-to-Infrastructure Cooperative Perception) [[paper](https://arxiv.org/abs/2407.20748)] [~~code~~]
 - {Related} **TYP** (Transfer Your Perspective: Controllable 3D Generation from Any Viewpoint in a Driving Scene) [[paper](https://arxiv.org/abs/2502.06682)] [~~code~~]
+- **UniMM-V2X** (UniMM-V2X: MoE-Enhanced Multi-Level Fusion for End-to-End Cooperative Autonomous Driving) [[paper](https://arxiv.org/abs/2511.09013)] [[code](https://github.com/Souig/UniMM-V2X)]
 - **VIMI** (VIMI: Vehicle-Infrastructure Multi-View Intermediate Fusion for Camera-Based 3D Object Detection) [[paper](https://arxiv.org/abs/2303.10975)] [[code](https://github.com/Bosszhe/VIMI)]
 - **VLIF** (Is Intermediate Fusion All You Need for UAV-Based Collaborative Perception?) [[paper](https://arxiv.org/abs/2504.21774)] [[code](https://github.com/uestchjw/LIF)]
 - **V2V-GoT** (V2V-GoT: Vehicle-to-Vehicle Cooperative Autonomous Driving with Multimodal Large Language Models and Graph-of-Thoughts) [[paper](https://arxiv.org/abs/2509.18053)] [~~code~~]
@@ -102,6 +105,10 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **SparseAlign** (SparseAlign: A Fully Sparse Framework for Cooperative Object Detection) [[paper](https://arxiv.org/abs/2503.12982)] [~~code~~]
 - **TraF-Align** (TraF-Align: Trajectory-aware Feature Alignment for Asynchronous Multi-agent Perception) [[paper](https://arxiv.org/abs/2503.19391)] [[code](https://github.com/zhyingS/TraF-Align)]
 - **V2X-R** (V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion) [[paper](https://arxiv.org/abs/2411.08402)] [[code](https://github.com/ylwhxht/V2X-R)]
+
+### NeurIPS 2025
+
+- **NegoCollab** (NegoCollab: A Common Representation Negotiation Approach for Heterogeneous Collaborative Perception) [[paper](https://arxiv.org/abs/2510.27647)] [[code](https://github.com/scz023/NegoCollab)]
 
 ### ICCV 2025
 
@@ -301,6 +308,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 - **Adver-City** (Adver-City: Open-Source Multi-Modal Dataset for Collaborative Perception Under Adverse Weather Conditions) [[paper](https://arxiv.org/abs/2410.06380)] [[code](https://github.com/QUARRG/Adver-City)] [[project](https://labs.cs.queensu.ca/quarrg/datasets/adver-city)]
 - {Real} **AGC-Drive** (AGC-Drive: A Large-Scale Dataset for Real-World Aerial-Ground Collaboration in Driving Scenarios) [[paper](https://arxiv.org/abs/2506.16371)] [[code](https://github.com/PercepX/AGC-Drive)] [~~project~~]
 - **AirV2X** (AirV2X: Unified Air-Ground Vehicle-to-Everything Collaboration) [[paper](https://arxiv.org/abs/2506.19283)] [[code](https://github.com/taco-group/AirV2X-Perception)] [[project](https://huggingface.co/datasets/xiangbog/AirV2X-Perception)]
+- {Real} **CoInfra** (CoInfra: A Large-Scale Cooperative Infrastructure Perception System and Dataset in Adverse Weather) [[paper](https://arxiv.org/abs/2507.02245)] [[code](https://github.com/NingMingHao/CoInfra)] [~~project~~]
 - **CP-GuardBench** (CP-Guard+: A New Paradigm for Malicious Agent Detection and Defense in Collaborative Perception) [[paper&review](https://openreview.net/forum?id=9MNzHTSDgh)] [~~code~~] [~~project~~]
 - **Griffin** (Griffin: Aerial-Ground Cooperative Detection and Tracking Dataset and Benchmark) [[paper](https://arxiv.org/abs/2503.06983)] [[code](https://github.com/wang-jh18-SVM/Griffin)] [[project](https://pan.baidu.com/s/1NDgsuHB-QPRiROV73NRU5g)]
 - {Real} **InScope** (InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios) [[paper](https://arxiv.org/abs/2407.21581)] [[code](https://github.com/xf-zh/InScope)] [~~project~~]
@@ -323,6 +331,10 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 - **Mono3DVLT-V2X** (Mono3DVLT: Monocular-Video-Based 3D Visual Language Tracking) [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Wei_Mono3DVLT_Monocular-Video-Based_3D_Visual_Language_Tracking_CVPR_2025_paper.html)] [~~code~~] [~~project~~]
 - **RCP-Bench** (RCP-Bench: Benchmarking Robustness for Collaborative Perception Under Diverse Corruptions) [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Du_RCP-Bench_Benchmarking_Robustness_for_Collaborative_Perception_Under_Diverse_Corruptions_CVPR_2025_paper.html)] [[code](https://github.com/LuckyDush/RCP-Bench)] [~~project~~]
 - **V2X-R** (V2X-R: Cooperative LiDAR-4D Radar Fusion for 3D Object Detection with Denoising Diffusion) [[paper](https://arxiv.org/abs/2411.08402)] [[code](https://github.com/ylwhxht/V2X-R)] [~~project~~]
+
+### NeurIPS 2025
+
+- **UrbanIng-V2X** (UrbanIng-V2X: A Large-Scale Multi-Vehicle, Multi-Infrastructure Dataset Across Multiple Intersections for Cooperative Perception) [[paper](https://arxiv.org/abs/2510.23478)] [[code](https://github.com/thi-ad/UrbanIng-V2X)] [[project](https://pypi.org/project/urbaning/)]
 
 ### CVPR 2024
 
