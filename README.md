@@ -57,11 +57,13 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **DeepFleet** (DeepFleet: Multi-Agent Foundation Models for Mobile Robots) [[paper](https://arxiv.org/abs/2508.08574)] [~~code~~]
 - **DiffCP** (DiffCP: Ultra-Low Bit Collaborative Perception via Diffusion Model) [[paper](https://arxiv.org/abs/2409.19592)] [~~code~~]
 - **FadeLead** (Background Fades, Foreground Leads: Curriculum-Guided Background Pruning for Efficient Foreground-Centric Collaborative Perception) [[paper](https://arxiv.org/abs/2510.19250)] [~~code~~]
+- **HeatV2X** (HeatV2X: Scalable Heterogeneous Collaborative Perception via Efficient Alignment and Interaction) [[paper](https://arxiv.org/abs/2511.10211)] [[code](https://github.com/hollowknight2167/HeatV2X)]
 - **HyComm** (Communication-Efficient Multi-Agent 3D Detection via Hybrid Collaboration) [[paper](https://arxiv.org/abs/2508.07092)] [~~code~~]
 - **InSPE** (InSPE: Rapid Evaluation of Heterogeneous Multi-Modal Infrastructure Sensor Placement) [[paper](https://arxiv.org/abs/2504.08240)] [~~code~~]
 - **I2XTraj** (Knowledge-Informed Multi-Agent Trajectory Prediction at Signalized Intersections for Infrastructure-to-Everything) [[paper](https://arxiv.org/abs/2501.13461)] [~~code~~]
 - **LCV2I** (LCV2I: Communication-Efficient and High-Performance Collaborative Perception Framework with Low-Resolution LiDAR) [[paper](https://arxiv.org/abs/2502.17039)] [~~code~~]
 - **LMMCoDrive** (LMMCoDrive: Cooperative Driving with Large Multimodal Model) [[paper](https://arxiv.org/abs/2409.11981)] [[code](https://github.com/henryhcliu/LMMCoDrive)]
+- {Related} **MDG** (MDG: Masked Denoising Generation for Multi-Agent Behavior Modeling in Traffic Environments) [[paper](https://arxiv.org/abs/2511.17496)] [~~code~~]
 - **mmCooper** (mmCooper: A Multi-Agent Multi-Stage Communication-Efficient and Collaboration-Robust Cooperative Perception Framework) [[paper](https://arxiv.org/abs/2501.12263)] [~~code~~]
 - **MOT-CUP** (Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation) [[paper](https://arxiv.org/abs/2303.14346)] [[code](https://github.com/susanbao/mot_cup)]
 - **RopeBEV** (RopeBEV: A Multi-Camera Roadside Perception Network in Bird’s-Eye-View)
@@ -95,6 +97,10 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **V2X-UniPool** (V2X-UniPool: Unifying Multimodal Perception and Knowledge Reasoning for Autonomous Driving) [[paper](https://arxiv.org/abs/2506.02580)] [[code](https://github.com/snowwhite1016/V2X-UniPool)]
 - **V2X-VLM** (V2X-VLM: End-to-End V2X Cooperative Autonomous Driving Through Large Vision-Language Models) [[paper](https://arxiv.org/abs/2408.09251)] [~~code~~]
 
+### AAAI 2026
+
+- **V2VLoc** (V2VLoc: Robust GNSS-Free Collaborative Perception via LiDAR Localization) [[paper](https://arxiv.org/abs/2511.14247)] [[code](https://github.com/wklin214-glitch/V2VLoc)]
+
 ### CVPR 2025
 
 - **CoGMP** (Generative Map Priors for Collaborative BEV Semantic Segmentation) [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Fu_Generative_Map_Priors_for_Collaborative_BEV_Semantic_Segmentation_CVPR_2025_paper.html)] [~~code~~]
@@ -108,6 +114,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### NeurIPS 2025
 
+- **GenComm** (Pragmatic Heterogeneous Collaborative Perception via Generative Communication Mechanism) [[paper](https://arxiv.org/abs/2510.19618)] [[code](https://github.com/jeffreychou777/GenComm)]
 - **NegoCollab** (NegoCollab: A Common Representation Negotiation Approach for Heterogeneous Collaborative Perception) [[paper](https://arxiv.org/abs/2510.27647)] [[code](https://github.com/scz023/NegoCollab)]
 
 ### ICCV 2025
@@ -308,6 +315,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 - **Adver-City** (Adver-City: Open-Source Multi-Modal Dataset for Collaborative Perception Under Adverse Weather Conditions) [[paper](https://arxiv.org/abs/2410.06380)] [[code](https://github.com/QUARRG/Adver-City)] [[project](https://labs.cs.queensu.ca/quarrg/datasets/adver-city)]
 - {Real} **AGC-Drive** (AGC-Drive: A Large-Scale Dataset for Real-World Aerial-Ground Collaboration in Driving Scenarios) [[paper](https://arxiv.org/abs/2506.16371)] [[code](https://github.com/PercepX/AGC-Drive)] [~~project~~]
 - **AirV2X** (AirV2X: Unified Air-Ground Vehicle-to-Everything Collaboration) [[paper](https://arxiv.org/abs/2506.19283)] [[code](https://github.com/taco-group/AirV2X-Perception)] [[project](https://huggingface.co/datasets/xiangbog/AirV2X-Perception)]
+- **CATS-V2V** (CATS-V2V: A Real-World Vehicle-to-Vehicle Cooperative Perception Dataset with Complex Adverse Traffic Scenarios) [[paper](https://arxiv.org/abs/2511.11168)] [~~code~~] [[project](https://cats-v2v-dataset.github.io)]
 - {Real} **CoInfra** (CoInfra: A Large-Scale Cooperative Infrastructure Perception System and Dataset in Adverse Weather) [[paper](https://arxiv.org/abs/2507.02245)] [[code](https://github.com/NingMingHao/CoInfra)] [~~project~~]
 - **CP-GuardBench** (CP-Guard+: A New Paradigm for Malicious Agent Detection and Defense in Collaborative Perception) [[paper&review](https://openreview.net/forum?id=9MNzHTSDgh)] [~~code~~] [~~project~~]
 - **Griffin** (Griffin: Aerial-Ground Cooperative Detection and Tracking Dataset and Benchmark) [[paper](https://arxiv.org/abs/2503.06983)] [[code](https://github.com/wang-jh18-SVM/Griffin)] [[project](https://pan.baidu.com/s/1NDgsuHB-QPRiROV73NRU5g)]
@@ -318,7 +326,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 - **M3CAD** (M3CAD: Towards Generic Cooperative Autonomous Driving Benchmark) [[paper](https://arxiv.org/abs/2505.06746)] [[code](https://github.com/zhumorui/M3CAD)] [[project](https://zhumorui.github.io/m3cad)]
 - **OPV2V-N** (RCDN: Towards Robust Camera-Insensitivity Collaborative Perception via Dynamic Feature-Based 3D Neural Modeling) [[paper](https://arxiv.org/abs/2405.16868)] [~~code~~] [~~project~~]
 - **TalkingVehiclesGym** (Towards Natural Language Communication for Cooperative Autonomous Driving via Self-Play) [[paper](https://arxiv.org/abs/2505.18334)] [[code](https://github.com/cuijiaxun/talking-vehicles)] [[project](https://talking-vehicles.github.io)]
-- **TruckV2X** (TruckV2X: A Truck-Centered Perception Dataset) [[paper](https://arxiv.org/abs/2507.09505)] [~~code~~] [[project](https://xietenghu1.github.io/TruckV2X/)]
+- **TruckV2X** (TruckV2X: A Truck-Centered Perception Dataset) [[paper](https://arxiv.org/abs/2507.09505)] [~~code~~] [[project](https://xietenghu1.github.io/TruckV2X)]
 - **V2V-QA** (V2V-LLM: Vehicle-to-Vehicle Cooperative Autonomous Driving with Multi-Modal Large Language Models) [[paper](https://arxiv.org/abs/2502.09980)] [[code](https://github.com/eddyhkchiu/V2VLLM)] [[project](https://eddyhkchiu.github.io/v2vllm.github.io)]
 - {Real} **V2XPnP-Seq** (V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction) [[paper](https://arxiv.org/abs/2412.01812)] [[code](https://github.com/Zewei-Zhou/V2XPnP)] [[project](https://mobility-lab.seas.ucla.edu/v2xpnp)]
 - {Real} **V2X-Radar** (V2X-Radar: A Multi-Modal Dataset with 4D Radar for Cooperative Perception) [[paper](https://arxiv.org/abs/2411.10962)] [[code](https://github.com/yanglei18/V2X-Radar)] [[project](http://openmpd.com/column/V2X-Radar)]
@@ -334,7 +342,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 
 ### NeurIPS 2025
 
-- **UrbanIng-V2X** (UrbanIng-V2X: A Large-Scale Multi-Vehicle, Multi-Infrastructure Dataset Across Multiple Intersections for Cooperative Perception) [[paper](https://arxiv.org/abs/2510.23478)] [[code](https://github.com/thi-ad/UrbanIng-V2X)] [[project](https://pypi.org/project/urbaning/)]
+- **UrbanIng-V2X** (UrbanIng-V2X: A Large-Scale Multi-Vehicle, Multi-Infrastructure Dataset Across Multiple Intersections for Cooperative Perception) [[paper](https://arxiv.org/abs/2510.23478)] [[code](https://github.com/thi-ad/UrbanIng-V2X)] [[project](https://pypi.org/project/urbaning)]
 
 ### CVPR 2024
 
