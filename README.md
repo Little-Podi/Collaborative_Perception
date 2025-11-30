@@ -61,12 +61,15 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **HyComm** (Communication-Efficient Multi-Agent 3D Detection via Hybrid Collaboration) [[paper](https://arxiv.org/abs/2508.07092)] [~~code~~]
 - **InSPE** (InSPE: Rapid Evaluation of Heterogeneous Multi-Modal Infrastructure Sensor Placement) [[paper](https://arxiv.org/abs/2504.08240)] [~~code~~]
 - **I2XTraj** (Knowledge-Informed Multi-Agent Trajectory Prediction at Signalized Intersections for Infrastructure-to-Everything) [[paper](https://arxiv.org/abs/2501.13461)] [~~code~~]
+- **JigsawComm** (JigsawComm: Joint Semantic Feature Encoding and Transmission for Communication-Efficient Cooperative Perception) [[paper](https://arxiv.org/abs/2511.17843)] [[code](https://github.com/WiSeR-Lab/JigsawComm)]
 - **LCV2I** (LCV2I: Communication-Efficient and High-Performance Collaborative Perception Framework with Low-Resolution LiDAR) [[paper](https://arxiv.org/abs/2502.17039)] [~~code~~]
 - **LMMCoDrive** (LMMCoDrive: Cooperative Driving with Large Multimodal Model) [[paper](https://arxiv.org/abs/2409.11981)] [[code](https://github.com/henryhcliu/LMMCoDrive)]
 - {Related} **MDG** (MDG: Masked Denoising Generation for Multi-Agent Behavior Modeling in Traffic Environments) [[paper](https://arxiv.org/abs/2511.17496)] [~~code~~]
 - **mmCooper** (mmCooper: A Multi-Agent Multi-Stage Communication-Efficient and Collaboration-Robust Cooperative Perception Framework) [[paper](https://arxiv.org/abs/2501.12263)] [~~code~~]
 - **MOT-CUP** (Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation) [[paper](https://arxiv.org/abs/2303.14346)] [[code](https://github.com/susanbao/mot_cup)]
-- **RopeBEV** (RopeBEV: A Multi-Camera Roadside Perception Network in Bird’s-Eye-View)
+- **RDComm** (Rate-Distortion Optimized Communication for Collaborative Perception) [[paper&review](https://openreview.net/forum?id=920RxFvsMx)] [~~code~~]
+- **RefPtsFusion** (From Features to Reference Points: Lightweight and Adaptive Fusion for Cooperative Autonomous Driving) [[paper](https://arxiv.org/abs/2511.18757)] [~~code~~]
+- {Related} **RopeBEV** (RopeBEV: A Multi-Camera Roadside Perception Network in Bird's-Eye-View) [[paper](https://arxiv.org/abs/2409.11706)] [~~code~~]
 - **ParCon** (ParCon: Noise-Robust Collaborative Perception via Multi-Module Parallel Connection) [[paper](https://arxiv.org/abs/2407.11546)] [~~code~~]
 - **PragComm** (Pragmatic Communication in Multi-Agent Collaborative Perception) [[paper](https://arxiv.org/abs/2401.12694)] [[code](https://github.com/PhyllisH/PragComm)]
 - **QuantV2X** (QuantV2X: A Fully Quantized Multi-Agent System for Cooperative Perception) [[paper](https://arxiv.org/abs/2509.03704)] [[code](https://github.com/ucla-mobility/QuantV2X)]
@@ -93,6 +96,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **V2X-M2C** (V2X-M2C: Efficient Multi-Module Collaborative Perception with Two Connections) [[paper](https://arxiv.org/abs/2407.11546)] [~~code~~]
 - **V2X-PC** (V2X-PC: Vehicle-to-Everything Collaborative Perception via Point Cluster) [[paper](https://arxiv.org/abs/2403.16635)] [~~code~~]
 - **V2X-REALM** (V2X-REALM: Vision-Language Model-Based Robust End-to-End Cooperative Autonomous Driving with Adaptive Long-Tail Modeling) [[paper](https://arxiv.org/abs/2506.21041)] [~~code~~]
+- **V2X-RECT** (V2X-RECT: An Efficient V2X Trajectory Prediction Framework via Redundant Interaction Filtering and Tracking Error Correction) [[paper](https://arxiv.org/abs/2511.17941)] [~~code~~]
 - **V2X-ReaLO** (V2X-ReaLO: An Open Online Framework and Dataset for Cooperative Perception in Reality) [[paper](https://arxiv.org/abs/2503.10034)] [~~code~~]
 - **V2X-UniPool** (V2X-UniPool: Unifying Multimodal Perception and Knowledge Reasoning for Autonomous Driving) [[paper](https://arxiv.org/abs/2506.02580)] [[code](https://github.com/snowwhite1016/V2X-UniPool)]
 - **V2X-VLM** (V2X-VLM: End-to-End V2X Cooperative Autonomous Driving Through Large Vision-Language Models) [[paper](https://arxiv.org/abs/2408.09251)] [~~code~~]
@@ -313,7 +317,6 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 ### Selected Preprint
 
 - **Adver-City** (Adver-City: Open-Source Multi-Modal Dataset for Collaborative Perception Under Adverse Weather Conditions) [[paper](https://arxiv.org/abs/2410.06380)] [[code](https://github.com/QUARRG/Adver-City)] [[project](https://labs.cs.queensu.ca/quarrg/datasets/adver-city)]
-- {Real} **AGC-Drive** (AGC-Drive: A Large-Scale Dataset for Real-World Aerial-Ground Collaboration in Driving Scenarios) [[paper](https://arxiv.org/abs/2506.16371)] [[code](https://github.com/PercepX/AGC-Drive)] [~~project~~]
 - **AirV2X** (AirV2X: Unified Air-Ground Vehicle-to-Everything Collaboration) [[paper](https://arxiv.org/abs/2506.19283)] [[code](https://github.com/taco-group/AirV2X-Perception)] [[project](https://huggingface.co/datasets/xiangbog/AirV2X-Perception)]
 - **CATS-V2V** (CATS-V2V: A Real-World Vehicle-to-Vehicle Cooperative Perception Dataset with Complex Adverse Traffic Scenarios) [[paper](https://arxiv.org/abs/2511.11168)] [~~code~~] [[project](https://cats-v2v-dataset.github.io)]
 - {Real} **CoInfra** (CoInfra: A Large-Scale Cooperative Infrastructure Perception System and Dataset in Adverse Weather) [[paper](https://arxiv.org/abs/2507.02245)] [[code](https://github.com/NingMingHao/CoInfra)] [~~project~~]
@@ -342,7 +345,8 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 
 ### NeurIPS 2025
 
-- **UrbanIng-V2X** (UrbanIng-V2X: A Large-Scale Multi-Vehicle, Multi-Infrastructure Dataset Across Multiple Intersections for Cooperative Perception) [[paper](https://arxiv.org/abs/2510.23478)] [[code](https://github.com/thi-ad/UrbanIng-V2X)] [[project](https://pypi.org/project/urbaning)]
+- {Real} **AGC-Drive** (AGC-Drive: A Large-Scale Dataset for Real-World Aerial-Ground Collaboration in Driving Scenarios) [[paper&review](https://openreview.net/forum?id=N07WGSPh9l)] [[code](https://github.com/PercepX/AGC-Drive)] [[project](https://agc-drive.github.io)]
+- **UrbanIng-V2X** (UrbanIng-V2X: A Large-Scale Multi-Vehicle, Multi-Infrastructure Dataset Across Multiple Intersections for Cooperative Perception) [[paper&review](https://openreview.net/forum?id=iSwIkUqyqf)] [[code](https://github.com/thi-ad/UrbanIng-V2X)] [[project](https://pypi.org/project/urbaning)]
 
 ### CVPR 2024
 
