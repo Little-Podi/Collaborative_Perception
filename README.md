@@ -103,6 +103,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### AAAI 2026
 
+- **InfoCom** (InfoCom: Kilobyte-Scale Communication-Efficient Collaborative Perception with Information Bottleneck) [[paper](https://arxiv.org/abs/2512.10305)] [[code](https://github.com/fengxueguiren/InfoCom)]
 - **V2VLoc** (V2VLoc: Robust GNSS-Free Collaborative Perception via LiDAR Localization) [[paper](https://arxiv.org/abs/2511.14247)] [[code](https://github.com/wklin214-glitch/V2VLoc)]
 
 ### CVPR 2025
@@ -126,7 +127,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **CoopTrack** (CoopTrack: Exploring End-to-End Learning for Efficient Cooperative Sequential Perception) [[paper](https://arxiv.org/abs/2507.19239)] [[code](https://github.com/zhongjiaru/CoopTrack)]
 - **CoST** (CoST: Efficient Collaborative Perception From Unified Spatiotemporal Perspective) [[paper](https://arxiv.org/abs/2508.00359)] [[code](https://github.com/tzhhhh123/CoST)]
 - **MamV2XCalib** (MamV2XCalib: V2X-Based Target-Less Infrastructure Camera Calibration with State Space Model) [[paper](https://arxiv.org/abs/2507.23595)] [[code](https://github.com/zhuyaoye/MamV2XCalib)]
-- **SlimComm** (SlimComm: Doppler-Guided Sparse Queries for Bandwidth-Efficient Cooperative 3-D Perception) [[paper](https://arxiv.org/abs/2508.13007)] [~~code~~]
+- **SlimComm** (SlimComm: Doppler-Guided Sparse Queries for Bandwidth-Efficient Cooperative 3-D Perception) [[paper](https://arxiv.org/abs/2508.13007)] [[code](https://github.com/fzi-forschungszentrum-informatik/SlimComm)]
 - **TurboTrain** (TurboTrain: Towards Efficient and Balanced Multi-Task Learning for Multi-Agent Perception and Prediction) [[paper](https://arxiv.org/abs/2508.04682)] [[code](https://github.com/ucla-mobility/TurboTrain)]
 
 ### ICLR 2025
@@ -323,7 +324,6 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 - **CP-GuardBench** (CP-Guard+: A New Paradigm for Malicious Agent Detection and Defense in Collaborative Perception) [[paper&review](https://openreview.net/forum?id=9MNzHTSDgh)] [~~code~~] [~~project~~]
 - **Griffin** (Griffin: Aerial-Ground Cooperative Detection and Tracking Dataset and Benchmark) [[paper](https://arxiv.org/abs/2503.06983)] [[code](https://github.com/wang-jh18-SVM/Griffin)] [[project](https://pan.baidu.com/s/1NDgsuHB-QPRiROV73NRU5g)]
 - {Real} **InScope** (InScope: A New Real-world 3D Infrastructure-side Collaborative Perception Dataset for Open Traffic Scenarios) [[paper](https://arxiv.org/abs/2407.21581)] [[code](https://github.com/xf-zh/InScope)] [~~project~~]
-- {Real} **Mixed Signals** (Mixed Signals: A Diverse Point Cloud Dataset for Heterogeneous LiDAR V2X Collaboration) [[paper](https://arxiv.org/abs/2502.14156)] [[code](https://github.com/chinitaberrio/Mixed-Signals)] [[project](https://mixedsignalsdataset.cs.cornell.edu)]
 - **MobileVerse** (MobiVerse: Scaling Urban Mobility Simulation with Hybrid Lightweight Domain-Specific Generator and Large Language Models) [[paper](https://arxiv.org/abs/2506.21784)] [[code](https://github.com/ucla-mobility/MobiVerse)] [~~project~~]
 - **Multi-V2X** (Multi-V2X: A Large Scale Multi-modal Multi-penetration-rate Dataset for Cooperative Perception) [[paper](https://arxiv.org/abs/2409.04980)] [[code](https://github.com/RadetzkyLi/Multi-V2X)] [~~project~~]
 - **M3CAD** (M3CAD: Towards Generic Cooperative Autonomous Driving Benchmark) [[paper](https://arxiv.org/abs/2505.06746)] [[code](https://github.com/zhumorui/M3CAD)] [[project](https://zhumorui.github.io/m3cad)]
@@ -347,6 +347,11 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 
 - {Real} **AGC-Drive** (AGC-Drive: A Large-Scale Dataset for Real-World Aerial-Ground Collaboration in Driving Scenarios) [[paper&review](https://openreview.net/forum?id=N07WGSPh9l)] [[code](https://github.com/PercepX/AGC-Drive)] [[project](https://agc-drive.github.io)]
 - **UrbanIng-V2X** (UrbanIng-V2X: A Large-Scale Multi-Vehicle, Multi-Infrastructure Dataset Across Multiple Intersections for Cooperative Perception) [[paper&review](https://openreview.net/forum?id=iSwIkUqyqf)] [[code](https://github.com/thi-ad/UrbanIng-V2X)] [[project](https://pypi.org/project/urbaning)]
+
+### ICCV 2025
+
+- **CoPe-R** (SlimComm: Doppler-Guided Sparse Queries for Bandwidth-Efficient Cooperative 3-D Perception) [[paper](https://arxiv.org/abs/2508.13007)] [[code](https://github.com/fzi-forschungszentrum-informatik/SlimComm)] [~~project~~]
+- {Real} **Mixed Signals** (Mixed Signals: A Diverse Point Cloud Dataset for Heterogeneous LiDAR V2X Collaboration) [[paper](https://arxiv.org/abs/2502.14156)] [[code](https://github.com/chinitaberrio/Mixed-Signals)] [[project](https://mixedsignalsdataset.cs.cornell.edu)]
 
 ### CVPR 2024
 
