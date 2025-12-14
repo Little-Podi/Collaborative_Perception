@@ -126,6 +126,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 - **CoopTrack** (CoopTrack: Exploring End-to-End Learning for Efficient Cooperative Sequential Perception) [[paper](https://arxiv.org/abs/2507.19239)] [[code](https://github.com/zhongjiaru/CoopTrack)]
 - **CoST** (CoST: Efficient Collaborative Perception From Unified Spatiotemporal Perspective) [[paper](https://arxiv.org/abs/2508.00359)] [[code](https://github.com/tzhhhh123/CoST)]
+- **INSTINCT** (INSTINCT: Instance-Level Interaction Architecture for Query-Based Collaborative Perception) [[paper](https://arxiv.org/abs/2509.23700)] [[code](https://github.com/CrazyShout/INSTINCT)]
 - **MamV2XCalib** (MamV2XCalib: V2X-Based Target-Less Infrastructure Camera Calibration with State Space Model) [[paper](https://arxiv.org/abs/2507.23595)] [[code](https://github.com/zhuyaoye/MamV2XCalib)]
 - **SlimComm** (SlimComm: Doppler-Guided Sparse Queries for Bandwidth-Efficient Cooperative 3-D Perception) [[paper](https://arxiv.org/abs/2508.13007)] [[code](https://github.com/fzi-forschungszentrum-informatik/SlimComm)]
 - **TurboTrain** (TurboTrain: Towards Efficient and Balanced Multi-Task Learning for Multi-Agent Perception and Prediction) [[paper](https://arxiv.org/abs/2508.04682)] [[code](https://github.com/ucla-mobility/TurboTrain)]
