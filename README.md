@@ -106,6 +106,10 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **InfoCom** (InfoCom: Kilobyte-Scale Communication-Efficient Collaborative Perception with Information Bottleneck) [[paper](https://arxiv.org/abs/2512.10305)] [[code](https://github.com/fengxueguiren/InfoCom)]
 - **V2VLoc** (V2VLoc: Robust GNSS-Free Collaborative Perception via LiDAR Localization) [[paper](https://arxiv.org/abs/2511.14247)] [[code](https://github.com/wklin214-glitch/V2VLoc)]
 
+### WACV 2026
+
+- **FocalComm** (FocalComm: Hard Instance-Aware Multi-Agent Perception) [[paper](https://arxiv.org/abs/2512.13982)] [[code](https://github.com/scdrand23/FocalComm)]
+
 ### CVPR 2025
 
 - **CoGMP** (Generative Map Priors for Collaborative BEV Semantic Segmentation) [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Fu_Generative_Map_Priors_for_Collaborative_BEV_Semantic_Segmentation_CVPR_2025_paper.html)] [~~code~~]
