@@ -143,6 +143,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
   
 ### AAAI 2025
 
+- **CoPEFT** (CoPEFT: Fast Adaptation Framework for Multi-Agent Collaborative Perception with Parameter-Efficient Fine-Tuning) [[paper](https://arxiv.org/abs/2502.10705)] [[code](https://github.com/fengxueguiren/CoPEFT)]
 - **CP-Guard** (CP-Guard: Malicious Agent Detection and Defense in Collaborative Bird's Eye View Perception) [[paper](https://arxiv.org/abs/2412.12000)] [~~code~~]
 - **DSRC** (DSRC: Learning Density-Insensitive and Semantic-Aware Collaborative Representation against Corruptions) [[paper](https://arxiv.org/abs/2412.10739)] [[code](https://github.com/Terry9a/DSRC)]
 - **UniV2X** (End-to-End Autonomous Driving through V2X Cooperation) [[paper](https://arxiv.org/abs/2404.00717)] [[code](https://github.com/AIR-THU/UniV2X)]
@@ -335,6 +336,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 - **OPV2V-N** (RCDN: Towards Robust Camera-Insensitivity Collaborative Perception via Dynamic Feature-Based 3D Neural Modeling) [[paper](https://arxiv.org/abs/2405.16868)] [~~code~~] [~~project~~]
 - **TalkingVehiclesGym** (Towards Natural Language Communication for Cooperative Autonomous Driving via Self-Play) [[paper](https://arxiv.org/abs/2505.18334)] [[code](https://github.com/cuijiaxun/talking-vehicles)] [[project](https://talking-vehicles.github.io)]
 - **TruckV2X** (TruckV2X: A Truck-Centered Perception Dataset) [[paper](https://arxiv.org/abs/2507.09505)] [~~code~~] [[project](https://xietenghu1.github.io/TruckV2X)]
+- {Real} **UrbanV2X** (UrbanV2X: A Multisensory Vehicle-Infrastructure Dataset for Cooperative Navigation in Urban Areas) [[paper](https://arxiv.org/abs/2512.20224)] [[code](https://github.com/arclab-hku/Event_based_VO-VIO-SLAM)] [[project](https://polyu-taslab.github.io/UrbanV2X)]
 - **V2V-QA** (V2V-LLM: Vehicle-to-Vehicle Cooperative Autonomous Driving with Multi-Modal Large Language Models) [[paper](https://arxiv.org/abs/2502.09980)] [[code](https://github.com/eddyhkchiu/V2VLLM)] [[project](https://eddyhkchiu.github.io/v2vllm.github.io)]
 - {Real} **V2XPnP-Seq** (V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction) [[paper](https://arxiv.org/abs/2412.01812)] [[code](https://github.com/Zewei-Zhou/V2XPnP)] [[project](https://mobility-lab.seas.ucla.edu/v2xpnp)]
 - {Real} **V2X-Radar** (V2X-Radar: A Multi-Modal Dataset with 4D Radar for Cooperative Perception) [[paper](https://arxiv.org/abs/2411.10962)] [[code](https://github.com/yanglei18/V2X-Radar)] [[project](http://openmpd.com/column/V2X-Radar)]
