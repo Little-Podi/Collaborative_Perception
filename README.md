@@ -57,6 +57,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **DeepFleet** (DeepFleet: Multi-Agent Foundation Models for Mobile Robots) [[paper](https://arxiv.org/abs/2508.08574)] [~~code~~]
 - **DiffCP** (DiffCP: Ultra-Low Bit Collaborative Perception via Diffusion Model) [[paper](https://arxiv.org/abs/2409.19592)] [~~code~~]
 - **FadeLead** (Background Fades, Foreground Leads: Curriculum-Guided Background Pruning for Efficient Foreground-Centric Collaborative Perception) [[paper](https://arxiv.org/abs/2510.19250)] [~~code~~]
+- **FlowAdapt** (Move What Matters: Parameter-Efficient Domain Adaptation via Optimal Transport Flow for Collaborative Perception) [[paper](https://arxiv.org/abs/2602.11565)] [~~code~~]
 - **HeatV2X** (HeatV2X: Scalable Heterogeneous Collaborative Perception via Efficient Alignment and Interaction) [[paper](https://arxiv.org/abs/2511.10211)] [[code](https://github.com/hollowknight2167/HeatV2X)]
 - **HyComm** (Communication-Efficient Multi-Agent 3D Detection via Hybrid Collaboration) [[paper](https://arxiv.org/abs/2508.07092)] [~~code~~]
 - **InSPE** (InSPE: Rapid Evaluation of Heterogeneous Multi-Modal Infrastructure Sensor Placement) [[paper](https://arxiv.org/abs/2504.08240)] [~~code~~]
@@ -93,6 +94,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **V2XPnP** (V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction) [[paper](https://arxiv.org/abs/2412.01812)] [[code](https://github.com/Zewei-Zhou/V2XPnP)]
 - **V2X-DGPE** (V2X-DGPE: Addressing Domain Gaps and Pose Errors for Robust Collaborative 3D Object Detection) [[paper](https://arxiv.org/abs/2501.02363)] [[code](https://github.com/wangsch10/V2X-DGPE)]
 - **V2X-DGW** (V2X-DGW: Domain Generalization for Multi-Agent Perception under Adverse Weather Conditions) [[paper](https://arxiv.org/abs/2403.11371)] [~~code~~]
+- **V2X-DSC** (V2X-DSC: Multi-Agent Collaborative Perception with Distributed Source Coding Guided Communication) [[paper](https://arxiv.org/abs/2602.00687)] [~~code~~]
 - **V2X-M2C** (V2X-M2C: Efficient Multi-Module Collaborative Perception with Two Connections) [[paper](https://arxiv.org/abs/2407.11546)] [~~code~~]
 - **V2X-PC** (V2X-PC: Vehicle-to-Everything Collaborative Perception via Point Cluster) [[paper](https://arxiv.org/abs/2403.16635)] [~~code~~]
 - **V2X-REALM** (V2X-REALM: Vision-Language Model-Based Robust End-to-End Cooperative Autonomous Driving with Adaptive Long-Tail Modeling) [[paper](https://arxiv.org/abs/2506.21041)] [~~code~~]
@@ -104,6 +106,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 ### AAAI 2026
 
 - **InfoCom** (InfoCom: Kilobyte-Scale Communication-Efficient Collaborative Perception with Information Bottleneck) [[paper](https://arxiv.org/abs/2512.10305)] [[code](https://github.com/fengxueguiren/InfoCom)]
+- **SparseCoop** (SparseCoop: Cooperative Perception with Kinematic-Grounded Queries) [[paper](https://arxiv.org/abs/2512.06838)] [[code](https://github.com/wang-jh18-SVM/SparseCoop)]
 - **V2VLoc** (V2VLoc: Robust GNSS-Free Collaborative Perception via LiDAR Localization) [[paper](https://arxiv.org/abs/2511.14247)] [[code](https://github.com/wklin214-glitch/V2VLoc)]
 
 ### WACV 2026
