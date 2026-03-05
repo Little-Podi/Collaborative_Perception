@@ -73,14 +73,17 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - {Related} **RopeBEV** (RopeBEV: A Multi-Camera Roadside Perception Network in Bird's-Eye-View) [[paper](https://arxiv.org/abs/2409.11706)] [~~code~~]
 - **ParCon** (ParCon: Noise-Robust Collaborative Perception via Multi-Module Parallel Connection) [[paper](https://arxiv.org/abs/2407.11546)] [~~code~~]
 - **PragComm** (Pragmatic Communication in Multi-Agent Collaborative Perception) [[paper](https://arxiv.org/abs/2401.12694)] [[code](https://github.com/PhyllisH/PragComm)]
+- **QPoint2Comm** (Send Less, Perceive More: Masked Quantized Point Cloud Communication for Loss-Tolerant Collaborative Perception) [[paper](https://arxiv.org/abs/2602.21667)] [~~code~~]
 - **QuantV2X** (QuantV2X: A Fully Quantized Multi-Agent System for Cooperative Perception) [[paper](https://arxiv.org/abs/2509.03704)] [[code](https://github.com/ucla-mobility/QuantV2X)]
 - **QUEST** (QUEST: Query Stream for Vehicle-Infrastructure Cooperative Perception) [[paper](https://arxiv.org/abs/2308.01804)] [~~code~~]
 - **RCDN** (RCDN: Towards Robust Camera-Insensitivity Collaborative Perception via Dynamic Feature-Based 3D Neural Modeling) [[paper](https://arxiv.org/abs/2405.16868)] [~~code~~]
+- **RC-GeoCP** (RC-GeoCP: Geometric Consensus for Radar-Camera Collaborative Perception) [[paper](https://arxiv.org/abs/2603.00654)] [~~code~~]
 - **ReVQom** (Residual Vector Quantization For Communication-Efficient Multi-Agent Perception) [[paper](https://arxiv.org/abs/2509.21464)] [~~code~~]
 - **RG-Attn** (RG-Attn: Radian Glue Attention for Multi-Modality Multi-Agent Cooperative Perception) [[paper](https://arxiv.org/abs/2501.16803)] [~~code~~]
 - **RiskMM** (Risk Map As Middleware: Towards Interpretable Cooperative End-to-End Autonomous Driving for Risk-Aware Planning) [[paper](https://arxiv.org/abs/2508.07686)] [~~code~~]
 - **RoCo-Sim** (RoCo-Sim: Enhancing Roadside Collaborative Perception through Foreground Simulation) [[paper](https://arxiv.org/abs/2503.10410)] [[code](https://github.com/duyuwen-duen/RoCo-Sim)]
 - **SafeCoop** (SafeCoop: Unravelling Full Stack Safety in Agentic Collaborative Driving) [[paper](https://arxiv.org/abs/2510.18123)] [[code](https://github.com/taco-group/SafeCoop)]
+- **ShareVerse** (ShareVerse: Multi-Agent Consistent Video Generation for Shared World Modeling) [[paper](https://arxiv.org/abs/2603.02697)] [~~code~~]
 - **SiCP** (SiCP: Simultaneous Individual and Cooperative Perception for 3D Object Detection in Connected and Automated Vehicles) [[paper](https://arxiv.org/abs/2312.04822)] [[code](https://github.com/DarrenQu/SiCP)]
 - **SparseAlign** (SparseAlign: A Fully Sparse Framework for Cooperative Object Detection) [[paper](https://arxiv.org/abs/2503.12982)] [~~code~~]
 - **Talking Vehicles** (Towards Natural Language Communication for Cooperative Autonomous Driving via Self-Play) [[paper](https://arxiv.org/abs/2505.18334)] [[code](https://github.com/cuijiaxun/talking-vehicles)]
@@ -103,11 +106,23 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **V2X-UniPool** (V2X-UniPool: Unifying Multimodal Perception and Knowledge Reasoning for Autonomous Driving) [[paper](https://arxiv.org/abs/2506.02580)] [[code](https://github.com/snowwhite1016/V2X-UniPool)]
 - **V2X-VLM** (V2X-VLM: End-to-End V2X Cooperative Autonomous Driving Through Large Vision-Language Models) [[paper](https://arxiv.org/abs/2408.09251)] [~~code~~]
 
+### CVPR 2026
+
+- **CodeAlign** (Linking Modality Isolation in Heterogeneous Collaborative Perception) [[paper](https://arxiv.org/abs/2603.00609)] [[code](https://github.com/cxliu0314/CodeAlign)]
+- **CoLC** (CoLC: Communication-Efficient Collaborative Perception with LiDAR Completion) [[paper](https://arxiv.org/abs/2603.00682)] [[code](https://github.com/CatOneTwo/CoLC)]
+- **CoopDiff** (CoopDiff: A Diffusion-Guided Approach for Cooperation under Corruptions) [[paper](https://arxiv.org/abs/2603.01688)] [~~code~~]
+- **MVIG** (Learning Mutual View Information Graph for Adaptive Adversarial Collaborative Perception) [[paper](https://arxiv.org/abs/2602.19596)] [[code](https://github.com/yihangtao/MVIG)]
+- **WhisperNet** (WhisperNet: A Scalable Solution for Bandwidth-Efficient Collaboration) [[paper](https://arxiv.org/abs/2603.01708)] [~~code~~]
+
 ### AAAI 2026
 
 - **InfoCom** (InfoCom: Kilobyte-Scale Communication-Efficient Collaborative Perception with Information Bottleneck) [[paper](https://arxiv.org/abs/2512.10305)] [[code](https://github.com/fengxueguiren/InfoCom)]
 - **SparseCoop** (SparseCoop: Cooperative Perception with Kinematic-Grounded Queries) [[paper](https://arxiv.org/abs/2512.06838)] [[code](https://github.com/wang-jh18-SVM/SparseCoop)]
 - **V2VLoc** (V2VLoc: Robust GNSS-Free Collaborative Perception via LiDAR Localization) [[paper](https://arxiv.org/abs/2511.14247)] [[code](https://github.com/wklin214-glitch/V2VLoc)]
+
+# ICRA 2026
+
+- **EIMC** (EIMC: Efficient Instance-aware Multi-Modal Collaborative Perception) [[paper](https://arxiv.org/abs/2603.02532)] [[code](https://github.com/sidiangongyuan/EIMC)]
 
 ### WACV 2026
 
