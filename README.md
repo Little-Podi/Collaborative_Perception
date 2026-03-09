@@ -108,6 +108,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### CVPR 2026
 
+- **CATNet** (CATNet: Collaborative Alignment and Transformation Network for Cooperative Perception) [[paper](https://arxiv.org/abs/2603.05255)] [~~code~~]
 - **CodeAlign** (Linking Modality Isolation in Heterogeneous Collaborative Perception) [[paper](https://arxiv.org/abs/2603.00609)] [[code](https://github.com/cxliu0314/CodeAlign)]
 - **CoLC** (CoLC: Communication-Efficient Collaborative Perception with LiDAR Completion) [[paper](https://arxiv.org/abs/2603.00682)] [[code](https://github.com/CatOneTwo/CoLC)]
 - **CoopDiff** (CoopDiff: A Diffusion-Guided Approach for Cooperation under Corruptions) [[paper](https://arxiv.org/abs/2603.01688)] [~~code~~]
