@@ -57,9 +57,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **DeepFleet** (DeepFleet: Multi-Agent Foundation Models for Mobile Robots) [[paper](https://arxiv.org/abs/2508.08574)] [~~code~~]
 - **DiffCP** (DiffCP: Ultra-Low Bit Collaborative Perception via Diffusion Model) [[paper](https://arxiv.org/abs/2409.19592)] [~~code~~]
 - **FadeLead** (Background Fades, Foreground Leads: Curriculum-Guided Background Pruning for Efficient Foreground-Centric Collaborative Perception) [[paper](https://arxiv.org/abs/2510.19250)] [~~code~~]
+- **Faster-HEAL** (Faster-HEAL: An Efficient and Privacy-Preserving Collaborative Perception Framework for Heterogeneous Autonomous Vehicles) [[paper](https://arxiv.org/abs/2603.07314)] [~~code~~]
 - **FlowAdapt** (Move What Matters: Parameter-Efficient Domain Adaptation via Optimal Transport Flow for Collaborative Perception) [[paper](https://arxiv.org/abs/2602.11565)] [~~code~~]
 - **HeatV2X** (HeatV2X: Scalable Heterogeneous Collaborative Perception via Efficient Alignment and Interaction) [[paper](https://arxiv.org/abs/2511.10211)] [[code](https://github.com/hollowknight2167/HeatV2X)]
 - **HyComm** (Communication-Efficient Multi-Agent 3D Detection via Hybrid Collaboration) [[paper](https://arxiv.org/abs/2508.07092)] [~~code~~]
+- **HyDRA** (HyDRA: Hybrid Domain-Aware Robust Architecture for Heterogeneous Collaborative Perception) [[paper](https://arxiv.org/abs/2603.23975)] [~~code~~]
 - **InSPE** (InSPE: Rapid Evaluation of Heterogeneous Multi-Modal Infrastructure Sensor Placement) [[paper](https://arxiv.org/abs/2504.08240)] [~~code~~]
 - **I2XTraj** (Knowledge-Informed Multi-Agent Trajectory Prediction at Signalized Intersections for Infrastructure-to-Everything) [[paper](https://arxiv.org/abs/2501.13461)] [~~code~~]
 - **JigsawComm** (JigsawComm: Joint Semantic Feature Encoding and Transmission for Communication-Efficient Cooperative Perception) [[paper](https://arxiv.org/abs/2511.17843)] [[code](https://github.com/WiSeR-Lab/JigsawComm)]
@@ -68,7 +70,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - {Related} **MDG** (MDG: Masked Denoising Generation for Multi-Agent Behavior Modeling in Traffic Environments) [[paper](https://arxiv.org/abs/2511.17496)] [~~code~~]
 - **mmCooper** (mmCooper: A Multi-Agent Multi-Stage Communication-Efficient and Collaboration-Robust Cooperative Perception Framework) [[paper](https://arxiv.org/abs/2501.12263)] [~~code~~]
 - **MOT-CUP** (Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation) [[paper](https://arxiv.org/abs/2303.14346)] [[code](https://github.com/susanbao/mot_cup)]
-- **RDComm** (Rate-Distortion Optimized Communication for Collaborative Perception) [[paper&review](https://openreview.net/forum?id=920RxFvsMx)] [~~code~~]
+- **OpenCOOD-Air** (OpenCOOD-Air: Prompting Heterogeneous Ground-Air Collaborative Perception with Spatial Conversion and Offset Prediction) [[paper](https://arxiv.org/abs/2603.13919)] [~~code~~]
 - **RefPtsFusion** (From Features to Reference Points: Lightweight and Adaptive Fusion for Cooperative Autonomous Driving) [[paper](https://arxiv.org/abs/2511.18757)] [~~code~~]
 - {Related} **RopeBEV** (RopeBEV: A Multi-Camera Roadside Perception Network in Bird's-Eye-View) [[paper](https://arxiv.org/abs/2409.11706)] [~~code~~]
 - **ParCon** (ParCon: Noise-Robust Collaborative Perception via Multi-Module Parallel Connection) [[paper](https://arxiv.org/abs/2407.11546)] [~~code~~]
@@ -115,6 +117,11 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **MVIG** (Learning Mutual View Information Graph for Adaptive Adversarial Collaborative Perception) [[paper](https://arxiv.org/abs/2602.19596)] [[code](https://github.com/yihangtao/MVIG)]
 - **WhisperNet** (WhisperNet: A Scalable Solution for Bandwidth-Efficient Collaboration) [[paper](https://arxiv.org/abs/2603.01708)] [~~code~~]
 
+### ICLR 2026
+
+- **RDComm** (Rate-Distortion Optimized Communication for Collaborative Perception) [[paper&review](https://openreview.net/forum?id=920RxFvsMx)] [~~code~~]
+- **SiMO** (SiMO: Single-Modality-Operable Multimodal Collaborative Perception) [[paper&review](https://openreview.net/forum?id=h0iRgjTmVs)] [[code](https://github.com/dempsey-wen/SiMO)]
+
 ### AAAI 2026
 
 - **InfoCom** (InfoCom: Kilobyte-Scale Communication-Efficient Collaborative Perception with Information Bottleneck) [[paper](https://arxiv.org/abs/2512.10305)] [[code](https://github.com/fengxueguiren/InfoCom)]
@@ -124,6 +131,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 # ICRA 2026
 
 - **EIMC** (EIMC: Efficient Instance-aware Multi-Modal Collaborative Perception) [[paper](https://arxiv.org/abs/2603.02532)] [[code](https://github.com/sidiangongyuan/EIMC)]
+- **WaveComm** (WaveComm: Lightweight Communication for Collaborative Perception via Wavelet Feature Distillation) [[paper](https://arxiv.org/abs/2603.13365)] [[code](https://github.com/erdemtbao/WaveComm)]
 
 ### WACV 2026
 
