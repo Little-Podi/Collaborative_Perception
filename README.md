@@ -134,11 +134,25 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **SparseCoop** (SparseCoop: Cooperative Perception with Kinematic-Grounded Queries) [[paper](https://arxiv.org/abs/2512.06838)] [[code](https://github.com/wang-jh18-SVM/SparseCoop)]
 - **V2VLoc** (V2VLoc: Robust GNSS-Free Collaborative Perception via LiDAR Localization) [[paper](https://arxiv.org/abs/2511.14247)] [[code](https://github.com/wklin214-glitch/V2VLoc)]
 
-# ICRA 2026
+
+### MM 2026
+
+- **CoAnchor** (CoAnchor: Robust Collaborative Perception under Spatio-Temporal Misalignment via Object-Level Anchors) [[paper](https://arxiv.org/abs/2608.21055)] [~~code~~]
+- **CoDS** (CoDS: Robust Collaborative Perception via Expert-Driven Detection and BEV Segmentation) [[paper](https://arxiv.org/abs/2608.14085)] [[code](https://github.com/JinlongW128/CoDS)]
+
+### ICRA 2026
 
 - **CooperDrive** (CooperDrive: Enhancing Driving Decisions Through Cooperative Perception) [[paper](https://arxiv.org/abs/2604.14454)] [~~code~~]
 - **EIMC** (EIMC: Efficient Instance-aware Multi-Modal Collaborative Perception) [[paper](https://arxiv.org/abs/2603.02532)] [[code](https://github.com/sidiangongyuan/EIMC)]
 - **WaveComm** (WaveComm: Lightweight Communication for Collaborative Perception via Wavelet Feature Distillation) [[paper](https://arxiv.org/abs/2603.13365)] [[code](https://github.com/erdemtbao/WaveComm)]
+
+### IROS 2026
+
+- **HeteroPROPMT** (HeteroPROPMT: A Real-Time and Privacy-Preserving Heterogeneous Collaborative Perception Framework) [[paper](https://arxiv.org/abs/2607.26283)] [[code](https://github.com/arminmaleki007/HeteroPROMPT)]
+
+### ICASSP 2026
+
+- **CERF** (CERF: Communication-Efficient and Retraining-Free Collaborative Perception) [[paper](https://arxiv.org/abs/2609.00951)] [[code](https://github.com/uestchjw/CERF)]
 
 ### WACV 2026
 
