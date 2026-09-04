@@ -400,6 +400,7 @@ Note: {Real} denotes that the sensor data is obtained by real-world collection i
 ### ECCV 2026
 
 - {Real} **CooperScene** (CooperScene: Multi-Modal Cooperative Autonomy Benchmark with C-V2X Communication Characterization) [[paper](https://arxiv.org/abs/2606.31219)] [[code](https://github.com/UCR-CISL/CooperScene)] [[project](https://cisl.ucr.edu/CooperScene)]
+- **VIPS** (VIPS: Vehicle-Infrastructure Cooperative Planning Benchmark via Pseudo-Simulation) [[paper](https://arxiv.org/abs/2609.02462)] [[code](https://github.com/mickeykang16/VIPS)] [[project](https://vips2026.github.io)]
 
 ### CVPR 2025
 
