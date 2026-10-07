@@ -95,6 +95,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **SafeCoop** (SafeCoop: Unravelling Full Stack Safety in Agentic Collaborative Driving) [[paper](https://arxiv.org/abs/2510.18123)] [[code](https://github.com/taco-group/SafeCoop)]
 - **ShareVerse** (ShareVerse: Multi-Agent Consistent Video Generation for Shared World Modeling) [[paper](https://arxiv.org/abs/2603.02697)] [~~code~~]
 - **SiCP** (SiCP: Simultaneous Individual and Cooperative Perception for 3D Object Detection in Connected and Automated Vehicles) [[paper](https://arxiv.org/abs/2312.04822)] [[code](https://github.com/DarrenQu/SiCP)]
+- **Sparse2comm** (Sparse2comm: Towards Robust Cooperative 3D Object Detection) [[paper](https://arxiv.org/abs/2610.08573)] [[code](https://github.com/yanglei18/Sparse2comm)]
 - **SparseAlign** (SparseAlign: A Fully Sparse Framework for Cooperative Object Detection) [[paper](https://arxiv.org/abs/2503.12982)] [~~code~~]
 - **SVA** (SV2V-RSim: A Comprehensive Benchmark for Self-Selective V2V Cooperative Perception with Near-Realistic Data) [[paper](https://arxiv.org/abs/2609.32863)] [~~code~~]
 - **Talking Vehicles** (Towards Natural Language Communication for Cooperative Autonomous Driving via Self-Play) [[paper](https://arxiv.org/abs/2505.18334)] [[code](https://github.com/cuijiaxun/talking-vehicles)]
