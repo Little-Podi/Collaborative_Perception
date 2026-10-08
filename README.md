@@ -166,6 +166,10 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 - **FocalComm** (FocalComm: Hard Instance-Aware Multi-Agent Perception) [[paper](https://arxiv.org/abs/2512.13982)] [[code](https://github.com/scdrand23/FocalComm)]
 
+### ACCV 2026
+
+- **TRB** (Temporal Residual Bottleneck for Robust Asynchronous Collaborative Perception) [[paper](https://arxiv.org/abs/2610.10090)] [~~code~~]
+
 ### ICME 2026
 
 - **DtP** (Defer to Plan: Adaptive Multi-Agent Fusion for End-to-End V2X Driving) [[paper](https://arxiv.org/abs/2607.19774)] [~~code~~]
