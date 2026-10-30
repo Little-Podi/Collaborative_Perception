@@ -40,7 +40,6 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **AR2VP** (Dynamic V2X Autonomous Perception from Road-to-Vehicle Vision) [[paper](https://arxiv.org/abs/2310.19113)] [[code](https://github.com/tjy1423317192/AP2VP)]
 - **BOLT** (BOLT: Online Lightweight Adaptation for Preparation-Free Heterogeneous Cooperative Perception) [[paper](https://arxiv.org/abs/2605.00405)] [[code](https://github.com/sidiangongyuan/BOLT)]
 - **CPPC** (Point Cluster: A Compact Message Unit for Communication-Efficient Collaborative Perception) [[paper&review](https://openreview.net/forum?id=54XlM8Clkg)] [~~code~~]
-- **CP-FREEZER** (CP-FREEZER: Latency Attacks against Vehicular Cooperative Perception) [[paper](https://arxiv.org/abs/2508.01062)] [[code](https://github.com/WiSeR-Lab/CP-FREEZER)]
 - **CMP** (CMP: Cooperative Motion Prediction with Multi-Agent Communication) [[paper](https://arxiv.org/abs/2403.17916)] [~~code~~]
 - **CoBEVFusion** (CoBEVFusion: Cooperative Perception with LiDAR-Camera Bird's-Eye View Fusion) [[paper](https://arxiv.org/abs/2310.06008)] [~~code~~]
 - **CoBEVGlue** (Self-Localized Collaborative Perception) [[paper](https://arxiv.org/abs/2406.12712)] [[code](https://github.com/VincentNi0107/CoBEVGlue)]
@@ -138,6 +137,7 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 
 ### AAAI 2026
 
+- **CP-FREEZER** (CP-FREEZER: Latency Attacks against Vehicular Cooperative Perception) [[paper](https://arxiv.org/abs/2508.01062)] [[code](https://github.com/WiSeR-Lab/CP-FREEZER)]
 - **InfoCom** (InfoCom: Kilobyte-Scale Communication-Efficient Collaborative Perception with Information Bottleneck) [[paper](https://arxiv.org/abs/2512.10305)] [[code](https://github.com/fengxueguiren/InfoCom)]
 - **SparseCoop** (SparseCoop: Cooperative Perception with Kinematic-Grounded Queries) [[paper](https://arxiv.org/abs/2512.06838)] [[code](https://github.com/wang-jh18-SVM/SparseCoop)]
 - **V2VLoc** (V2VLoc: Robust GNSS-Free Collaborative Perception via LiDAR Localization) [[paper](https://arxiv.org/abs/2511.14247)] [[code](https://github.com/wklin214-glitch/V2VLoc)]
@@ -230,6 +230,10 @@ Note: {Related} denotes that it is not a pure collaborative perception paper but
 - **CooPre** (CooPre: Cooperative Pretraining for V2X Cooperative Perception) [[paper](https://arxiv.org/abs/2408.11241)] [[code](https://github.com/ucla-mobility/CooPre)]
 - **CoPAD** (CoPAD : Multi-source Trajectory Fusion and Cooperative Trajectory Prediction with Anchor-Oriented Decoder in V2X Scenarios) [[paper](https://arxiv.org/abs/2509.15984)] [~~code~~]
 - **CRUISE** (CRUISE: Cooperative Reconstruction and Editing in V2X Scenarios using Gaussian Splatting) [[paper](https://arxiv.org/abs/2507.18473)] [[code](https://github.com/SainingZhang/CRUISE)]
+
+### USENIX Security 2025
+
+- **From Threat to Trust: Exploiting Attention Mechanisms for Attacks and Defenses in Cooperative Perception** [[paper](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-chenyi)] [~~code~~]
 
 ### CVPR 2024
 
